@@ -1,0 +1,13 @@
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Istok Web', sans-serif;
+color: #555555;
+}
+p, div {
+font-family: 'Istok Web', sans-serif;
+color: #555555;
+}
+body { padding-top: 70px; }
+
+.nav li {
+font-size:19px;
+}
