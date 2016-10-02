@@ -1,0 +1,24 @@
+<table id='to-read-list'>
+  <thead>
+    <tr>
+      <td class="col-lg-5">
+        <h3><strong>Author</strong></h3>
+      </td>
+      <td class="col-lg-5">
+        <h3><strong><em>Title</em></strong></h3>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+  {{#each this}}
+  <tr class='to-read-book'>
+    <td class="col-lg-5">
+      <h3>{{this.author}}</h3>
+    </td>
+    <td class="col-lg-5">
+      <h3><em>{{this.title}}</em></h3>
+    </td>
+  </tr>
+  {{/each}}
+  </tbody>
+</table>

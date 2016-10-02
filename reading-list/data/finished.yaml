@@ -1,0 +1,236 @@
+- author: "Alexandre Dumas"
+  title: "The Count of Monte Cristo"
+  rating: 4
+  finished: 2012-01-01
+- author: "Arthur C. Clarke"
+  title: "Rendezvous with Rama (Rama, #1)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Bram Stoker"
+  title: "Dracula"
+  rating: 4
+  finished: 2012-01-01
+- author: "C.S. Lewis"
+  title: "The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Carl Sagan"
+  title: "Contact"
+  rating: 4
+  finished: 2012-01-01
+- author: "Dan Brown"
+  title: "Angels & Demons  (Robert Langdon, #1)"
+  rating: 4
+  finished: 2012-01-01
+- author: "Dan Brown"
+  title: "Deception Point"
+  rating: 4
+  finished: 2012-01-01
+- author: "Dan Brown"
+  title: "The Da Vinci Code (Robert Langdon, #2)"
+  rating: 4
+  finished: 2012-01-01
+- author: "Dan Brown"
+  title: "The Lost Symbol (Robert Langdon, #3)"
+  rating: 4
+  finished: 2012-01-01
+- author: "Daniel Keyes"
+  title: "Flowers for Algernon"
+  rating: 3
+  finished: 2012-01-01
+- author: "David Brin"
+  title: "Foundation's Triumph (Second Foundation Trilogy, #3)"
+  rating: 2
+  finished: 2012-01-01
+- author: "David Weber"
+  title: "On Basilisk Station (Honor Harrington, #1)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Douglas Adams"
+  title: "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)"
+  rating: 2
+  finished: 2012-01-01
+- author: "Edgar Allan Poe"
+  title: "The Tell-Tale Heart and Other Writings"
+  rating: 3
+  finished: 2012-01-01
+- author: "Elie Wiesel"
+  title: "Night"
+  rating: 3
+  finished: 2012-01-01
+- author: "Ernest Hemingway"
+  title: "A Farewell to Arms"
+  rating: 3
+  finished: 2012-01-01
+- author: "George Orwell"
+  title: "1984"
+  rating: 4
+  finished: 2012-01-01
+- author: "H.G. Wells"
+  title: "The Time Machine"
+  rating: 4
+  finished: 2012-01-01
+- author: "H.G. Wells"
+  title: "The War of the Worlds"
+  rating: 4
+  finished: 2012-01-01
+- author: "Isaac Asimov"
+  title: "Foundation (Foundation, #1)"
+  rating: 5
+  finished: 2012-01-01
+- author: "Isaac Asimov"
+  title: "I, Robot (Robot, #0.1)"
+  rating: 4
+  finished: 2012-01-01
+- author: "Isaac Asimov"
+  title: "The Foundation Trilogy (Foundation, #1-3)"
+  rating: 5
+  finished: 2012-01-01
+- author: "Isaac Asimov"
+  title: "The Gods Themselves"
+  rating: 2
+  finished: 2012-01-01
+- author: "J.K. Rowling"
+  title: "Harry Potter and the Deathly Hallows (Harry Potter, #7)"
+  rating: 5
+  finished: 2012-01-01
+- author: "J.K. Rowling"
+  title: "Harry Potter and the Goblet of Fire (Harry Potter, #4)"
+  rating: 4
+  finished: 2012-01-01
+- author: "J.K. Rowling"
+  title: "Harry Potter and the Half-Blood Prince (Harry Potter, #6)"
+  rating: 5
+  finished: 2012-01-01
+- author: "J.K. Rowling"
+  title: "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)"
+  rating: 4
+  finished: 2012-01-01
+- author: "J.R.R. Tolkien"
+  title: "The Fellowship of the Ring (The Lord of the Rings, #1)"
+  rating: 3
+  finished: 2012-01-01
+- author: "J.R.R. Tolkien"
+  title: "The Hobbit"
+  rating: 4
+  finished: 2012-01-01
+- author: "John Kennedy Toole"
+  title: "A Confederacy of Dunces"
+  rating: 1
+  finished: 2012-01-01
+- author: "John Steinbeck"
+  title: "Of Mice and Men"
+  rating: 4
+  finished: 2012-01-01
+- author: "John Steinbeck"
+  title: "The Grapes of Wrath"
+  rating: 3
+  finished: 2012-01-01
+- author: "Joseph Heller"
+  title: "Catch-22"
+  rating: 2
+  finished: 2012-01-01
+- author: "Larry Niven"
+  title: "Ringworld (Ringworld #1)"
+  rating: 2
+  finished: 2012-01-01
+- author: "Lois Lowry"
+  title: "The Giver (The Giver, #1)"
+  rating: 4
+  finished: 2012-01-01
+- author: "Louis Sachar"
+  title: "Holes (Holes, #1)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Madeleine L'Engle"
+  title: "A Wrinkle in Time (A Wrinkle in Time Quintet, #1)"
+  rating: 2
+  finished: 2012-01-01
+- author: "Mary Shelley"
+  title: "Frankenstein"
+  rating: 4
+  finished: 2012-01-01
+- author: "Michael Crichton"
+  title: "Prey"
+  rating: 0
+  finished: 2012-01-01
+- author: "Michael Crichton"
+  title: "Sphere"
+  rating: 5
+  finished: 2012-01-01
+- author: "Michael Crichton"
+  title: "Timeline"
+  rating: 5
+  finished: 2012-01-01
+- author: "Orson Scott Card"
+  title: "Ender's Game (Ender's Saga, #1)"
+  rating: 5
+  finished: 2012-01-01
+- author: "Richard L. Bushman"
+  title: "Joseph Smith: Rough Stone Rolling"
+  rating: 4
+  finished: 2016-08-20
+- author: "Ron Chernow"
+  title: "Alexander Hamilton"
+  rating: 4
+  finished: 2012-01-01
+- author: "S.E. Hinton"
+  title: "The Outsiders"
+  rating: 4
+  finished: 2012-01-01
+- author: "Sharon Creech"
+  title: "Walk Two Moons"
+  rating: 2
+  finished: 2012-01-01
+- author: "Stephen Hawking"
+  title: "A Brief History of Time"
+  rating: 4
+  finished: 2012-01-01
+- author: "Stephenie Meyer"
+  title: "Breaking Dawn (Twilight, #4)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Stephenie Meyer"
+  title: "Twilight (Twilight, #1)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Suzanne Collins"
+  title: "Catching Fire (The Hunger Games, #2)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Suzanne Collins"
+  title: "Mockingjay (The Hunger Games, #3)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Suzanne Collins"
+  title: "The Hunger Games (The Hunger Games, #1)"
+  rating: 3
+  finished: 2012-01-01
+- author: "Sylvia Plath"
+  title: "The Bell Jar"
+  rating: 4
+  finished: 2012-01-01
+- author: "Tom Clancy"
+  title: "Patriot Games (Jack Ryan Universe, #2)"
+  rating: 4
+  finished: 2012-01-01
+- author: "Tom Clancy"
+  title: "The Hunt for Red October (Jack Ryan Universe, #4)"
+  rating: 0
+  finished: 2012-01-01
+- author: "Victor Hugo"
+  title: "The Hunchback of Notre-Dame"
+  rating: 3
+  finished: 2012-01-01
+- author: "Walter Isaacson"
+  title: "Benjamin Franklin: An American Life"
+  rating: 3
+  finished: 2012-01-01
+- author: "William Golding"
+  title: "Lord of the Flies"
+  rating: 4
+  finished: 2012-01-01
+- author: "William Shakespeare"
+  title: "Romeo and Juliet"
+  rating: 3
+  finished: 2012-01-01
