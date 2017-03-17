@@ -92,7 +92,7 @@ function loadLists() {
                 $("#to-read").html(tmpl(yaml));
                 $("#to-read-list").DataTable({
                   "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
-                  "pageLength" : 50
+                  "pageLength" : 10
                 });
                 $("#to-read-count").append(yaml.length);
             });

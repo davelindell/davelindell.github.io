@@ -62,6 +62,10 @@
   title: "A Farewell to Arms"
   rating: 3
   finished: 2012-01-01
+- author: "Frank Herbert"
+  title: "Dune"
+  rating: 5
+  finished: 2016-11-01
 - author: "George Orwell"
   title: "1984"
   rating: 4

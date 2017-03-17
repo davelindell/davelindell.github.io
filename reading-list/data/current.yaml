@@ -1,9 +1,2 @@
-- author: "Charles Dickens"
-  title: "Great Expectations"
-- author: "Frank Herbert"
-  title: "Dune"
-- author: "Jason Kelly"
-  title: "Stock Market Investing"
-  quotes: 
-    - page: 1
-      content: "Anyone can make money in the stock market"
+- author: "Eliezer Yudkowsky"
+  title: "Harry Potter and the Methods of Rationality"
