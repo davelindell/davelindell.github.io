@@ -40,6 +40,7 @@
                         <li><a href="#education">Education <span class="sr-only">(current)</span></a></li>
                         <li><a href="#research">Research </a></li>
                         <li><a href="#publications">Publications </a></li>
+                        <li><a href="#projects">Projects </a></li>
                         <li><a href="#experience">Experience </a></li>
                     </ul>
                     
@@ -110,7 +111,7 @@
 
             <div class="row">
                 <div class="col-md-11" style='font-size:1.5em'>
-                    I'm a first-year Ph.D. student and Stanford Graduate Fellow at Stanford University. I've previously completed my B.S. and M.S. degrees at Brigham Young University and am interested in problems in imaging, signal processing, computer vision, and remote sensing. I'm currently working in <a href="http://www.computationalimaging.org/"> Stanford's Computational Imaging Lab </a> on imaging with single-photon sensors and virtual reality rendering for natural scenes. 
+                    I'm a second-year Ph.D. student and Stanford Graduate Fellow at Stanford University. I've previously completed my B.S. and M.S. degrees in Electrical Engineering at Brigham Young University and am interested in problems in imaging, optimization, computer vision, and remote sensing. I'm currently working in <a href="http://www.computationalimaging.org/"> Stanford's Computational Imaging Lab </a> on time-of-flight sensors, imaging around corners, and next-generation lidar systems. <strong><i>I'm looking for internships for next summer (2018)</i></strong>.
                 </div>  
             </div>
 
@@ -227,6 +228,26 @@
             <table class="table table-hover">
 
                 <tr>
+                    <td class="col-md-3"><a href="http://www.computationalimaging.org/publications/reconstructing-transient-images-from-single-photon-sensors-cvpr-2017/" target="_blank"><img width=300 src="im/cvpr17.png" /></a> </td>
+                    <td class="col-md-7 col-md-offset-0">
+                        <div style='font-size:1.5em'>
+                            M. O’Toole, F. Heide, <strong>D. Lindell</strong>, K. Zang, S. Diamond, G. Wetzstein, “Reconstructing Transient Images from Single-Photon Sensors”, <i>IEEE Int. Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2017.
+                        </div>
+                        <div style='font-size:1.5em'>
+                            <a style="cursor: pointer;" class='flip' onclick="$(this).next('.panel').slideToggle();"> [Abstract]</a>
+                            <a style="cursor: pointer;" href="http://www.computationalimaging.org/publications/reconstructing-transient-images-from-single-photon-sensors-cvpr-2017/"> [Webpage]</a>
+                            <a style="cursor: pointer;" href="http://www.computationalimaging.org/wp-content/uploads/2017/05/17.cvpr_.spad_.pdf"> [PDF]</a>
+                            <a style="cursor: pointer;" href="http://www.computationalimaging.org/wp-content/uploads/2017/04/17.cvpr_.spad_.supp_.pdf"> [Supplement]</a>
+                        </div>
+                        <div class="panel" style="display:none; font-size:18px; text-align: justify;">
+                            <p>Computer vision algorithms build on 2D images or 3D videos that capture dynamic events at the millisecond time scale. However, capturing and analyzing “transient images” at the picosecond scale—i.e., at one trillion frames per second—reveals unprecedented information about a scene and light transport within. This is not only crucial for time-of-flight range imaging, but it also helps further our understanding of light transport phenomena at a more fundamental level and potentially allows to revisit many assumptions made in different computer vision algorithms.</p>
+
+                            <p>In this work, we design and evaluate an imaging system that builds on single photon avalanche diode (SPAD) sensors to capture multi-path responses with picosecond-scale active illumination. We develop inverse methods that use modern approaches to deconvolve and denoise measurements in the presence of Poisson noise, and compute transient images at a higher quality than previously reported. The small form factor, fast acquisition rates, and relatively low cost of our system potentially makes transient imaging more practical for a range of applications.</p>
+                        </div>
+                    </td>
+                </tr>
+ 
+                <tr>
                     <td class="col-md-3"><a href="http://ieeexplore.ieee.org/document/7172497/?arnumber=7172497" target="_blank"><img width=300 src="im/oscat.png" /></a> </td>
                     <td class="col-md-7 col-md-offset-0">
                         <div style='font-size:1.5em'>
@@ -278,9 +299,64 @@ Satelliteborne C-band scatterometer measurements of the radar backscatter coeffi
             </table>
             </div>
 
-
-
-
+            <h1 id="projects">Selected Projects</h1>
+            <div class="row">
+            <table class="table table-hover">               
+                <tr>
+                    <td class="col-md-3">
+                        <div style='font-size:1.5em'>
+                                <img src="im/im231n.png"
+                                  width="300" style="border-radius: 0px; margin: 10px; max-width: none; margin-left: 0px; margin-top: 35px"/>
+                        </div>
+                    </td>
+                    <td class="col-md-7 col-md-offset-0">
+                        <div style='text-align: justify; font-size:1.5em'>
+                            <strong>Deep Networks for Robust Depth Estimation with Single-Photon Sensors</strong> <br />
+                            <i>For LIDAR systems operating at extreme long range or low power, it is possible that only a few photons are detected from the laser pulse return. Using deep networks, we show that accurate depth maps can be recovered despite the challenging circumstances.</i> 
+                        </div>
+                   </td>
+                </tr>
+                <tr>
+                    <td class="col-md-3">
+                        <div style='font-size:1.5em'>
+                            <a href="http://cs231n.stanford.edu/reports/2017/pdfs/230.pdf"> 
+                                <img src="im/im367.png"
+                                  width="300" style="border-radius: 0px; margin: 10px; max-width: none; margin-left: 0px; margin-top: 35px"/>
+                            </a> 
+                        </div>
+                    </td>
+                    <td class="col-md-7 col-md-offset-0">
+                        <div style='text-align: justify; font-size:1.5em'>
+                            <strong>Virtual Reality Motion Parallax with the Facebook Surround-360</strong> <br />
+                            <i> Current virtual reality displays for viewing captured 360-degree stereo videos typically provide the wearer with a view from a single vantagepoint. We demonstrate that images from a commercial 360-degree camera rig can be processed to enable head-motion parallax while viewing with a head-mounted display. Such a viewing experience more closely mimics how we experience the real-world and can help to alleviate virtual-reality sickness and viewing discomfort.</i> 
+                        </div>
+                        <div style='font-size:1.5em'>
+                            <a style="cursor: pointer;" class='flip' onclick="$(this).next('.panel').slideToggle();"> [Abstract]</a>
+                            <a style="cursor: pointer;" href="http://cs231n.stanford.edu/reports/2017/pdfs/230.pdf"> [PDF]</a>
+                            <a style="cursor: pointer;" href="http://stanford.edu/class/ee367/Winter2017/lindell_ee367_win17_poster.pdf"> [Poster]</a>
+                            <a style="cursor: pointer;" href="http://stanford.edu/class/ee367/Winter2017/lindell_ee367_win17_code.zip"> [Code]</a>
+                        </div>
+                        <div class="panel" style="display:none; font-size:18px; text-align: justify;">
+                        Interest in acquiring and viewing natural scenes in full 360-
+                        degree immersion has led to the development of camera rigs
+                        which capture images for 360-degree stereo rendering. Most
+                        such platforms capture a scene for viewing from a single vantagepoint
+                        and do not incorporate motion parallax. Methods for
+                        scene acquisition which do support motion parallax, such as
+                        concentric mosaics or free viewpoint rendering, can be complicated
+                        to implement or result in a large data format that is difficult 
+                        to compress or stream. We demonstrate motion parallax
+                        rendering using data acquired from the Facebook Surround-
+                        360 camera rig and depth-augmented stereo panoramas. Rendered
+                        views demonstrate motion parallax for horizontal head
+                        motion within a range of 24 cm. We also demonstrate real-time
+                        rendering of head-motion parallax from a synthetically generated
+                        depth-augmented stereo panorama.
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            </div>
 
             <h1 id="experience">Experience</h1>
             <div class="row">
@@ -338,7 +414,7 @@ Satelliteborne C-band scatterometer measurements of the radar backscatter coeffi
 
             </div>
 
-<p>Last updated on 16 Mar 2016</p>
+<p>Last updated on 31 Jul 2017</p>
 
         </div>
 
