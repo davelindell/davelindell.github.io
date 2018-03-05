@@ -111,7 +111,7 @@
 
             <div class="row">
                 <div class="col-md-11" style='font-size:1.5em'>
-                    I'm a second-year Ph.D. student at Stanford University. I've previously completed my B.S. and M.S. degrees in Electrical Engineering at Brigham Young University and am interested in problems in imaging, optimization, computer vision, and remote sensing. I'm currently working in <a href="http://www.computationalimaging.org/"> Stanford's Computational Imaging Lab </a> on time-of-flight sensors, imaging around corners, and next-generation lidar systems.
+                    I'm a second-year Ph.D. student at Stanford University. I've previously completed my B.S. and M.S. degrees in Electrical Engineering at Brigham Young University and am interested in problems in imaging, optimization, computer vision, and remote sensing. I'm currently working in <a href="http://www.computationalimaging.org/"> Stanford's Computational Imaging Lab </a> on time-of-flight sensors, imaging around corners, and next-generation lidar systems. <strong>News: Our paper on seeing around corners was recently published in <a href="http://rdcu.be/ImAZ">Nature</a> (3/5/2018)!</strong>
                 </div>  
             </div>
 
@@ -226,7 +226,31 @@
             <h1 id="publications">Publications</h1>
             <div class="row">
             <table class="table table-hover">
-
+                <tr>
+                    <td class="col-md-3"><a href="http://www.computationalimaging.org/publications/confocal-non-line-of-sight-imaging-based-on-the-light-cone-transform/" target="_blank"><img width=300 src="im/nature_teaser.png"/></a> </td>
+                    <td class="col-md-7 col-md-offset-0">
+                        <div style='font-size:1.5em'>
+                            M. O’Toole, <strong>D. B. Lindell</strong>, G. Wetzstein, “Confocal Non-Line-of-Sight Imaging based on the Light Cone Transform”, <i>Nature</i>, 2018.
+                        </div>
+                        <div style='font-size:1.5em'>
+                            <a style="cursor: pointer;" class='flip' onclick="$(this).next('.panel').slideToggle();"> [Abstract]</a>
+                            <a style="cursor: pointer;" href="http://www.computationalimaging.org/publications/confocal-non-line-of-sight-imaging-based-on-the-light-cone-transform/"> [Webpage]</a>
+                            <a style="cursor: pointer;" href="http://rdcu.be/ImAZ"> [PDF]</a>
+                            <a style="cursor: pointer;" href=""> [Supplement (Coming Soon)]</a>
+                        </div>
+                        <div class="panel" style="display:none; font-size:18px; text-align: justify;">
+                            <p>Imaging objects hidden from a camera’s view is a problem of fundamental importance to many fields of research with applications in robotic vision, defense, remote sensing, medical imaging, and autonomous vehicles. Non-line-of-sight (NLOS) imaging at macroscopic scales has been demonstrated by scanning a visible surface with a pulsed laser and time-resolved detector. Whereas light detection and ranging (LIDAR) systems use such measurements to recover the shape of visible objects from direct reflections, NLOS imaging aims at reconstructing the shape and albedo of hidden objects from multiply scattered light. Despite recent advances, NLOS imaging has remained impractical due to the prohibitive memory and processing requirements of existing reconstruction algorithms, and the extremely weak signal of multiply scattered light. Here we show that confocalizing the scanning procedure provides a means to address these key challenges. Confocal scanning facilitates the derivation of a novel closed-form solution to the NLOS reconstruction problem, which requires computational and memory resources that are orders of magnitude fewer than previous reconstruction methods and recovers hidden objects at unprecedented image resolutions. Confocal scanning also uniquely benefits from a sizeable increase in signal and range when imaging retroreflective objects. We quantify the resolution bounds of NLOS imaging, demonstrate real-time tracking capabilities, and derive efficient algorithms that incorporate image priors and a physically-accurate noise model. Most notably, we demonstrate successful outdoor experiments for NLOS imaging under indirect sunlight.</p>
+                        </div>
+                        <div style='font-size:1.5em'>
+                            <p>
+                            <a href="https://www.youtube.com/watch?v=KnGQEzB9u_0" target="_blank"><img width=200 src="im/press/stanford-news-service-logo.png" style="margin:8px"/>
+                            <a href="https://www.wired.com/story/wanna-see-around-corners-better-get-yourself-a-laser/" target="_blank"><img width=200 src="im/press/wired.png" style="margin:8px"/>
+                            <a href="https://www.theguardian.com/technology/2018/mar/05/self-driving-cars-may-soon-be-able-to-see-around-corners" target="_blank"><img width=200 src="im/press/guardian.png" style="margin:8px"/>
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+ 
                 <tr>
                     <td class="col-md-3"><a href="http://www.computationalimaging.org/publications/reconstructing-transient-images-from-single-photon-sensors-cvpr-2017/" target="_blank"><img width=300 src="im/cvpr17.png" /></a> </td>
                     <td class="col-md-7 col-md-offset-0">
