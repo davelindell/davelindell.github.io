@@ -5,8 +5,6 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
         <link rel="shortcut icon" type="image/x-icon" href="/im/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
         <link href="css/lindell.css" rel="stylesheet">
@@ -14,8 +12,6 @@
         <link href="vendor/css/bootstrap-theme.min.css" rel="stylesheet">
         <link href="vendor/css/academicons.min.css" rel="stylesheet">
         <link href="vendor/css/font-awesome.min.css" rel="stylesheet">
-
-
 
     </head>
     <body>
@@ -37,7 +33,8 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#education">Education <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#news">News <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#education">Education </a></li>
                         <li><a href="#research">Research </a></li>
                         <li><a href="#publications">Publications </a></li>
                         <li><a href="#projects">Projects </a></li>
@@ -111,10 +108,40 @@
 
             <div class="row">
                 <div class="col-md-11" style='font-size:1.5em'>
-                    I'm a second-year Ph.D. student at Stanford University. I've previously completed my B.S. and M.S. degrees in Electrical Engineering at Brigham Young University and am interested in problems in imaging, optimization, computer vision, and remote sensing. I'm currently working in <a href="http://www.computationalimaging.org/"> Stanford's Computational Imaging Lab </a> on time-of-flight sensors, imaging around corners, and next-generation lidar systems. <strong>News: Our paper on seeing around corners was recently published in <a href="http://rdcu.be/ImAZ">Nature</a> (3/5/2018)!</strong>
+                    I'm a second-year Ph.D. student at Stanford University. I completed my B.S. and M.S. degrees in Electrical Engineering at Brigham Young University and am interested in problems in imaging, optimization, computer vision, and remote sensing. I'm currently working in <a href="http://www.computationalimaging.org/"> Stanford's Computational Imaging Lab </a> on time-of-flight sensors, imaging around corners, and next-generation LIDAR systems. <strong></strong>
                 </div>  
             </div>
 
+            <h1 id="news">News</h1>
+            <div class="row">
+            <table class="table table-hover">
+                <tr>
+                    <td  class="col-md-4">
+                        <div style="font-size:1.5em;"> 
+                           June 2018 
+                        </div>
+                    </td>
+                    <td class="col-md-7">
+                        <div style="font-size:1.5em;">
+                            I'm interning at the Intelligent Systems Lab at Intel this summer with <a href="http://vladlen.info">Vladlen Koltun</a>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td  class="col-md-4">
+                        <div style="font-size:1.5em;"> 
+                           March 2018 
+                        </div>
+                    </td>
+                    <td class="col-md-7">
+                        <div style='font-size:1.5em;'>
+                            Our paper on seeing around corners was published in <a href="http://rdcu.be/ImAZ">Nature</a>!
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            </div>
 
             <h1 id="education">Education</h1>
             <div class="row">
@@ -226,6 +253,49 @@
             <h1 id="publications">Publications</h1>
             <div class="row">
             <table class="table table-hover">
+
+                <tr>
+                    <td class="col-md-3"><a href="http://www.computationalimaging.org/publications/single-photon-3d-imaging-with-deep-sensor-fusion/" target="_blank"><img width=300 src="im/siggraph_2018.jpg"/></a> </td>
+                    <td class="col-md-7 col-md-offset-0">
+                        <div style='font-size:1.5em'>
+                            <strong>D. B. Lindell</strong>, M. O'Toole, G. Wetzstein, “Single-Photon 3D Imaging with Deep Sensor Fusion”, <i>ACM SIGGRAPH</i>, 2018.
+                        </div>
+                        <div style='font-size:1.5em'>
+                            <a style="cursor: pointer;" class='flip' onclick="$(this).next('.panel').slideToggle();"> [Abstract]</a>
+                            <a style="cursor: pointer;" href="http://www.computationalimaging.org/publications/single-photon-3d-imaging-with-deep-sensor-fusion/"> [Webpage]</a>
+                            <a style="cursor: pointer;" href="https://drive.google.com/a/stanford.edu/file/d/1eTIawad7GFob3p5nuxrDcO7FMtL3AzSt/view?usp=sharing"> [PDF]</a>
+                            <a style="cursor: pointer;" href="https://drive.google.com/a/stanford.edu/file/d/1DtFQKKaPoP4Btj1Nv6DowuWC_JBBa-cT/view?usp=sharing"> [Supplement]</a>
+                            <a style="cursor: pointer;" href="https://www.youtube.com/watch?v=dg_73m4e_Js"> [Video]</a>
+                        </div>
+                        <div class="panel" style="display:none; font-size:18px; text-align: justify;">
+                            <p>Sensors which capture 3D scene information provide useful data for tasks in vehicle navigation, gesture recognition, human pose estimation, and geometric reconstruction. Active illumination time-of-flight sensors in particular have become widely used to estimate a 3D representation of a scene. However, the maximum range, density of acquired spatial samples, or overall acquisition time of these sensors is fundamentally limited by the minimum signal required to estimate depth reliably. In this paper, we propose a data-driven method for photon-efficient 3D imaging which leverages sensor fusion and computational reconstruction to rapidly and robustly estimate a dense depth map from low photon counts. Our sensor fusion approach uses measurements of single photon arrival times from a low-resolution single-photon detector array and an intensity image from a conventional high-resolution camera. Using a multi-scale deep convolutional network, we jointly process the raw measurements from both sensors and output a high-resolution depth map. To demonstrate the efficacy of our approach, we implement a hardware prototype and show results using captured data. At low signal-to-background levels our depth reconstruction algorithm with sensor fusion outperforms other methods for depth estimation from noisy measurements of photon arrival times.</p>
+                        </div>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="col-md-3"><a href="http://www.computationalimaging.org/publications/reconstructing-transient-images-from-single-photon-sensors-cvpr-2017/" target="_blank"><img width=300 src="im/iccp_2018.png"/></a> </td>
+                    <td class="col-md-7 col-md-offset-0">
+                        <div style='font-size:1.5em'>
+                            <strong>D. B. Lindell</strong>, M. O'Toole, G. Wetzstein, “Towards Transient Imaging at Interactive Rates with Single-Photon Detectors”, <i>Proc. ICCP</i>, 2018.
+                        </div>
+                        <div style='font-size:1.5em'>
+                            <a style="cursor: pointer;" class='flip' onclick="$(this).next('.panel').slideToggle();"> [Abstract]</a>
+                            <a style="cursor: pointer;" href="http://www.computationalimaging.org/publications/reconstructing-transient-images-from-single-photon-sensors-cvpr-2017/"> [Webpage]</a>
+                            <a style="cursor: pointer;" href="https://drive.google.com/a/stanford.edu/file/d/1b2Ls8bUghMl2h8gZMnhgfSYbbRHb83RD/view?usp=sharing"> [PDF]</a>
+                            <a style="cursor: pointer;" href="https://www.youtube.com/watch?v=i6Z3NDgXLec"> [Video]</a>
+                            <a style="cursor: pointer;" href="https://www.youtube.com/watch?time_continue=2607&v=pgZ3HiNaF4k"> [Conference Presentation]</a>
+                        </div>
+                        <div class="panel" style="display:none; font-size:18px; text-align: justify;">
+                            <p>Active imaging at the picosecond timescale reveals transient light transport effects otherwise not accessible by computer vision and image processing algorithms. For example, analyzing the time of flight of short laser pulses emitted into a scene and scattered back to a detector allows for depth imaging, which is crucial for autonomous driving and many other applications. Moreover, analyzing or removing global light transport effects from photographs becomes feasible.</p> 
+
+                            <p>While several transient imaging systems have recently been proposed using various imaging technologies, none is capable of acquiring transient images at interactive framerates. In this paper, we present an imaging system that records transient images at up to 25 Hz. We show several transient video clips recorded with this system and demonstrate transient imaging applications, including direct-global light transport separation and enhanced depth imaging.
+</p>
+                        </div>
+                    </td>
+                </tr>
+
                 <tr>
                     <td class="col-md-3"><a href="http://www.computationalimaging.org/publications/confocal-non-line-of-sight-imaging-based-on-the-light-cone-transform/" target="_blank"><img width=300 src="im/nature_teaser.png"/></a> </td>
                     <td class="col-md-7 col-md-offset-0">
@@ -236,7 +306,7 @@
                             <a style="cursor: pointer;" class='flip' onclick="$(this).next('.panel').slideToggle();"> [Abstract]</a>
                             <a style="cursor: pointer;" href="http://www.computationalimaging.org/publications/confocal-non-line-of-sight-imaging-based-on-the-light-cone-transform/"> [Webpage]</a>
                             <a style="cursor: pointer;" href="http://rdcu.be/ImAZ"> [PDF]</a>
-                            <a style="cursor: pointer;" href=""> [Supplement (Coming Soon)]</a>
+                            <a style="cursor: pointer;" href="https://www.nature.com/articles/nature25489#supplementary-information"> [Supplement]</a>
                         </div>
                         <div class="panel" style="display:none; font-size:18px; text-align: justify;">
                             <p>Imaging objects hidden from a camera’s view is a problem of fundamental importance to many fields of research with applications in robotic vision, defense, remote sensing, medical imaging, and autonomous vehicles. Non-line-of-sight (NLOS) imaging at macroscopic scales has been demonstrated by scanning a visible surface with a pulsed laser and time-resolved detector. Whereas light detection and ranging (LIDAR) systems use such measurements to recover the shape of visible objects from direct reflections, NLOS imaging aims at reconstructing the shape and albedo of hidden objects from multiply scattered light. Despite recent advances, NLOS imaging has remained impractical due to the prohibitive memory and processing requirements of existing reconstruction algorithms, and the extremely weak signal of multiply scattered light. Here we show that confocalizing the scanning procedure provides a means to address these key challenges. Confocal scanning facilitates the derivation of a novel closed-form solution to the NLOS reconstruction problem, which requires computational and memory resources that are orders of magnitude fewer than previous reconstruction methods and recovers hidden objects at unprecedented image resolutions. Confocal scanning also uniquely benefits from a sizeable increase in signal and range when imaging retroreflective objects. We quantify the resolution bounds of NLOS imaging, demonstrate real-time tracking capabilities, and derive efficient algorithms that incorporate image priors and a physically-accurate noise model. Most notably, we demonstrate successful outdoor experiments for NLOS imaging under indirect sunlight.</p>
@@ -255,7 +325,7 @@
                     <td class="col-md-3"><a href="http://www.computationalimaging.org/publications/reconstructing-transient-images-from-single-photon-sensors-cvpr-2017/" target="_blank"><img width=300 src="im/cvpr17.png" /></a> </td>
                     <td class="col-md-7 col-md-offset-0">
                         <div style='font-size:1.5em'>
-                            M. O’Toole, F. Heide, <strong>D. B. Lindell</strong>, K. Zang, S. Diamond, G. Wetzstein, “Reconstructing Transient Images from Single-Photon Sensors”, <i>IEEE Int. Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2017.
+                            M. O’Toole, F. Heide, <strong>D. B. Lindell</strong>, K. Zang, S. Diamond, G. Wetzstein, “Reconstructing Transient Images from Single-Photon Sensors”, <i>Proc. CVPR</i>, 2017.
                         </div>
                         <div style='font-size:1.5em'>
                             <a style="cursor: pointer;" class='flip' onclick="$(this).next('.panel').slideToggle();"> [Abstract]</a>
@@ -326,6 +396,7 @@ Satelliteborne C-band scatterometer measurements of the radar backscatter coeffi
             <h1 id="projects">Selected Projects</h1>
             <div class="row">
             <table class="table table-hover">               
+                <!--
                 <tr>
                     <td class="col-md-3">
                         <div style='font-size:1.5em'>
@@ -340,6 +411,7 @@ Satelliteborne C-band scatterometer measurements of the radar backscatter coeffi
                         </div>
                    </td>
                 </tr>
+                --!>
                 <tr>
                     <td class="col-md-3">
                         <div style='font-size:1.5em'>
