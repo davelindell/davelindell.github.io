@@ -1,13 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, h5, h6 {
-font-family: 'Istok Web', sans-serif;
+font-family: 'Slabo 27px', serif;
 color: #555555;
 }
+h2 {
+font-weight: bold;
+font-size: 2.5em;
+}
+h3 {
+margin: 5px;
+}
+h3, h4 {
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: bold;
+}
 p, div {
-font-family: 'Istok Web', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 color: #555555;
 }
 body { padding-top: 70px; }
 
-.nav li {
-font-size:19px;
+h3.unbold {
+    font-weight: normal;
 }
+
+.nav li {
+font-size: 19px;
+}
+
+.pub-expanded {
+color: green;
+}
+
+.publication img {
+    float: left;
+    vertical-align: top;
+    margin-right: 40px;
+    padding:10px;
+}
+
+.pubwrap {
+	overflow: hidden;
+	position: relative;
+	max-width: 100%;
+	max-height: 1000px;
+    margin-bottom: 10px;
+    border-top: 2px solid #dddddd;
+}
+
+.pubwrap div h3 {
+display: inline-block;
+}
+
+.pubwrap h4, p {
+    position: relative;
+    left:5px;
+}
+
+.pubwrap p {
+    top:-5px;
+}
+
+.publication {
+    cursor: pointer;
+}
+
+.publication .links {
+margin-bottom: 3px;
+}
+
+.publication:hover {
+    background-color: #eeeeee;
+}
+
+.publication a {
+    padding: 10px;
+}
+
+.publication .panel {
+    position: relative;
+    z-index: 2;
+    background-color: inherit;
+    max-height: 850px;
+    transition:max-height 250ms ease-in;
+}
+
+
+.pub-collapsed .panel {
+max-height: 0px;
+overflow: hidden;
+transition:max-height 250ms ease-out;
+}
+
+
