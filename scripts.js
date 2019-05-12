@@ -29,13 +29,13 @@ scripts = function() {
 
 
     // make sure image height is at least 300 pixels, or set margin to make up difference
-    //var divs = document.getElementsByClassName("pubwrap");
-    //for (var i = 0; i < divs.length; ++i) {
-    //    var img = divs[i].getElementsByTagName('img')[0]
-    //    if (img.height < 175) {
-    //        img.style.marginBottom = (175 - img.height).toString() + "px";
-    //    }
-    //}
+    var divs = document.getElementsByClassName("pubwrap");
+    for (var i = 0; i < divs.length; ++i) {
+        var img = divs[i].getElementsByTagName('img')[0]
+        if (img.height < 175) {
+            img.style.marginBottom = (175 - img.height).toString() + "px";
+        }
+    }
 
     return ths;
 };
