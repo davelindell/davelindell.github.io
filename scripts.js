@@ -33,7 +33,7 @@ scripts = function() {
     for (var i = 0; i < divs.length; ++i) {
         var img = divs[i].getElementsByTagName('img')[0]
         if (img.height < 175) {
-            img.style.marginBottom = (175 - img.height).toString() + "px";
+            img.style.marginBottom = "20px";//(175 - img.height).toString() + "px";
         }
     }
 
