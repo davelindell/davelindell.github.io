@@ -70,29 +70,29 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 ### Scenes 
 - - -
 <div class="row">
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/scene0.png" style="padding: 10px;" class="img-responsive" alt="">
 <p> Bunny (simulated) </p>
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/scene5.png" style="padding: 10px;" class="img-responsive" alt="">
 <p>Mannequin</p>
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/scene6.png" style="padding: 10px;" class="img-responsive" alt="">
 <p>Exit Sign</p>
 </div>
 </div>
 <div class="row">
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/scene7.png" style="padding: 10px;" class="img-responsive" alt="">
 <p>Letters "SU"</p>
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/scene8.png" style="padding: 10px;" class="img-responsive" alt="">
 <p>Outdoor Letter "S"</p>
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/scene9.png" style="padding: 10px;" class="img-responsive" alt="">
 <p>Diffuse "S"</p>
 </div>
@@ -100,24 +100,24 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 ### Reconstructions 
 - - -
 <div class="row">
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/spin_0.gif" style="padding: 10px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/spin_5.gif" style="padding: 10px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/spin_6.gif" style="padding: 10px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/spin_7.gif" style="padding: 10px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/spin_8.gif" style="padding: 10px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-4 col-md-4">
 <img src="img/publication/nature2018otoole/spin_9.gif" style="padding: 10px;" class="img-responsive" alt="">
 </div>
 </div>

@@ -65,6 +65,7 @@ h6 {
     font-weight: 700;
 }
 
+
 .img-centered {
     margin: 0 auto;
 }
@@ -340,7 +341,7 @@ header .scroll-down {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 350px;
+        padding-top: 300px;
         padding-bottom: 200px;
     }
 
@@ -783,6 +784,11 @@ ul.publication-buttons li a:active {
 .modal-logos {
     margin: 20px;    
     height: 40px;
+}
+
+.modal-img {
+    max-height: 200px;
+    padding: 5px
 }
 
 .publication-modal .modal-content {

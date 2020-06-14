@@ -60,15 +60,17 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 
 ### Reconstructing Hidden Objects
 - - -
+<div class="container">
 <div class="row">
-<div class="col-md-4">
-<img src="img/publication/siggraph2019lindell/teaser_1.png" style="height: 300; padding: 10px;" class="img-responsive" alt="">
+<div class="col-xs-4 col-md-4">
+<img src="img/publication/siggraph2019lindell/teaser_1.png" class="modal-img img-responsive" alt="">
 </div>
-<div class="col-md-4">
-<img src="img/publication/siggraph2019lindell/meas_slice.gif" style="height: 300; padding: 10px;" class="img-responsive" alt="">
+<div class="col-xs-4 col-md-4">
+<img src="img/publication/siggraph2019lindell/meas_slice.gif" class="modal-img img-responsive" alt="">
 </div>
-<div class="col-md-4">
-<img src="img/publication/siggraph2019lindell/teaser_stolt.gif" style="height: 300; padding: 10px;" class="img-responsive" alt="">
+<div class="col-xs-4 col-md-4">
+<img src="img/publication/siggraph2019lindell/teaser_stolt.gif" class="modal-img img-responsive" alt="">
+</div>
 </div>
 </div>
 
@@ -102,14 +104,14 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 ###  Captured Results 
 - - -
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
+<video preload="auto" autoplay muted loop="loop" class="modal-img">
   <source src="img/publication/siggraph2019lindell/phasor_fields.webm" type="video/webm">
 </video>
 <p> Virtual Wave Optics Reconstruction </p>
 </div>
-<div class="col-md-4">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;">
+<div class="col-xs-6 col-md-4">
+<video preload="auto" autoplay muted loop="loop" class="modal-img">
   <source src="img/publication/siggraph2019lindell/teaser_stolt_colorized.webm" type="video/webm">
 </video>
 <p> f&#8211;k Migration Reconstruction </p>
@@ -119,27 +121,27 @@ Comparison to non-line-of-sight imaging using phasor-field virtual wave optics b
 {: style="text-align: left;" }
 
 <div class="row">
-<div class="col-md-3 col-md-offset-3">
-<img src="img/publication/siggraph2019lindell/bike_1.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
+<img src="img/publication/siggraph2019lindell/bike_1.png" class="modal-img img-responsive" alt="">
 </div>
-<div class="col-md-3">
-<img src="img/publication/siggraph2019lindell/bike.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
-</div>
-</div>
-<div class="row">
-<div class="col-md-3 col-md-offset-3">
-<img src="img/publication/siggraph2019lindell/dragon_1.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
-</div>
-<div class="col-md-3">
-<img src="img/publication/siggraph2019lindell/dragon.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
+<div class="col-xs-6 col-md-4">
+<img src="img/publication/siggraph2019lindell/bike.gif" class="modal-img img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-3 col-md-offset-3">
-<img src="img/publication/siggraph2019lindell/statue_1.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
+<img src="img/publication/siggraph2019lindell/dragon_1.png" class="modal-img img-responsive" alt="">
 </div>
-<div class="col-md-3">
-<img src="img/publication/siggraph2019lindell/statue.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
+<div class="col-xs-6 col-md-4">
+<img src="img/publication/siggraph2019lindell/dragon.gif" class="modal-img img-responsive" alt="">
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
+<img src="img/publication/siggraph2019lindell/statue_1.png" class="modal-img img-responsive" alt="">
+</div>
+<div class="col-xs-6 col-md-4">
+<img src="img/publication/siggraph2019lindell/statue.gif" class="modal-img img-responsive" alt="">
 </div>
 </div>
 
@@ -170,7 +172,7 @@ Comparison to non-line-of-sight imaging using phasor-field virtual wave optics b
 It took a lot of effort to build and calibrate this hardware setup and to capture these data. Feel free to use the datasets in your own projects, but please acknowledge our work by citing the following papers:
 {: style="text-align: left;" }
 
-<ul class="list-inline" style="font-size: 22px;">
+<ul class="list-inline">
 <li><a href="https://github.com/computational-imaging/nlos-fk">Github Repository</a></li>
 <li><a href="https://drive.google.com/a/stanford.edu/file/d/1_av9TdJ-J22qAUNs1ueZ8ETuRRW2KHg_/view?usp=sharing">Full dataset</a></li>
 <li><a href="https://drive.google.com/open?id=1W7s6tRzEC42GvW4xS6BfP7_M8iQdYXTv">Bike</a></li>

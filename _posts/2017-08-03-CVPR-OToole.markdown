@@ -40,108 +40,108 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 ### Results
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <p> Color Image </p>
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <p> Transient Image </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statueofdavid.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statue.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
 <p> Statue of David </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fiber.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/opticalfiber.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
 <p> Fiber </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/pepsi.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/sodabottle.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
 <p> Pepsi Bottle </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit-1.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
 <p> Fruit </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox-1.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
 <p> Foam Box </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart-1.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
 <p> Resolution Chart </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 col-md-offset-2">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvpr2017.png" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
-<div class="col-md-4">
+<div class="col-xs-6 col-md-4">
 <img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvprlogo.gif" style="height: 200px; padding: 0px;" class="img-responsive" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 col-md-offset-4">
 <p> Fiber: CVPR 2017 </p>
 </div>
 </div>

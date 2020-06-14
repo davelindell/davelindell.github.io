@@ -8,12 +8,13 @@
             </div>
         </div>
 
-        {% for post in site.posts %}
+
         <div class="container">
+        {% for post in site.posts %}
             <a href="#publicationModal{{ post.modal-id }}" class="publication-item publication-link" data-toggle="modal">
                 <div class="row publication-row">
-                    <div class="col-md-3">
-                        <img src="img/publication/{{ post.thumbnail }}" class="img-responsive center-block publication-img" alt="">
+                    <div class="col-md-3 center-block" style="max-width: 350px;">
+                        <img src="img/publication/{{ post.thumbnail }}" class="img-responsive publication-img" alt="">
                     </div>
                     <div class="col-md-9">
                         <h4 class="publication-title">{{ post.title }}</h4>
@@ -22,6 +23,7 @@
                     </div>
                 </div>
             </a>
-        </div>
+            <hr>
         {% endfor %}
+        </div>
     </section>
