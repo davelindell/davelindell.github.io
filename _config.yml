@@ -1,0 +1,54 @@
+# Site settings
+title: David Lindell 
+email: lindell@stanford.edu 
+description: "Personal website of David Lindell, researcher working in computer vision, 3D imaging, and machine learning."
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+mysocial:
+  - title: github 
+    url: http://github.com/davelindell
+  - title: linkedin
+    url: https://www.linkedin.com/in/david-lindell-a434b882
+
+news:
+  - title: Jun 2020
+    text: "Three papers accepted recently! [Non-line-of-sight Surface Reconstruction Using the Directional Light-cone Transform](http://www.computationalimaging.org/publications/nlos_dlct/) (Oral @ CVPR 2020), [SPADnet: deep RGB-SPAD sensor fusion assisted by monocular depth estimation](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-28-10-14948) (Optics Express), and [Deep Adaptive LiDAR: End-to-end Optimization of Sampling and Depth Completion at Low Sampling Rates](http://www.computationalimaging.org/publications/deep-adaptive-lidar/) (ICCP 2020)."
+  - title: May 2020
+    text: I'm co-chairing the 9th annual [Computational Cameras and Displays workshop](http://ccd2020.cms.caltech.edu/) at CVPR 2020 with [Achuta Kadambi](https://visual.ee.ucla.edu/) and [Katie Bouman](http://users.cms.caltech.edu/~klbouman/).
+  - title: Mar 2020
+    text: "Update: My talk is featured on the [TED website](https://go.ted.com/davidlindell) with nearly a quarter million views!"
+  - title: Jan 2020
+    text: My TedxBeaconStreet talk on "a camera to see around corners" is up on [YouTube](https://www.youtube.com/watch?v=ytxZc1WBtjI)!
+  - title: May 2019
+    text: Two papers accepted! [Acoustic Non-Line-of-Sight Imaging](http://www.computationalimaging.org/publications/acoustic-non-line-of-sight-imaging) was accepted as an oral to CVPR, and [Wave-Based Non-Line-of-Sight Imaging Using Fast f-k Migration](http://www.computationalimaging.org/publications/nlos-fk/) was accepted to SIGGRAPH.
+  - title: Jun 2018
+    text: I'm interning at the Intelligent Systems Lab at Intel this summer with [Vladlen Koltun](http://vladlen.info).
+  - title: Mar 2018
+    text: Our paper on Seeing around corners was published in [Nature](http://rdcu.be/ImAZ)!
+
+invited:
+  - venue: TEDxBeaconStreet 2019
+    date: Nov 2019
+    text: A camera to see around corners 
+  - venue: Boston University Center for Information & Systems Engineering
+    date: Nov 2019
+    text: Computational imaging with single-photon detectors
+  - venue: MIT Research Laboratory of Electronics
+    date: Nov 2019
+    text: Efficient confocal non-line-of-sight imaging
+  - venue: Berkeley Center for Computational Imaging
+    date: Sep 2019
+    text: Computational imaging with single-photon detectors 
+  - venue: Silicon Valley ACM SIGGRAPH Chapter 
+    date: May 2019
+    text: Computational single-photon imaging 
+  - venue: Stanford Center for Image Systems Engineering
+    date: May 2019
+    text: Computational imaging with single-photon detectors 
+  - venue: Carnegie Mellon University Graphics Lab
+    date: Jan 2019
+    text: Computational single-photon imaging
+
+# Build settings
+markdown: kramdown
+permalink: pretty

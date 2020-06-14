@@ -1,0 +1,74 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="publication-modal modal fade" id="publicationModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="modal-body">
+                            <h3>{{ post.title }}</h3>
+                            <p><em> {{ post.authors }} </em></p>
+                            <ul class="list-inline">
+
+                                {% if post.pdf-link %}
+                                <li> 
+                                    <a class="btn btn-modal" target="_blank" title="Download PDF" href="{{ post.pdf-link }}"><i class="fa fa-lg fa-file-pdf-o"></i> PDF</a>
+                                </li>
+                                {% endif %}
+
+                                {% if post.supp-link %}
+                                <li>
+                                    <a class="btn btn-modal" target="_blank" title="Download Supplement" href="{{ post.supp-link }}"><i class="fa fa-lg fa-file-o"></i> Supplement</a>
+                                </li>
+                                {% endif %}
+
+                                {% if post.code-link %}
+                                <li>
+                                    <a class="btn btn-modal" target="_blank" title="Code" href="{{ post.code-link }}"><i class="fa fa-lg fa-code"></i> Code</a>
+                                </li>
+                                {% endif %}
+
+                                {% if post.pres-link %}
+                                <li>
+                                    <a class="btn btn-modal" target="_blank" title="Conference Presentation" href="{{ post.pres-link  }}"><i class="fa fa-lg fa-user"></i> Presentation</a>
+                                </li>
+                                {% endif %}
+
+
+                                {% if post.video-link %}
+                                <li>
+                                    <a class="btn btn-modal" target="_blank" title="Video" href="{{ post.video-link  }}"><i class="fa fa-lg fa-video-camera"></i> Video</a>
+                                </li>
+                                {% endif %}
+
+                            </ul>
+
+                            {% if post.social %}
+                            <ul class="list-inline">
+                                {% for item in post.social %}
+                                <li>
+                                    <a href="{{ item.url }}" target="_blank"><img class="modal-logos" src="img/publication/press/{{ item.img }}"/></a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+
+                            <hr class="star-primary">
+                            <img src="img/publication/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <hr class="star-primary">
+                            <p style="text-align: left;">{{ post.content }}</p>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

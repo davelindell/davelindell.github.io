@@ -1,0 +1,73 @@
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#news">News</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publication">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">David Lindell</div>
+            <!-- <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
+                <hr class="intro-divider">
+                <ul class="list-inline">
+                    <li>
+                        <a href="/data/cv.pdf" class="btn btn-xl" target="_blank"><i class="fa fa-download"></i> Download CV</a>
+                    </li>
+                </ul>
+
+                <ul class="list-inline social-buttons">
+                    <li>
+                        <a href="https://scholar.google.com/citations?user=_m-BTtAAAAAJ&hl=en" target="_blank"><i class="ai ai-lg ai-google-scholar" aria-hidden="true"></i></a>
+                    </li>
+                    {% for social in site.mysocial %}
+                    <li>
+                        <a href="{{ social.url }}" target="_blank"><i class="fa fa-lg fa-{{ social.title }}"></i></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+
+                <a class="page-scroll scroll-down fa fa-angle-double-down btn btn-primary btn-large" style="margin-top: 50px; font-size:54px; text-decoration: none;" href="#about"></a>
+            </div>
+        </div>
+    </header>
+<!--
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
+

@@ -1,0 +1,5 @@
+{% include css/bootstrap.min.css %}
+{% include css/academicons.min.css %}
+{% include css/agency.css %}
+
+{{ content }}
