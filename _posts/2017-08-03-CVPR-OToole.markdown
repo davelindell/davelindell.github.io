@@ -19,11 +19,15 @@ video-link: https://www.youtube.com/watch?v=kNI8JL32Neo
 
 ### CVPR Spotlight Presentation
 - - -
-<iframe width="560" height="315" src="https://www.youtube.com/embed/laLQM6O9PZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/laLQM6O9PZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Video
 - - -
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kNI8JL32Neo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kNI8JL32Neo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Datasets
 <ul class="" style="font-size: 22px; list-style: none; transform: translateX(-20px);">

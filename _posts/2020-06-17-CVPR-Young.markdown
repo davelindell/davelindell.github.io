@@ -19,8 +19,8 @@ code-link: https://github.com/computational-imaging/nlos-dlct
 
 ### Video
 - - -
-<div style="col-md-12">
-<iframe style="right: 50%;" width="560" height="315" src="https://www.youtube.com/embed/9ezA5ycHXDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9ezA5ycHXDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 

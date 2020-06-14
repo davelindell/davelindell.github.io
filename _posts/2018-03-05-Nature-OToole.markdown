@@ -43,11 +43,15 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 
 ### Stanford News 
 - - -
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KnGQEzB9u_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KnGQEzB9u_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Overview Video
 - - -
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lCJN_RwJPew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lCJN_RwJPew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Visualizations
 - - -

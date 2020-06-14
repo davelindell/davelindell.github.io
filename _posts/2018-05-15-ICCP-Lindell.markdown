@@ -24,11 +24,15 @@ Active imaging at the picosecond timescale reveals transient light transport eff
 
 ### Presentation
 - - -
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pgZ3HiNaF4k?start=2606" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pgZ3HiNaF4k?start=2606" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Video
 - - -
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i6Z3NDgXLec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i6Z3NDgXLec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### Dataset
 <ul class="list-inline" style="font-size: 22px;">
