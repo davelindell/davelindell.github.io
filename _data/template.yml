@@ -7,5 +7,7 @@ color:
 
 # Font Families
 font:
+  header-size: calc(10px + 1.8vw) 
+  size: calc(12px  + 0.4vw)
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
