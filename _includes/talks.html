@@ -9,22 +9,18 @@
             <table class="table table-hover">
                 {% for invited in site.invited %}
                 <tr>
-                    <td  class="col-md-2">
+                    <td  class="col-md-2 col-md-offset-2">
                         <div style="margin-top: -14px;"> 
                             <h3> {{ invited.date }} </h3>
                         </div>
                     </td>
 
-                    <td  class="col-md-4">
+                    <td  class="col-md-6">
                         <div> 
-                            <p><strong> {{ invited.venue }} </strong></p>
+                            <p style="margin: 0px;"><strong> {{ invited.venue }} </strong></p>
+                            <br>
+                            <p style="margin-top: -20px;">{{ invited.text }}</p>
                         </div>
-                    </td>
-                    <td class="col-md-6">
-                        <div>
-                            <p>{{ invited.text }}</p>
-			           </div>
-                    </td>
                 </tr>
                 {% endfor %}
             </table>
