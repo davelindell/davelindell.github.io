@@ -53,16 +53,16 @@
                             <ul class="list-inline">
                                 {% for item in post.social %}
                                 <li>
-                                    <a href="{{ item.url }}" target="_blank"><img class="modal-logos" src="img/publication/press/{{ item.img }}"/></a>
+                                    <a href="{{ item.url }}" target="_blank"><img class="lazy_load modal-logos" src="" data-src="img/publication/press/{{ item.img }}"/></a>
                                 </li>
                                 {% endfor %}
                             </ul>
                             {% endif %}
 
                             <hr class="star-primary">
-                            <img src="img/publication/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <img src="" data-src="img/publication/{{ post.img }}" class="lazy_load img-responsive img-centered" alt="{{ post.alt }}">
                             <hr class="star-primary">
-                            <p style="text-align: left;">{{ post.content }}</p>
+                            {{ post.content }}
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

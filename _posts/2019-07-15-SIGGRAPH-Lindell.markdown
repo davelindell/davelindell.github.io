@@ -34,7 +34,7 @@ social:
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-repsonsive-item" src="https://www.youtube.com/embed/BVYfzLXUi48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-repsonsive-item" src="" data-src="https://www.youtube.com/embed/BVYfzLXUi48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Abstract
@@ -47,13 +47,13 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 
 ### Slides 
 - - -
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/BZlW4Y804NNvbr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>  
+<iframe src="" data-src="//www.slideshare.net/slideshow/embed_code/key/BZlW4Y804NNvbr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" class="lazy_load" allowfullscreen> </iframe>  
 
 ### Reconstructing Hidden Objects
 - - -
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
-<img src="img/publication/siggraph2019lindell/illustration.png" style="height: 300; padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/illustration.png" style="height: 300; padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 
@@ -65,13 +65,13 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 <div class="container">
 <div class="row">
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/siggraph2019lindell/teaser_1.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/teaser_1.png" class="lazy_load modal-img img-responsive" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/siggraph2019lindell/meas_slice.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/meas_slice.gif" class="lazy_load modal-img img-responsive" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/siggraph2019lindell/teaser_stolt.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/teaser_stolt.gif" class="lazy_load modal-img img-responsive" alt="">
 </div>
 </div>
 </div>
@@ -83,8 +83,7 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;">
-  <source src="img/publication/siggraph2019lindell/interactive.webm" type="video/webm">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" data-src="img/publication/siggraph2019lindell/interactive.webm" type="video/webm" class="lazy_load">
 </video>
 </div>
 </div>
@@ -95,8 +94,7 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;">
-  <source src="img/publication/siggraph2019lindell/outdoor.webm" type="video/webm">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" data-src="img/publication/siggraph2019lindell/outdoor.webm" type="video/webm" class="lazy_load">
 </video>
 </div>
 </div>
@@ -107,14 +105,12 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 - - -
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" class="modal-img">
-  <source src="img/publication/siggraph2019lindell/phasor_fields.webm" type="video/webm">
+<video preload="auto" autoplay muted loop="loop" class="lazy_load modal-img" src="" data-src="img/publication/siggraph2019lindell/phasor_fields.webm" type="video/webm">
 </video>
 <p> Virtual Wave Optics Reconstruction </p>
 </div>
 <div class="col-xs-6 col-md-4">
-<video preload="auto" autoplay muted loop="loop" class="modal-img">
-  <source src="img/publication/siggraph2019lindell/teaser_stolt_colorized.webm" type="video/webm">
+<video preload="auto" autoplay muted loop="loop" class="lazy_load modal-img" src="" data-src="img/publication/siggraph2019lindell/teaser_stolt_colorized.webm" type="video/webm">
 </video>
 <p> f&#8211;k Migration Reconstruction </p>
 </div>
@@ -124,26 +120,26 @@ Comparison to non-line-of-sight imaging using phasor-field virtual wave optics b
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="img/publication/siggraph2019lindell/bike_1.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/bike_1.png" class="lazy_load modal-img img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="img/publication/siggraph2019lindell/bike.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/bike.gif" class="lazy_load modal-img img-responsive" alt="">
 </div>
 </div>
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="img/publication/siggraph2019lindell/dragon_1.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/dragon_1.png" class="lazy_load modal-img img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="img/publication/siggraph2019lindell/dragon.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/dragon.gif" class="lazy_load modal-img img-responsive" alt="">
 </div>
 </div>
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="img/publication/siggraph2019lindell/statue_1.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/statue_1.png" class="lazy_load modal-img img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="img/publication/siggraph2019lindell/statue.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/statue.gif" class="lazy_load modal-img img-responsive" alt="">
 </div>
 </div>
 
@@ -151,19 +147,18 @@ Comparison to non-line-of-sight imaging using phasor-field virtual wave optics b
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<img src="img/publication/siggraph2019lindell/hardware_all.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/hardware_all.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<img src="img/publication/siggraph2019lindell/hardware_closeup.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2019lindell/hardware_closeup.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;">
-  <source src="img/publication/siggraph2019lindell/scanning.webm" type="video/webm">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" data-src="img/publication/siggraph2019lindell/scanning.webm" type="video/webm" class="lazy_load">
 </video>
 </div>
 </div>

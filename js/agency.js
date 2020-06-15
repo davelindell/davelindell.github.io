@@ -35,3 +35,36 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+
+// https://stackoverflow.com/questions/39885659/lazy-load-images-only-after-bootstrap-modal-has-opened
+// lazy load modals
+//$('div.modal').on("show.bs.modal", function () {
+//    $('.lazy_load').each(function(){
+//        var img = $(this);
+//        img.attr('src', img.data('src'));
+//    });
+//});   
+
+// lazy load modals
+$('div.modal').each(function () {
+    var divID = $(this).attr("id");
+    $("#" + divID).on("show.bs.modal", function () {
+        $('#' + divID).find('.lazy_load').each(function(){
+            var img = $(this);
+            img.attr('src', img.data('src'));
+        });
+        //$('#' + divID).find('iframe.lazy_load').each(function(){
+        //    var img = $(this);
+        //    img.attr('src', img.data('src'));
+        //});
+        //$('#' + divID).find('source.lazy_load').each(function(){
+        //    var src = $(this).attr('data-src');
+        //    $(this).attr('src', src);
+        //});
+        //$('#' + divID).find('video').each(function(){
+        //    $(this).get(0).play();
+        //});
+    });   
+});
+

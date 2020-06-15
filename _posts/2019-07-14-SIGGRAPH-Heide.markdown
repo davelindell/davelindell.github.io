@@ -21,7 +21,7 @@ video-link: https://www.youtube.com/watch?v=nVoEZuFFMzA
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nVoEZuFFMzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/nVoEZuFFMzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Abstract
@@ -34,7 +34,7 @@ We introduce a factored NLOS light transport representation that accounts for pa
 
 ### Slides
 - - -
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/t2MyzgkClBKJD8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<iframe src="" data-src="//www.slideshare.net/slideshow/embed_code/key/t2MyzgkClBKJD8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" class="lazy_load" allowfullscreen> </iframe> 
 
 ### Datasets
 - - -

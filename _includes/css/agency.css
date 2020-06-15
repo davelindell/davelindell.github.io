@@ -434,7 +434,7 @@ h4.publication-title {
 }
 
 #publication .publication-row {
-    padding: 5px;
+    padding: 10px;
     border-radius: 0px;
     background-color: #f7f7f7;
     transition: 0.3s;

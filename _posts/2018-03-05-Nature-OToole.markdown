@@ -44,20 +44,20 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 ### Stanford News 
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KnGQEzB9u_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/KnGQEzB9u_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" class="lazy_load" allowfullscreen></iframe>
 </div>
 
 ### Overview Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lCJN_RwJPew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/lCJN_RwJPew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Visualizations
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/output.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/03/output.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 **Measurements and Reconstruction:** The captured measurements can be played back as a video, showing light splashing across the wall as it scatters back from the hidden object. Using a mathematical transform and deconvolution algorithm, the hidden object is recorded from these echoes of light.
@@ -65,7 +65,7 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/outdoor.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/03/outdoor.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 **Outdoor Experiment:** Non-line-of-sight imaging is demonstrated outdoors. The imaging system captures measurements in indirect sunlight and robustly reconstructs the hidden “S” shape.
@@ -75,29 +75,29 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 - - -
 <div class="row">
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/scene0.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/scene0.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 <p> Bunny (simulated) </p>
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/scene5.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/scene5.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 <p>Mannequin</p>
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/scene6.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/scene6.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 <p>Exit Sign</p>
 </div>
 </div>
 <div class="row">
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/scene7.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/scene7.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 <p>Letters "SU"</p>
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/scene8.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/scene8.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 <p>Outdoor Letter "S"</p>
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/scene9.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/scene9.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 <p>Diffuse "S"</p>
 </div>
 </div>
@@ -105,24 +105,24 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 - - -
 <div class="row">
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/spin_0.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/spin_0.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/spin_5.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/spin_5.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/spin_6.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/spin_6.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/spin_7.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/spin_7.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/spin_8.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/spin_8.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="img/publication/nature2018otoole/spin_9.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/nature2018otoole/spin_9.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 
@@ -131,7 +131,7 @@ Here we show that confocalizing the scanning procedure provides a means to addre
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="transform: translateX(30px);">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/laser.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/03/laser.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Matthew O’Toole operating the laser scanning system (credit: Kurt Hickman / Stanford News)
@@ -139,7 +139,7 @@ Matthew O’Toole operating the laser scanning system (credit: Kurt Hickman / St
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="transform: translateX(30px);">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/scanning.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/03/scanning.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 An overview of the hardware setup (credit: Kurt Hickman / Stanford News)
@@ -147,7 +147,7 @@ An overview of the hardware setup (credit: Kurt Hickman / Stanford News)
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8710.jpg" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8710.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Graduate student David Lindell and postdoctoral researcher Matthew O’Toole work in the lab with assistant professor Gordon Wetzstein (credit: Linda A. Cicero / Stanford News).
@@ -155,7 +155,7 @@ Graduate student David Lindell and postdoctoral researcher Matthew O’Toole wor
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8642.jpg" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8642.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Graduate student David Lindell works in the lab with assistant professor Gordon Wetzstein (credit: Linda A. Cicero / Stanford News).
@@ -163,7 +163,7 @@ Graduate student David Lindell works in the lab with assistant professor Gordon 
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8655.jpg" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8655.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Graduate student David Lindell and postdoctoral researcher Matthew O’Toole calibrating the system (credit: Linda A. Cicero / Stanford News).

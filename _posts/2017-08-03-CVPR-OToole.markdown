@@ -20,13 +20,13 @@ video-link: https://www.youtube.com/watch?v=kNI8JL32Neo
 ### CVPR Spotlight Presentation
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/laLQM6O9PZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/laLQM6O9PZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kNI8JL32Neo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/kNI8JL32Neo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Datasets
@@ -54,10 +54,10 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statueofdavid.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statueofdavid.png" class="modal-img lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statue.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statue.gif" class="modal-img lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
@@ -68,10 +68,10 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fiber.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fiber.png" class="modal-img lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/opticalfiber.gif"  class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/opticalfiber.gif"  class="modal-img lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
@@ -82,10 +82,10 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/pepsi.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/pepsi.png" class="modal-img lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/sodabottle.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/sodabottle.gif" class="modal-img lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
@@ -96,10 +96,10 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit.png" class="modal-img lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit-1.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit-1.gif" class="modal-img lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
@@ -110,10 +110,10 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox.png" class="modal-img lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox-1.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox-1.gif" class="modal-img lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
@@ -124,10 +124,10 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart.png" class="modal-img lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart-1.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart-1.gif" class="modal-img lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">
@@ -138,10 +138,10 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 <div class="row">
 <div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvpr2017.png" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvpr2017.png" class="modal-img lazy_load img-responsive" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvprlogo.gif" class="modal-img img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvprlogo.gif" class="modal-img lazy_load img-responsive" alt="">
 </div>
 </div>
 <div class="row">

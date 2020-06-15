@@ -19,7 +19,7 @@ video-link: https://www.youtube.com/watch?v=dg_73m4e_Js
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dg_73m4e_Js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/dg_73m4e_Js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Abstract
@@ -32,14 +32,14 @@ In this paper, we propose a data-driven method for photon-efficient 3D imaging w
 
 ### Slides
 - - -
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/5nsXEnwWwAnawG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> 
+<iframe src="" data-src="//www.slideshare.net/slideshow/embed_code/key/5nsXEnwWwAnawG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" class="lazy_load" allowfullscreen> </iframe> 
 
 
 ### Overview
 - - -
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
-<img src="img/publication/siggraph2018lindell/cnn_illustration.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2018lindell/cnn_illustration.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Convolutional Neural Network architecture for depth estimation and image guided upsampling from captured photon counts and intensity image.
@@ -47,7 +47,7 @@ Convolutional Neural Network architecture for depth estimation and image guided 
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<img src="img/publication/siggraph2018lindell/hardware_ps.jpg" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/siggraph2018lindell/hardware_ps.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Single-photon imaging prototype showing the imaging optics and illumination optics.

@@ -33,7 +33,7 @@ social:
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yoNmH3AfxCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/yoNmH3AfxCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Abstract
@@ -48,7 +48,7 @@ We introduce acoustic NLOS imaging, which is orders of magnitude less expensive 
 - - -
 <div class="row">
 <div class="col-md-6 col-md-offset-3">
-<img src="img/publication/cvpr2019lindell/acoustic_array.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/cvpr2019lindell/acoustic_array.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 **Photograph of the prototype system.** The prototype comprises a linear array of 16 speakers and microphones mounted vertically on a 1 m translation stage. Power amplifiers and a set of audio interfaces drive the speakers and record from the microphones.
@@ -58,7 +58,7 @@ We introduce acoustic NLOS imaging, which is orders of magnitude less expensive 
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<img src="img/publication/cvpr2019lindell/teaser.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/cvpr2019lindell/teaser.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 
@@ -69,7 +69,7 @@ Modulated sound waves are emitted from a speaker, travel around the corner to a 
 - - -
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
-<img src="img/publication/cvpr2019lindell/mirror.png" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/cvpr2019lindell/mirror.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Due to the mirror-like scattering of the wall at acoustic wavelengths, the measurements appear to be captured from a mirrored volume located behind the wall, as if the wall were transparent. The transmit signal is a linear ramp in frequency over time. For a single reflector, the return signal is a delayed version of the transmit signal (top right). The receive and transmit signals are mixed together
@@ -80,14 +80,14 @@ and Fourier transformed, producing a sharp peak at a frequency proportional to t
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_scanning.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_scanning.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Visualization of a 2D acoustic NLOS scanning system.
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_seismic.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_seismic.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
  A similar problem arises in seismology, where shockwaves are used to probe and reconstruct underground surfaces.
@@ -97,7 +97,7 @@ Visualization of a 2D acoustic NLOS scanning system.
 - - -
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="transform: translateX(30px);">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_letter_h.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_letter_h.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Reconstructed letter “H” captured from around the corner. Reconstructions are shown using a ‘confocal’ subset of closely spaced speakers and microphones, the ‘nonconfocal’ set of all speaker and microphone pairs, and with additional priors on the reconstructed volume.
@@ -105,7 +105,7 @@ Reconstructed letter “H” captured from around the corner. Reconstructions ar
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="transform: translateX(30px);">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_corner.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_corner.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Reconstruction of multiple acoustic corner reflectors from around the corner.
@@ -113,7 +113,7 @@ Reconstruction of multiple acoustic corner reflectors from around the corner.
 
 <div class="row">
 <div class="col-md-8 col-md-offset-2" style="transform: translateX(30px);">
-<img src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_optical.gif" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2019/03/cvpr2019_optical.gif" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 Comparison to an optical NLOS system. Optical reconstruction of the more distant letter fails due to limited signal. The acoustic system recovers both letters at increased distance from the wall and with much lower acquisition time.

@@ -29,7 +29,7 @@ Active 3D imaging systems have broad applications across disciplines, including 
 
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
-<img src="img/publication/scirep2018heide/pileup2.jpg" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/scirep2018heide/pileup2.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 **Experimental reconstructions.** A recorded spatio-temporal distribution of photon counts (a,e) is processed to estimate a 3D point cloud (b,c,f,g) that contains both depth and albedo information, here shown for two different scenes (photographs shown in (d,h)). The color-coded errors maps (d,h) directly compare the results of several depth estimation techniques, including log-matched filtering, Coates’ method followed by Gaussian fit (on high-flux measurement), and the proposed method.
@@ -37,7 +37,7 @@ Active 3D imaging systems have broad applications across disciplines, including 
 
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
-<img src="img/publication/scirep2018heide/pileup3.jpg" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/scirep2018heide/pileup3.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 **Experimental validation of sub-picosecond accuracy on recorded single-pixel data without spatial priors.** The average depth and round-trip time error for two scenes are shown, for the 450nm Alphalas LD450-50 laser (FWHM of 90ps) and the 670nm Alphalas LD-670-50 laser (FWHM of 50ps), respectively. The background level is 5% for all scenes. We compare reconstructions of the conventional log-matched filter estimate, Coates’ method followed by a Gaussian fit, Shin et al. on Coates-corrected measurements, and the proposed method.
@@ -45,7 +45,7 @@ Active 3D imaging systems have broad applications across disciplines, including 
 
 <div class="row">
 <div class="col-md-10 col-md-offset-1">
-<img src="img/publication/scirep2018heide/pileup4.jpg" style="padding: 10px;" class="img-responsive" alt="">
+<img src="" data-src="img/publication/scirep2018heide/pileup4.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
 </div>
 </div>
 **Optimal photon count regime.** Depth reconstruction accuracy for varying photon counts for the 450nm Alphalas LD-450-50 laser (FWHM of 90ps). The conventional log-matched filter, Coates’ method, and the proposed method are compared. The optimal number of photon counts lies around the unconventional region of 1 photon detected per pulse on average, independent of the impulse response and for a broad range of histogram bin widths, see Supplemental Results.
