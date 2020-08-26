@@ -78,7 +78,6 @@ a.active {
 
 h1,
 h2,
-h3
 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -86,6 +85,7 @@ h3
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+h3,
 h4,
 h5,
 h6 {
@@ -456,10 +456,6 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-
-h3 {
-    font-size: calc(10px + 0.8vw);
-}
 
 @media(min-width:768px) {
     section {
@@ -839,6 +835,10 @@ ul.publication-buttons li a:active {
         font-size: 14px;
         font-weight: 700;
         color: #fff;
+    }
+
+    .btn {
+        font-size: 3vw;
     }
 }
 
