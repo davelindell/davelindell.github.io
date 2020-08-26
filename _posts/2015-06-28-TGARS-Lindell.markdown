@@ -1,7 +1,8 @@
 ---
 title: Multiyear Arctic ice classification using OSCAT and QuikSCAT
 subtitle: IEEE Transactions on Geoscience and Remote Sensing (2015) 
-authors: David B. Lindell and David Long 
+brief: A technique to classify first-year and multiyear ice in the Arctic based on radar backscatter.
+authors: <strong>David B. Lindell</strong> and David Long 
 layout: default
 modal-id: 2015-1
 date: 2015-06-28

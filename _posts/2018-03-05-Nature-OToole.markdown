@@ -1,7 +1,8 @@
 ---
 title: Confocal non-line-of-sight imaging based on the light-cone transform 
 subtitle: Nature (2018) 
-authors: Matthew O'Toole, David B. Lindell, Gordon Wetzstein 
+brief: A confocal scanning technique solves the reconstruction problem of non-line-of-sight imaging to give fast and high-quality reconstructions of hidden objects. 
+authors: Matthew O'Toole, <strong>David B. Lindell</strong>, Gordon Wetzstein 
 layout: default
 modal-id: 2018-1
 date: 2018-03-05

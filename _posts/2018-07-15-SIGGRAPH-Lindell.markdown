@@ -1,7 +1,8 @@
 ---
 title: Single-photon 3D imaging with deep sensor fusion 
 subtitle: SIGGRAPH 2018  
-authors: David B. Lindell, Matthew O'Toole, Gordon Wetzstein 
+brief: Capturing 3D geometry with only single photons captured photons per scan position using deep neural networks.
+authors: <strong>David B. Lindell</strong>, Matthew O'Toole, Gordon Wetzstein 
 layout: default
 modal-id: 2018-3
 date: 2018-07-15

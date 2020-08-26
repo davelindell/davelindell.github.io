@@ -1,7 +1,8 @@
 ---
 title: "Deep adaptive LIDAR: End-to-end optimization of sampling and depth completion at low sampling rates"
 subtitle: ICCP 2020 
-authors: Alexander W. Bergman, David B. Lindell, Gordon Wetzstein 
+brief: An end-to-end differentiable depth imaging system which jointly optimizes the LiDAR scanning pattern and sparse depth inpainting.
+authors: Alexander W. Bergman, <strong>David B. Lindell</strong>, Gordon Wetzstein 
 layout: default
 modal-id: 2020-3
 date: 2020-04-26

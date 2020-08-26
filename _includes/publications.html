@@ -18,8 +18,13 @@
                     </div>
                     <div class="col-md-9">
                         <h4 class="publication-title">{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                        <i class="text-muted">{{ post.authors }}</i>
+                        <p class="name">{{ post.authors }}</p>
+                        <p class="venue">{{ post.subtitle }}</p>
+
+                        {% if post.brief %}
+                        <p class="brief">{{ post.brief }}</p>
+                        {% endif %}
+
                     </div>
                 </div>
             </a>

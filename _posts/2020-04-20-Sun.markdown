@@ -1,7 +1,8 @@
 ---
 title: "SPADnet: Deep RGB-SPAD sensor fusion assisted by monocular depth estimation"
 subtitle: Optics Express (2020)
-authors: Zhanghao Sun, David B. Lindell, Olav Solgaard, Gordon Wetzstein
+brief: A neural sensor fusion framework for robust 3D imaging with single-photon detectors.
+authors: Zhanghao Sun, <strong>David B. Lindell</strong>, Olav Solgaard, Gordon Wetzstein
 layout: default
 modal-id: 2020-2
 date: 2020-04-20

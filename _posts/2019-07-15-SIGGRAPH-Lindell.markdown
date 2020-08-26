@@ -1,7 +1,8 @@
 ---
 title: Wave-based non-line-of-sight imaging using fast f&#8211;k migration
 subtitle: SIGGRAPH 2019
-authors: David B. Lindell, Matthew O'Toole, Gordon Wetzstein
+brief: A robust, wave-based image formation model for the problem of non-line-of-sight (NLOS) imaging.
+authors: <strong>David B. Lindell</strong>, Matthew O'Toole, Gordon Wetzstein
 layout: default
 modal-id: 2019-3
 date: 2019-07-15

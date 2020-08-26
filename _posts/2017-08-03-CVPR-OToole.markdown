@@ -1,7 +1,8 @@
 ---
 title: Reconstructing transient images from single-photon sensors 
 subtitle: CVPR 2017 (Spotlight)
-authors: Matthew O'Toole, Felix Heide, David B. Lindell, Kai Zang, Steven Diamond, Gordon Wetzstein
+brief: Capturing light transport at billions of frames per second using ultra-sensitive photo-detectors.
+authors: Matthew O'Toole, Felix Heide, <strong>David B. Lindell</strong>, Kai Zang, Steven Diamond, Gordon Wetzstein
 layout: default
 modal-id: 2017-1
 date: 2017-08-03

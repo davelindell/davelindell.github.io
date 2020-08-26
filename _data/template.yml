@@ -1,13 +1,14 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: a30011 
-  secondary: 91000f 
-  secondary-dark: 48687f
+  secondary: 71000f 
+  secondary-dark: 444444 
   muted: 777
 
 # Font Families
 font:
-  header-size: calc(10px + 1.8vw) 
-  size: calc(12px  + 0.4vw)
+  header-size: 23px 
+  name-size: 20px
+  size: 18px
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'

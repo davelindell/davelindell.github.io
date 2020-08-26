@@ -1,7 +1,8 @@
 ---
 title: Acoustic non-line-of-sight imaging 
 subtitle: CVPR 2019 (oral)
-authors: David B. Lindell, Gordon Wetzstein, Vladlen Koltun
+brief: A novel approach to seeing around corners using acoustic echoes.
+authors: <strong>David B. Lindell</strong>, Gordon Wetzstein, Vladlen Koltun
 layout: default
 modal-id: 2019-2
 date: 2019-06-15 

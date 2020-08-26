@@ -1,7 +1,8 @@
 ---
 title: Multiyear Arctic ice classification using ASCAT and SSMIS 
 subtitle: Remote Sensing (2016) 
-authors: David B. Lindell and David Long 
+brief: Classification of first-year and multiyear ice in the Arctic using active radar and passive radiometers. 
+authors: <strong>David B. Lindell</strong> and David Long 
 layout: default
 modal-id: 2016-1
 date: 2016-03-25

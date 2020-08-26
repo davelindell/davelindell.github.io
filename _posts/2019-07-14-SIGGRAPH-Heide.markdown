@@ -1,7 +1,8 @@
 ---
 title: Non-line-of-sight imaging with partial occluders and surface normals 
 subtitle: ACM Transactions on Graphics 2019 
-authors: Felix Heide, Matthew O"Toole, Kai Zang, David B. Lindell, Steven Diamond, Gordon Wetzstein 
+brief: A new approach to non-line-of-sight imaging that estimates partial occlusions in the hidden volume along with surface normals.
+authors: Felix Heide, Matthew O"Toole, Kai Zang, <strong>David B. Lindell</strong>, Steven Diamond, Gordon Wetzstein 
 layout: default
 modal-id: 2019-1
 date: 2019-07-14

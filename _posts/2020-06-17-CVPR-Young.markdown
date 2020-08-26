@@ -1,7 +1,8 @@
 ---
 title: Non-line-of-sight surface reconstruction using the directional light-cone transform 
 subtitle: CVPR 2020 (oral)
-authors: Sean I. Young, David B. Lindell, Bernd Girod, David Taubman, Gordon Wetzstein
+brief: A joint albedo–normal approach to non-line-of-sight (NLOS) surface reconstruction using the directional light-cone transform (D-LCT).
+authors: Sean I. Young, <strong>David B. Lindell</strong>, Bernd Girod, David Taubman, Gordon Wetzstein
 layout: default
 modal-id: 2020-1
 date: 2020-06-10

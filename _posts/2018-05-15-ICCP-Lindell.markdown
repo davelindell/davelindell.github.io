@@ -1,7 +1,8 @@
 ---
 title: Towards transient imaging at interactive rates with single-photon detectors
 subtitle: ICCP 2018 
-authors: David B. Lindell, Matthew O'Toole, Gordon Wetzstein 
+brief: Capturing and reconstructing transient images with single-photon avalanche diodes (SPAD) at interactive rates.
+authors: <strong>David B. Lindell</strong>, Matthew O'Toole, Gordon Wetzstein 
 layout: default
 modal-id: 2018-2
 date: 2018-05-15

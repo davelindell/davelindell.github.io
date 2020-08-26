@@ -1,7 +1,8 @@
 ---
 title: Sub-picosecond photon-efficient 3D imaging using single-photon sensors 
-subtitle: Scientific Report (2018) 
-authors: Felix Heide, Steven Diamond, David B. Lindell, Gordon Wetzstein
+subtitle: Scientific Reports (2018) 
+brief: State-of-the-art depth estimation with pileup correction for single-photon avalanche diodes.
+authors: Felix Heide, Steven Diamond, <strong>David B. Lindell</strong>, Gordon Wetzstein
 layout: default
 modal-id: 2018-4
 date: 2018-12-07
