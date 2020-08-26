@@ -77,7 +77,7 @@ a.active {
 }
 
 h1,
-h2,
+h2
 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
