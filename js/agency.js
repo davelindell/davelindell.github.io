@@ -68,3 +68,13 @@ $('div.modal').each(function () {
     });   
 });
 
+
+// https://stackoverflow.com/questions/41971131/linking-directly-to-an-open-modal-window-through-a-url
+$(document).ready(() => {
+    const href = window.location.href
+    const modalID = href.split('/').reverse()[0]
+    if(modalID){
+        $(modalID).modal('show')
+    }
+  })
+
