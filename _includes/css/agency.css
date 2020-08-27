@@ -521,7 +521,10 @@ h4.publication-title {
 }
 
 #publication .publication-img {
-    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 150px;
+    padding: 10px;
 }
 
 
@@ -861,8 +864,10 @@ ul.publication-buttons li a:active {
 }
 
 .modal-img {
-    max-height: 200px;
-    padding: 5px
+    max-height: 400px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .publication-modal .modal-content {

@@ -30,8 +30,8 @@ code-link: https://github.com/computational-imaging/nlos-dlct
 We propose a joint albedo–normal approach to non-line-of-sight (NLOS) surface reconstruction using the directional light-cone transform (D-LCT). While current NLOS imaging methods reconstruct either the albedo or surface normals of the hidden scene, the two quantities provide complementary information of the scene, so an efficient method to estimate both simultaneously is desirable. We formulate the recovery of the two quantities as a vector deconvolution problem, and solve it using the Cholesky–Wiener decomposition. We show that surfaces fitted non-parametrically using our recovered normals are more accurate than those produced with NLOS surface reconstruction methods recently proposed, and are 1,000× faster to compute than using inverse rendering.
 {: style="text-align: left;" }
 
-<img src="" data-src="img/publication/cvpr2020young/dlct_1.jpg" style="padding: 0px;" class="lazy_load img-responsive" alt="">
-<img src="" data-src="img/publication/cvpr2020young/dlct_2.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<img src="" data-src="img/publication/cvpr2020young/dlct_1.jpg" style="padding: 0px;" class="lazy_load img-responsive modal-img" alt="">
+<img src="" data-src="img/publication/cvpr2020young/dlct_2.jpg" style="padding: 10px;" class="lazy_load img-responsive modal-img" alt="">
 
 **NLOS surface reconstruction via the D-LCT:** Existing NLOS imaging methods typically recover only the albedo of the hidden scene. Ae Directional LCT recovers both the albedo (a) and the surface normals (b) of the scene, allowing us to reconstruct the hidden object surface with finer detail (c).
 {: style="text-align: left;" }
