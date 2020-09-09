@@ -9,8 +9,8 @@ date: 2020-09-08
 img: natcommun2020lindell.png
 thumbnail: natcommun2020lindell.png
 alt: image-alt
-pdf-link: 
-supp-link: 
+pdf-link: https://www.nature.com/articles/s41467-020-18346-3
+supp-link: https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-18346-3/MediaObjects/41467_2020_18346_MOESM1_ESM.pdf 
 code-link: https://github.com/computational-imaging/confocal-diffuse-tomography  
 video-link: https://www.youtube.com/watch?v=uyuCyzV0pdM&feature=emb_title
 
