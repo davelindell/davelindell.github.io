@@ -12,6 +12,8 @@ mysocial:
 
 news:
   - title: Sep 2020
+    text: Our paper on [Sinusoidal Representation Networks (SIREN)](https://vsitzmann.github.io/siren/) was accepted as an oral to NeurIPS (1% acceptance rate).
+  - title: Sep 2020
     text: My paper on imaging through scattering media was published in [Nature Communications](https://www.nature.com/articles/s41467-020-18346-3) and featured in [Stanford News](https://news.stanford.edu/2020/09/09/seeing-objects-clouds-fog/).
   - title: Aug 2020
     text: My thesis presentation "Computational Single-Photon Imaging" received the [honorable mention award at the SIGGRAPH Thesis Fast Forward](https://s2020.siggraph.org/conference/program-events/graduate-cohorts/thesis-fast-forward/)!
