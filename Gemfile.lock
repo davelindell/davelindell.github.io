@@ -278,15 +278,19 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bibtex-ruby
   github-pages
-  jekyll
+  jekyll (>= 3.1.0)
   jekyll-email-protect
   jekyll-github-metadata
   jekyll-paginate-v2
   jekyll-scholar
   jekyll-twitter-plugin
   jemoji
+  tzinfo (~> 1.2)
+  tzinfo-data
   unicode_utils
+  wdm (~> 0.1.1)
 
 BUNDLED WITH
    2.1.4
