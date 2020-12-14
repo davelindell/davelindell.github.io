@@ -257,19 +257,19 @@ publisher={Nature Publishing Group}
 ### Related Projects 
 <p style="text-align: left; margin-bottom: 3px;"> You may also be interested in related projects, where we have developed non-line-of-sight imaging systems:
 <ul style="text-align: left;">
-<li><a href="dlct" data-dismiss="modal" data-toggle="modal">Young et al. 2020. Non-line-of-sight Surface Reconstruction using the Directional Light-cone Transform. CVPR</a></li>
-<li><a href="nlos-fk" data-dismiss="modal" data-toggle="modal">Lindell et al. 2019. Wave-based Non-line-of-sight Imaging using Fast f-k Migration. ACM SIGGRAPH</a></li>
-<li><a href="occlusion-nlos" data-dismiss="modal" data-toggle="modal">Heide et al. 2019. Non-line-of-sight Imaging with Partial Occluders and Surface Normals. ACM Transactions on Graphics (presented at SIGGRAPH)</a></li>
-<li><a href="acoustic-nlos" data-dismiss="modal" data-toggle="modal">Lindell et al. 2019. Acoustic Non-line-of-sight Imaging. CVPR</a></li>
-<li><a href="nlos-lct" data-dismiss="modal" data-toggle="modal">O’Toole et al. 2018. Confocal Non-line-of-sight Imaging based on the Light-cone Transform. Nature</a></li>
+<li><a href="/publications/dlct">Young et al. 2020. Non-line-of-sight Surface Reconstruction using the Directional Light-cone Transform. CVPR</a></li>
+<li><a href="/publications/nlos-fk">Lindell et al. 2019. Wave-based Non-line-of-sight Imaging using Fast f-k Migration. ACM SIGGRAPH</a></li>
+<li><a href="/publications/occlusion-nlos">Heide et al. 2019. Non-line-of-sight Imaging with Partial Occluders and Surface Normals. ACM Transactions on Graphics (presented at SIGGRAPH)</a></li>
+<li><a href="/publications/acoustic-nlos">Lindell et al. 2019. Acoustic Non-line-of-sight Imaging. CVPR</a></li>
+<li><a href="/publications/nlos-lct">O’Toole et al. 2018. Confocal Non-line-of-sight Imaging based on the Light-cone Transform. Nature</a></li>
 </ul>
 </p>
 
 <p style="text-align: left; margin-bottom: 3px;"> and direct line-of-sight or transient imaging systems:
 <ul style="text-align: left;">
-<li><a href="adaptive-lidar" data-dismiss="modal" data-toggle="modal">Bergman et al. 2020. Deep Adaptive LiDAR: End-to-end Optimization of Sampling and Depth Completion at Low Sampling Rates. ICCP</a></li>
-<li><a href="spad-pileup" data-dismiss="modal" data-toggle="modal">Heide et al. 2019. Sub-picosecond photon-efficient 3D imaging using single-photon sensors. Scientific Reports</a></li>
-<li><a href="single-photon-3d" data-dismiss="modal" data-toggle="modal">Lindell et al. 2018. Single-Photon 3D Imaging with Deep Sensor Fusions. ACM SIGGRAPH</a></li>
-<li><a href="spad-transient" data-dismiss="modal" data-toggle="modal">O’Toole et al. 2017. Reconstructing Transient Images from Single-Photon Sensors. CVPR</a></li>
+<li><a href="/publications/adaptive-lidar">Bergman et al. 2020. Deep Adaptive LiDAR: End-to-end Optimization of Sampling and Depth Completion at Low Sampling Rates. ICCP</a></li>
+<li><a href="/publications/spad-pileup">Heide et al. 2019. Sub-picosecond photon-efficient 3D imaging using single-photon sensors. Scientific Reports</a></li>
+<li><a href="/publications/single-photon-3d">Lindell et al. 2018. Single-Photon 3D Imaging with Deep Sensor Fusions. ACM SIGGRAPH</a></li>
+<li><a href="/publications/spad-transient">O’Toole et al. 2017. Reconstructing Transient Images from Single-Photon Sensors. CVPR</a></li>
 </ul>
 </p>
