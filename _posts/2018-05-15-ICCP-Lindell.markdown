@@ -3,15 +3,16 @@ title: Towards transient imaging at interactive rates with single-photon detecto
 subtitle: ICCP 2018 
 brief: Capturing and reconstructing transient images with single-photon avalanche diodes (SPAD) at interactive rates.
 authors: <strong>David B. Lindell</strong>, Matthew O'Toole, Gordon Wetzstein 
-layout: default
-modal-id: 2018-2
+layout: pub 
 date: 2018-05-15
 img: iccp2018lindell.png 
 thumbnail: iccp2018lindell.png
+permalink: publications/transient-interactive
 alt: image-alt
 pdf-link: https://drive.google.com/a/stanford.edu/file/d/1b2Ls8bUghMl2h8gZMnhgfSYbbRHb83RD/view?usp=sharing
 pres-link: https://www.youtube.com/watch?time_continue=2607&v=pgZ3HiNaF4k 
 video-link: https://www.youtube.com/watch?v=i6Z3NDgXLec 
+code-link: https://drive.google.com/open?id=1a8hOU47hFulTZi6Z0XSVERSpjhXFRDiO 
 
 ---
 
@@ -26,20 +27,23 @@ Active imaging at the picosecond timescale reveals transient light transport eff
 ### Presentation
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/pgZ3HiNaF4k?start=2606" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pgZ3HiNaF4k?start=2606" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/i6Z3NDgXLec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/i6Z3NDgXLec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 ### Dataset
 <ul class="list-inline" style="font-size: 22px;">
 <li><a href="https://drive.google.com/open?id=15AihIXGECnNzJnjjfYliCJrmRjqt8abH">Raw Data</a></li>
 <li><a href="https://drive.google.com/open?id=1a8hOU47hFulTZi6Z0XSVERSpjhXFRDiO">Processing Code</a></li>
 </ul>
+<br>
 
 ### Acknowledgments
 - - -

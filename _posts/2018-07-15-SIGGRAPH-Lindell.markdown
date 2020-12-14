@@ -3,11 +3,11 @@ title: Single-photon 3D imaging with deep sensor fusion
 subtitle: SIGGRAPH 2018  
 brief: Capturing 3D geometry with only single photons captured photons per scan position using deep neural networks.
 authors: <strong>David B. Lindell</strong>, Matthew O'Toole, Gordon Wetzstein 
-layout: default
-modal-id: 2018-3
+layout: pub 
 date: 2018-07-15
 img: siggraph2018lindell.jpg 
 thumbnail: siggraph2018lindell.jpg
+permalink: publications/single-photon-3d
 alt: image-alt
 pdf-link: https://drive.google.com/file/d/1eTIawad7GFob3p5nuxrDcO7FMtL3AzSt/view
 supp-link: https://drive.google.com/file/d/1DtFQKKaPoP4Btj1Nv6DowuWC_JBBa-cT/view
@@ -20,8 +20,9 @@ video-link: https://www.youtube.com/watch?v=dg_73m4e_Js
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/dg_73m4e_Js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dg_73m4e_Js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 ### Abstract
 - - -
@@ -33,22 +34,22 @@ In this paper, we propose a data-driven method for photon-efficient 3D imaging w
 
 ### Slides
 - - -
-<iframe src="" data-src="//www.slideshare.net/slideshow/embed_code/key/5nsXEnwWwAnawG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" class="lazy_load" allowfullscreen> </iframe> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/5nsXEnwWwAnawG" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" class="lazy_load" allowfullscreen> </iframe> 
 
 
 ### Overview
 - - -
 <div class="row">
-<div class="col-md-10 col-md-offset-1">
-<img src="" data-src="img/publication/siggraph2018lindell/cnn_illustration.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="col-md-10 mx-auto">
+<img src="/assets/img/publication/siggraph2018lindell/cnn_illustration.png" style="padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 Convolutional Neural Network architecture for depth estimation and image guided upsampling from captured photon counts and intensity image.
 {: style="text-align: left;" }
 
 <div class="row">
-<div class="col-md-8 col-md-offset-2">
-<img src="" data-src="img/publication/siggraph2018lindell/hardware_ps.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="col-md-8 mx-auto">
+<img src="/assets/img/publication/siggraph2018lindell/hardware_ps.jpg" style="padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 Single-photon imaging prototype showing the imaging optics and illumination optics.

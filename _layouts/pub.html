@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
+  </head>
+
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Header -->
+
+    {% include header.html %}
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+            <h3>{{ page.title }}</h3>
+          <p class="name"> {{ page.authors }} </p>
+          <ul class="list-inline">
+
+              {% if page.pdf-link %}
+              <li class="list-inline-item"> 
+                  <a class="btn" target="_blank" title="Download PDF" href="{{ page.pdf-link }}"><i class="fa fa-lg fa-file-pdf"></i> PDF</a>
+              </li>
+              {% endif %}
+
+              {% if page.supp-link %}
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Download Supplement" href="{{ page.supp-link }}"><i class="fa fa-lg fa-file"></i> Supplement</a>
+              </li>
+              {% endif %}
+
+              {% if page.code-link %}
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Code" href="{{ page.code-link }}"><i class="fa fa-lg fa-code"></i> Code</a>
+              </li>
+              {% endif %}
+
+              {% if page.pres-link %}
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Conference Presentation" href="{{ page.pres-link  }}"><i class="fa fa-lg fa-user"></i> Presentation</a>
+              </li>
+              {% endif %}
+
+
+              {% if page.video-link %}
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Video" href="{{ page.video-link  }}"><i class="fa fa-lg fa-video"></i> Video</a>
+              </li>
+              {% endif %}
+
+          </ul>
+
+          {% if page.social %}
+          <ul class="list-inline">
+              {% for item in page.social %}
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="{{ item.url }}" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/{{ item.img }}"/></a>
+              </li>
+              {% endfor %}
+          </ul>
+          {% endif %}
+
+        </div>
+      </div>
+
+      <hr class="star-primary">
+      <div class="row">
+        <div class="center-block col-sm-8 mx-auto">
+          <img src="/assets/img/publication/{{ page.img }}" class="img-fluid" alt="{{ page.alt }}">
+        </div>
+      </div>
+      <hr class="star-primary">
+
+
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+  </body>
+
+  {% include scripts/jquery.html %}
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+
+</html>

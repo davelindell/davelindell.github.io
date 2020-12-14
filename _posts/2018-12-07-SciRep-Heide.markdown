@@ -3,11 +3,11 @@ title: Sub-picosecond photon-efficient 3D imaging using single-photon sensors
 subtitle: Scientific Reports (2018) 
 brief: State-of-the-art depth estimation with pileup correction for single-photon avalanche diodes.
 authors: Felix Heide, Steven Diamond, <strong>David B. Lindell</strong>, Gordon Wetzstein
-layout: default
-modal-id: 2018-4
+layout: pub 
 date: 2018-12-07
 img: scirep2018heide.png
 thumbnail: scirep2018heide.png
+permalink: publications/spad-pileup
 alt: image-alt
 pdf-link: https://www.nature.com/articles/s41598-018-35212-x 
 supp-link: https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-018-35212-x/MediaObjects/41598_2018_35212_MOESM1_ESM.pdf 
@@ -29,24 +29,24 @@ Active 3D imaging systems have broad applications across disciplines, including 
 {: style="text-align: left;" }
 
 <div class="row">
-<div class="col-md-10 col-md-offset-1">
-<img src="" data-src="img/publication/scirep2018heide/pileup2.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="col-md-10 mx-auto">
+<img src="/assets/img/publication/scirep2018heide/pileup2.jpg" style="padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 **Experimental reconstructions.** A recorded spatio-temporal distribution of photon counts (a,e) is processed to estimate a 3D point cloud (b,c,f,g) that contains both depth and albedo information, here shown for two different scenes (photographs shown in (d,h)). The color-coded errors maps (d,h) directly compare the results of several depth estimation techniques, including log-matched filtering, Coates’ method followed by Gaussian fit (on high-flux measurement), and the proposed method.
 {: style="text-align: left;" }
 
 <div class="row">
-<div class="col-md-10 col-md-offset-1">
-<img src="" data-src="img/publication/scirep2018heide/pileup3.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="col-md-10 mx-auto">
+<img src="/assets/img/publication/scirep2018heide/pileup3.jpg" style="padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 **Experimental validation of sub-picosecond accuracy on recorded single-pixel data without spatial priors.** The average depth and round-trip time error for two scenes are shown, for the 450nm Alphalas LD450-50 laser (FWHM of 90ps) and the 670nm Alphalas LD-670-50 laser (FWHM of 50ps), respectively. The background level is 5% for all scenes. We compare reconstructions of the conventional log-matched filter estimate, Coates’ method followed by a Gaussian fit, Shin et al. on Coates-corrected measurements, and the proposed method.
 {: style="text-align: left;" }
 
 <div class="row">
-<div class="col-md-10 col-md-offset-1">
-<img src="" data-src="img/publication/scirep2018heide/pileup4.jpg" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="col-md-10 mx-auto">
+<img src="/assets/img/publication/scirep2018heide/pileup4.jpg" style="padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 **Optimal photon count regime.** Depth reconstruction accuracy for varying photon counts for the 450nm Alphalas LD-450-50 laser (FWHM of 90ps). The conventional log-matched filter, Coates’ method, and the proposed method are compared. The optimal number of photon counts lies around the unconventional region of 1 photon detected per pulse on average, independent of the impulse response and for a broad range of histogram bin widths, see Supplemental Results.

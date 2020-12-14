@@ -3,11 +3,11 @@ title: High-resolution soil moisture retrieval with ASCAT
 subtitle: IEEE Geoscience and Remote Sensing Letters (2016)
 brief: Estimation of soil moisture using satellite-based radar. 
 authors: <strong>David B.Lindell</strong> and David Long
-layout: default
-modal-id: 2016-2
+layout: pub 
 date: 2016-05-06
 img: grsl2016lindell.png 
 thumbnail: grsl2016lindell.png 
+permalink: publications/ascat-soil
 alt: image-alt
 pdf-link: https://ieeexplore.ieee.org/document/7466093
 code-link: "https://github.com/davelindell/soil_moisture"

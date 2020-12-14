@@ -3,11 +3,11 @@ title: "Deep adaptive LIDAR: End-to-end optimization of sampling and depth compl
 subtitle: ICCP 2020 
 brief: An end-to-end differentiable depth imaging system which jointly optimizes the LiDAR scanning pattern and sparse depth inpainting.
 authors: Alexander W. Bergman, <strong>David B. Lindell</strong>, Gordon Wetzstein 
-layout: default
-modal-id: 2020-3
+layout: pub 
 date: 2020-04-26
 img: iccp2020bergman.png 
 thumbnail: iccp2020bergman.png 
+permalink: publications/adaptive-lidar
 alt: image-alt
 pdf-link: http://www.computationalimaging.org/wp-content/uploads/2020/03/deep-adaptive-lidar.pdf 
 supp-link: http://www.computationalimaging.org/wp-content/uploads/2020/03/deep-adaptive-lidar-supp.pdf
@@ -26,26 +26,26 @@ Current LiDAR systems are limited in their ability to capture dense 3D point clo
 
 ### Network Model 
 - - -
-<img src="" data-src="img/publication/iccp2020bergman/dal_methods_figure.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<img src="" src="/assets/img/publication/iccp2020bergman/dal_methods_figure.png" style="padding: 10px;" class="img-fluid" alt="">
 
 The deep adaptive LiDAR model takes as input an RGB image and predicts an optimal sampling pattern and reconstructed dense depth from sampling at these locations. A pre-trained monocular depth estimation network is used to make an initial estimate of depth in the scene. A U-Net is used to extract a sampling importance vector field, which is then integrated and used for sampling from the scene. Another U-Net is used to fuse the coarsely inpainted sparse depth samples with the monocular depth estimate in order to predict the dense depth.
 {: style="text-align: left;" }
 
 ### Adaptive Sampling
 - - -
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 60%; margin-left: auto; margin-right: auto;" src="" data-src="img/publication/iccp2020bergman/sample1.webm" type="video/webm" class="lazy_load">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 60%; margin-left: auto; margin-right: auto;" src="" src="/assets/img/publication/iccp2020bergman/sample1.webm" type="video/webm" class="lazy_load">
 </video>
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 60%; margin-left: auto; margin-right: auto;" src="" data-src="img/publication/iccp2020bergman/sample2.webm" type="video/webm" class="lazy_load">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 60%; margin-left: auto; margin-right: auto;" src="" src="/assets/img/publication/iccp2020bergman/sample2.webm" type="video/webm" class="lazy_load">
 </video>
-
+<br>
 **Optimal sampling patterns:** Depth estimations and predicted sparse sampling patterns for the KITTI validation dataset. The left column contains RGB image and ground truth depth measurements, and the right column contains the reconstructed depth images and the predicted sparse sampling patterns in order to reconstruct those depth images. RMSE is measured in millimeters.
 {: style="text-align: left;" }
 
 ### Depth Completion
 NYU-v2 and KITTI Examples
 - - -
-<img src="" data-src="img/publication/iccp2020bergman/kitti_comparison_figure.png" style="padding: 10px;" class="lazy_load img-responsive modal-img" alt="">
-<img src="" data-src="img/publication/iccp2020bergman/nyu_comparison_figure.png" style="padding: 10px;" class="lazy_load img-responsive modal-img" alt="">
+<img src="" src="/assets/img/publication/iccp2020bergman/kitti_comparison_figure.png" style="padding: 10px;" class="img-fluid" alt="">
+<img src="" src="/assets/img/publication/iccp2020bergman/nyu_comparison_figure.png" style="padding: 10px;" class="img-fluid" alt="">
 
 **Depth completion results:** (Top) Depth completion examples with RMSE (m) from the NYU-Depth-v2 dataset with comparisons to state-of-the-art depth completion methods. These results were obtained with an average of 50 samples per image. (Bottom) Depth completion examples with RMSE (mm) from the KITTI dataset with comparisons to state-of-the-art depth completion methods. These results were obtained with an average of 156 samples per image. Even when our method is out-performed, our reconstructed depth images still capture high frequency depth features with more accuracy. 
 {: style="text-align: left;" }

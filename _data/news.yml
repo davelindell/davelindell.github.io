@@ -1,0 +1,53 @@
+- date: 2020-12-03 
+  content: Our method to solve integral equations with neural networks is out! <a href="/publications/autoint">AutoInt&#58; Automatic integration for fast neural volume rendering.</a>
+- date: 2020-09-01 
+  content: Our paper on [Sinusoidal Representation Networks (SIREN)](https://vsitzmann.github.io/siren/) was accepted as an oral to NeurIPS (1% acceptance rate).
+- date: 2020-09-01 
+  content: My paper on imaging through scattering media was published in [Nature Communications](https://www.nature.com/articles/s41467-020-18346-3) and featured in [Stanford News](https://news.stanford.edu/2020/09/09/seeing-objects-clouds-fog/).
+- date: 2020-08-01 
+  content: My thesis presentation "Computational Single-Photon Imaging" received the [honorable mention award at the SIGGRAPH Thesis Fast Forward](https://s2020.siggraph.org/conference/program-events/graduate-cohorts/thesis-fast-forward/)!
+- date: 2020-08-01 
+  content: My course on [Computational time-resolved imaging, single-photon sensing, and non-line-of-sight imaging](https://dl.acm.org/doi/abs/10.1145/3388769.3407481) is live at SIGGRAPH! I'm joined by excellent instructors Matthew O'Toole, Ramesh Raskar, and Srinivas Narasimhan.
+- date: 2020-07-01 
+  content: 
+    <div> 
+    <p>
+    Our paper on 
+    <a href="#publication-2020-4" data-toggle="modal">3D imaging with an RGB camera and a single SPAD transient was accepted to ECCV!</a>
+    </p>
+    </div>
+- date: 2020-07-01 
+  content: I was recognized as an [outstanding reviewer](http://cvpr2020.thecvf.com/reviewer-acknowledgements) for CVPR 2020! (136/3663 reviewers selected)
+- date: 2020-06-01 
+  content: 
+    <div>
+    <p>
+      Three papers accepted recently! 
+      <a href="#publication-2020-1" data-toggle="modal">Non-line-of-sight Surface Reconstruction Using the Directional Light-cone Transform</a>
+      (Oral @ CVPR 2020),
+      <a href="#publication-2020-2" data-toggle="modal">SPADnet&#58; deep RGB-SPAD sensor fusion assisted by monocular depth estimation</a>
+     (Optics Express), and
+      <a href="#publication-2020-3" data-toggle="modal">Deep Adaptive LiDAR&#58; End-to-end Optimization of Sampling and Depth Completion at Low Sampling Rates</a>
+      (ICCP 2020).
+    </p>
+    </div>
+- date: 2020-05-01 
+  content: I'm co-chairing the 9th annual [Computational Cameras and Displays workshop](http://ccd2020.cms.caltech.edu/) at CVPR 2020 with [Achuta Kadambi](https://visual.ee.ucla.edu/) and [Katie Bouman](http://users.cms.caltech.edu/~klbouman/).
+- date: 2020-03-01 
+  content: "Update: My talk is featured on the [TED website](https://go.ted.com/davidlindell) with nearly a quarter million views!"
+- date: 2020-01-01 
+  content: My TedxBeaconStreet talk on "a camera to see around corners" is up on [YouTube](https://www.youtube.com/watch?v=ytxZc1WBtjI)!
+- date: 2019-05-01 
+  content: 
+    <div>
+    <p>
+    Two papers accepted! 
+    <a href="#publication-2019-2" data-toggle="modal">Acoustic Non-Line-of-Sight Imaging</a>
+    was accepted as an oral to CVPR, and
+    <a href="#publication-2019-3" data-toggle="modal">Wave-Based Non-Line-of-Sight Imaging Using Fast f-k Migration</a>
+    was accepted to SIGGRAPH. </p>
+    </div>
+- date: 2018-06-01 
+  content: I'm interning at the Intelligent Systems Lab at Intel this summer with [Vladlen Koltun](http://vladlen.info).
+- date: 2018-03-01 
+  content: Our paper on Seeing around corners was published in [Nature](http://rdcu.be/ImAZ)!

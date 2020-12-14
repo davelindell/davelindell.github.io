@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  <head>
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
+  </head>
 
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    <body id="page-top" class="index">
+    <!-- Header -->
 
     {% include header.html %}
-    {% include about.html %}
-    {% include news.html %}
-    {% include publications.html %}
-    {% include education.html %}
-    {% include talks.html %}
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
 
-    </body>
+    <!-- Content -->
+
+    <div class="container mt-5">
+      {{ content }}
+    </div>
+
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+  </body>
+
+  {% include scripts/jquery.html %}
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+
 </html>

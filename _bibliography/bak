@@ -1,0 +1,203 @@
+---
+---
+
+@article{metzler2020keyhole,
+  abbr={TCI},
+  title={Keyhole imaging: Non-line-of-sight imaging and tracking of moving objects along a single optical path at long standoff distances},
+  author={Metzler, C. A. and Lindell, D. B. and Wetzstein, G.},
+  journal={IEEE Trans. Comput. Imag.},
+  addendum = {(Accepted)},
+  year={2020},
+}
+
+@article{lindell2020three,
+  abbr={Nat. Commun.},
+  title={Three-dimensional imaging through scattering media based on confocal diffuse tomography},
+  author={Lindell, D. B. and Wetzstein, G.},
+  journal={Nature Communications},
+  year={2020},
+  volume={11},
+  number={4517},
+  selected={true}
+}
+
+@inproceedings{sitzmann2020siren,
+    abbr={NeurIPS},
+    author = {Sitzmann, V. and Martel, J. N. P. and Bergman, A. W. and Lindell, D. B. and Wetzstein, G.},
+    title = {Implicit Neural Representations
+              with Periodic Activation Functions},
+    booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+    addendum = {\bf{(Oral)}},
+    year={2020},
+    selected={true}
+}
+
+@inproceedings{nishimura2020,
+  abbr={ECCV},
+  title={Disambiguating Monocular Depth Estimation with a Single Transient},
+  author={M. Nishimura and D. B. Lindell and C. Metzler and G. Wetzstein},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2020},
+}
+
+@inproceedings{bergman2020deep,
+  abbr={ICCP},
+  title={Deep Adaptive {LiDAR}: End-to-end Optimization of Sampling and Depth Completion at Low Sampling Rates},
+  author={Bergman, A. W. and Lindell, D. B. and Wetzstein, G.},
+  booktitle={IEEE International Conference on Computational Photography (ICCP)},
+  year={2020},
+}
+
+@inproceedings{young2020,
+abbr={CVPR},
+author = {Young, S. I. and Lindell, D. B. and B. Girod and D. Taubman and G. Wetzstein},
+title = {Non-line-of-sight surface reconstruction using the directional light-cone transform},
+booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+addendum = {\bf{(Oral)}},
+year = {2020},
+volume={},
+number={},
+_venue={},
+}
+
+@article{sun2020spadnet,
+  abbr={Opt. Express},
+  title={{SPADnet}: Deep {RGB-SPAD} sensor fusion assisted by monocular depth estimation},
+  author={Sun, Z. and Lindell, D. B. and Solgaard, O. and Wetzstein, G.},
+  journal={Optics Express},
+  volume={28},
+  number={10},
+  pages={14948--14962},
+  year={2020},
+  publisher={Optical Society of America}
+}
+
+@article{lindell2019fk,
+abbr={SIGGRAPH},
+author = {Lindell, D. B. and G. Wetzstein and O'Toole, M.},
+title = {Wave-based non-line-of-sight imaging using fast f-k migration},
+journal = {ACM Trans. Graph. (SIGGRAPH)},
+year={2019},
+volume = {38},
+number = {4},
+pages={},
+_venue={ACM TOG},
+}
+
+@inproceedings{lindell2019acoustic,
+abbr={CVPR},
+author = {Lindell, D. B. and G. Wetzstein and Koltun, V.},
+title = {Acoustic non-line-of-sight imaging},
+booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+addendum = {\bf{(Oral)}},
+year = {2019},
+volume={},
+number={},
+_venue={},
+}
+
+@article{heide2019,
+abbr={ACM TOG},
+author = {F. Heide and M. O'Toole and K. Zang and Lindell, D. B. and S. Diamond and G. Wetzstein},
+title = {Non-line-of-sight Imaging with Partial Occluders and Surface Normals},
+journal = {ACM Trans. Graph.},
+year={2019},
+volume={},
+number={},
+pages={},
+_venue={ACM TOG},
+}
+
+@article{Lindell20183d,
+abbr={SIGGRAPH},
+author = {Lindell, D. B. and M. O’Toole and G. Wetzstein},
+title = {Single-Photon {3D} Imaging with Deep Sensor Fusion},
+journal = {ACM Trans. Graph. (SIGGRAPH)},
+year = {2018},
+volume = {37},
+number = {4},
+_venue={SIGGRAPH},
+}
+
+@article{heide2018,
+abbr={Sci. Rep.},
+author = {Heide, F. and Diamond, S. and Lindell, D. B. and Wetzstein, G.},
+title = {Sub-picosecond photon-efficient {3D} imaging using single-photon sensors},
+journal = {Scientific Reports},
+year = {2018},
+volume = {8},
+number={17726},
+_venue={},
+}
+
+@article{otoole2018,
+abbr={Nature},
+author = {M. O’Toole and Lindell, D. B. and G. Wetzstein},
+title = {Confocal Non-Line-of-Sight Imaging Based on the Light Cone Transform},
+journal = {Nature},
+year = {2018},
+volume={555},
+number={7696},
+pages={338},
+_venue={},
+selected={true}
+}
+
+@inproceedings{lindell2018spad,
+abbr={ICCP},
+author = {Lindell, D. B. and M. O’Toole and G. Wetzstein},
+title = {Towards Transient Imaging at Interactive Rates with Single-Photon Detectors},
+booktitle = {IEEE International Conference on Computational Photography (ICCP)},
+year = {2018},
+volume={},
+number={},
+_venue={ICCP},
+}
+
+@inproceedings{otoole2017, 
+abbr={CVPR},
+author={M. O'Toole and F. Heide and Lindell, D. B. and K. Zang and S. Diamond and G. Wetzstein}, 
+_venue={CVPR},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+addendum = {\bf{(Spotlight)}},
+title={Reconstructing Transient Images from Single-Photon Sensors}, 
+year={2017}, 
+volume={},
+number={},
+pages={},}
+
+@article{lindell2016soil, 
+abbr={TGRS},
+author={D. B. Lindell and D. G. Long}, 
+journal={IEEE Geosci. Remote Sens. Lett.}, 
+_venue={GRSL},
+title={High-Resolution Soil Moisture Retrieval With {ASCAT}}, 
+year={2016}, 
+volume={13}, 
+number={7}, 
+pages={972-976}, 
+}
+
+@article{lindell2016ascat,
+abbr={Remote Sens.},
+author = {Lindell, D. B. and Long, D. G.},
+title = {Multiyear {A}rctic Ice Classification Using {ASCAT} and {SSMIS}},
+_venue={MDPI},
+journal = {Remote Sensing},
+volume = {8},
+year = {2016},
+number = {4},
+pages = {294},
+}
+
+@article{lindell2016oscat, 
+abbr={TGARS},
+author={D. B. Lindell and D. G. Long}, 
+journal={IEEE Trans. Geosci. Remote Sens.}, 
+title={Multiyear {A}rctic Sea Ice Classification Using {OSCAT} and {QuikSCAT}}, 
+_venue={TGARS},
+year={2016}, 
+volume={54}, 
+number={1}, 
+pages={167-175}, 
+}

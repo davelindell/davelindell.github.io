@@ -3,11 +3,11 @@ title: Wave-based non-line-of-sight imaging using fast f&#8211;k migration
 subtitle: SIGGRAPH 2019
 brief: A robust, wave-based image formation model for the problem of non-line-of-sight (NLOS) imaging.
 authors: <strong>David B. Lindell</strong>, Matthew O'Toole, Gordon Wetzstein
-layout: default
-modal-id: 2019-3
+layout: pub 
 date: 2019-07-15
 img: siggraph2019lindell.png
 thumbnail: siggraph2019lindell.png
+permalink: publications/nlos-fk
 alt: image-alt
 pdf-link: https://drive.google.com/a/stanford.edu/file/d/1IizX1BXRICwBEJdGNu_bFaZ6oq4E92hQ/view?usp=sharing
 supp-link: https://drive.google.com/a/stanford.edu/file/d/1d_aY09rBeZRpup9-XxPkILbND4QESO7l/view?usp=sharing
@@ -35,8 +35,9 @@ social:
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="lazy_load embed-repsonsive-item" src="" data-src="https://www.youtube.com/embed/BVYfzLXUi48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-repsonsive-item" src="" src="https://www.youtube.com/embed/BVYfzLXUi48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 ### Abstract
 - - -
@@ -48,13 +49,14 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 
 ### Slides 
 - - -
-<iframe src="" data-src="//www.slideshare.net/slideshow/embed_code/key/BZlW4Y804NNvbr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" class="lazy_load" allowfullscreen> </iframe>  
+<iframe src="" src="//www.slideshare.net/slideshow/embed_code/key/BZlW4Y804NNvbr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>  
 
+<br>
 ### Reconstructing Hidden Objects
 - - -
 <div class="row">
-<div class="col-md-6 col-md-offset-3">
-<img src="" data-src="img/publication/siggraph2019lindell/illustration.png" style="height: 300; padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/illustration.png" style="height: 300; padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 
@@ -66,52 +68,54 @@ Inspired by inverse methods used in seismology, we adapt a frequency-domain meth
 <div class="container">
 <div class="row">
 <div class="col-xs-4 col-md-4">
-<img src="" data-src="img/publication/siggraph2019lindell/teaser_1.png" class="lazy_load modal-img img-responsive" alt="">
+<img src="" src="/assets/img/publication/siggraph2019lindell/teaser_1.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="" data-src="img/publication/siggraph2019lindell/meas_slice.gif" class="lazy_load modal-img img-responsive" alt="">
+<img src="" src="/assets/img/publication/siggraph2019lindell/meas_slice.gif" class="img-fluid" alt="">
 </div>
 <div class="col-xs-4 col-md-4">
-<img src="" data-src="img/publication/siggraph2019lindell/teaser_stolt.gif" class="lazy_load modal-img img-responsive" alt="">
+<img src="" src="/assets/img/publication/siggraph2019lindell/teaser_stolt.gif" class="img-fluid" alt="">
 </div>
 </div>
 </div>
-
+<br>
 **Room-sized Reconstruction:** We capture measurements of this hidden room-sized scene and accurately reconstruct the geometry
 {: style="text-align: left;" }
 
 ### Interactive Capture 
 - - -
 <div class="row">
-<div class="col-md-8 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" data-src="img/publication/siggraph2019lindell/interactive.webm" type="video/webm" class="lazy_load">
+<div class="col-md-8 mx-auto">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" src="/assets/img/publication/siggraph2019lindell/interactive.webm" type="video/webm">
 </video>
 </div>
 </div>
+<br>
 **Interactive Capture:** By rapidly scanning the wall, we can capture the movement of a person in a retroreflective suit at interactive rates of 4 fps. The reconstruction clearly shows the pose of the actor, imaged from around the corner.
 {: style="text-align: left;" }
 
 ### Outdoor Results 
 - - -
 <div class="row">
-<div class="col-md-8 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" data-src="img/publication/siggraph2019lindell/outdoor.webm" type="video/webm" class="lazy_load">
+<div class="col-md-8 mx-auto">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" src="/assets/img/publication/siggraph2019lindell/outdoor.webm" type="video/webm">
 </video>
 </div>
 </div>
+
 **Outdoor Result:** We can reconstruct a hidden scene outdoors by scanning the side of a stone building. The stone patterning of the wall is visible in the indirect measurements, but the reconstruction still robustly recovers the geometry.
 {: style="text-align: left;" }
 
 ###  Captured Results 
 - - -
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" class="lazy_load modal-img" src="" data-src="img/publication/siggraph2019lindell/phasor_fields.webm" type="video/webm">
+<div class="col-xs-6 col-md-4 mx-auto">
+<video preload="auto" autoplay muted loop="loop" class="img-fluid" src="" src="/assets/img/publication/siggraph2019lindell/phasor_fields.webm" type="video/webm">
 </video>
 <p> Virtual Wave Optics Reconstruction </p>
 </div>
-<div class="col-xs-6 col-md-4">
-<video preload="auto" autoplay muted loop="loop" class="lazy_load modal-img" src="" data-src="img/publication/siggraph2019lindell/teaser_stolt_colorized.webm" type="video/webm">
+<div class="col-xs-6 col-md-4 mx-auto">
+<video preload="auto" autoplay muted loop="loop" class="img-fluid" src="" src="/assets/img/publication/siggraph2019lindell/teaser_stolt_colorized.webm" type="video/webm">
 </video>
 <p> f&#8211;k Migration Reconstruction </p>
 </div>
@@ -120,49 +124,52 @@ Comparison to non-line-of-sight imaging using phasor-field virtual wave optics b
 {: style="text-align: left;" }
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="img/publication/siggraph2019lindell/bike_1.png" class="lazy_load modal-img img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/bike_1.png" class="img-fluid" alt="">
 </div>
-<div class="col-xs-6 col-md-4">
-<img src="" data-src="img/publication/siggraph2019lindell/bike.gif" class="lazy_load modal-img img-responsive" alt="">
-</div>
-</div>
-<div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="img/publication/siggraph2019lindell/dragon_1.png" class="lazy_load modal-img img-responsive" alt="">
-</div>
-<div class="col-xs-6 col-md-4">
-<img src="" data-src="img/publication/siggraph2019lindell/dragon.gif" class="lazy_load modal-img img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/bike.gif" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="img/publication/siggraph2019lindell/statue_1.png" class="lazy_load modal-img img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/dragon_1.png" class="img-fluid" alt="">
 </div>
-<div class="col-xs-6 col-md-4">
-<img src="" data-src="img/publication/siggraph2019lindell/statue.gif" class="lazy_load modal-img img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/dragon.gif" class="img-fluid" alt="">
 </div>
 </div>
+<div class="row">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/statue_1.png" class="img-fluid" alt="">
+</div>
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/statue.gif" class="img-fluid" alt="">
+</div>
+</div>
+<br>
 
 ### Hardware Prototype
 - - -
 <div class="row">
-<div class="col-md-8 col-md-offset-2">
-<img src="" data-src="img/publication/siggraph2019lindell/hardware_all.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="col-md-8 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/hardware_all.png" style="padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-md-8 col-md-offset-2">
-<img src="" data-src="img/publication/siggraph2019lindell/hardware_closeup.png" style="padding: 10px;" class="lazy_load img-responsive" alt="">
+<div class="col-md-8 mx-auto">
+<img src="" src="/assets/img/publication/siggraph2019lindell/hardware_closeup.png" style="padding: 10px;" class="img-fluid" alt="">
 </div>
 </div>
 
 <div class="row">
-<div class="col-md-8 col-md-offset-2">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" data-src="img/publication/siggraph2019lindell/scanning.webm" type="video/webm" class="lazy_load">
+<div class="col-md-8 mx-auto">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="" src="/assets/img/publication/siggraph2019lindell/scanning.webm" type="video/webm">
 </video>
 </div>
 </div>
+
+<br>
 **Hardware Prototype:** Our hardware prototype captures confocal NLOS measurements with a laser that is 10,000 more powerful than previous systems. The sensor generates timestamps of arriving photons at picosecond time intervals, allowing us to precisely localize features of the hidden geometry.
 {: style="text-align: left;" }
 
@@ -170,6 +177,8 @@ Comparison to non-line-of-sight imaging using phasor-field virtual wave optics b
 It took a lot of effort to build and calibrate this hardware setup and to capture these data. Feel free to use the datasets in your own projects, but please acknowledge our work by citing the following papers:
 {: style="text-align: left;" }
 
+<div class="row">
+<div class="col-md-3 mx-auto">
 <ul class="list-inline">
 <li><a href="https://github.com/computational-imaging/nlos-fk">Github Repository</a></li>
 <li><a href="https://drive.google.com/a/stanford.edu/file/d/1_av9TdJ-J22qAUNs1ueZ8ETuRRW2KHg_/view?usp=sharing">Full dataset</a></li>
@@ -184,6 +193,8 @@ It took a lot of effort to build and calibrate this hardware setup and to captur
 <li><a href="https://drive.google.com/open?id=1TU7JcRb8ag-dJAidJPCUUIW11xlYf_1c">Statue</a></li>
 <li><a href="https://drive.google.com/open?id=1-hhc7e7Lr6ZquVZpZVhqfFQR0d63MWGm">Teaser</a></li>
 </ul>
+</div>
+</div>
 
 <ul>
 <li> <p> Matthew O’Toole, Felix Heide, David B. Lindell, Kai Zang, Steven Diamond, and Gordon Wetzstein. 2017. Reconstructing transient images from single-photon sensors. In Proc. CVPR. </p> </li>

@@ -3,11 +3,11 @@ title: Reconstructing transient images from single-photon sensors
 subtitle: CVPR 2017 (Spotlight)
 brief: Capturing light transport at billions of frames per second using ultra-sensitive photo-detectors.
 authors: Matthew O'Toole, Felix Heide, <strong>David B. Lindell</strong>, Kai Zang, Steven Diamond, Gordon Wetzstein
-layout: default
-modal-id: 2017-1
+layout: pub 
 date: 2017-08-03
 img: cvpr2017otoole.png
 thumbnail: cvpr2017otoole.png
+permalink: publications/spad-transient
 alt: image-alt
 pdf-link: http://www.computationalimaging.org/wp-content/uploads/2017/05/17.cvpr_.spad_.pdf
 supp-link: http://www.computationalimaging.org/wp-content/uploads/2017/08/17.cvpr_.spad_.supp_.pdf
@@ -21,19 +21,22 @@ video-link: https://www.youtube.com/watch?v=kNI8JL32Neo
 ### CVPR Spotlight Presentation
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/laLQM6O9PZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/laLQM6O9PZ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/kNI8JL32Neo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kNI8JL32Neo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 ### Datasets
 <ul class="" style="font-size: 22px; list-style: none; transform: translateX(-20px);">
 <li><a href="https://drive.google.com/open?id=1s9Bjlwd92mJk1ZRYApTyuGehmyWXVDLJ">Raw data and processed results</a></li>
 </ul>
+<br>
 
 ### Abstract
 - - -
@@ -45,7 +48,7 @@ In this work, we design and evaluate an imaging system that builds on single pho
 
 ### Results
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
+<div class="col-xs-6 col-md-4 mx-auto">
 <p> Color Image </p>
 </div>
 <div class="col-xs-6 col-md-4">
@@ -54,99 +57,99 @@ In this work, we design and evaluate an imaging system that builds on single pho
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statueofdavid.png" class="modal-img lazy_load img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statueofdavid.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statue.gif" class="modal-img lazy_load img-responsive" alt="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/statue.gif" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 mx-auto">
 <p> Statue of David </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fiber.png" class="modal-img lazy_load img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fiber.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/opticalfiber.gif"  class="modal-img lazy_load img-responsive" alt="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/opticalfiber.gif"  class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 mx-auto">
 <p> Fiber </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/pepsi.png" class="modal-img lazy_load img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/pepsi.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/sodabottle.gif" class="modal-img lazy_load img-responsive" alt="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/sodabottle.gif" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 mx-auto">
 <p> Pepsi Bottle </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit.png" class="modal-img lazy_load img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit-1.gif" class="modal-img lazy_load img-responsive" alt="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/fruit-1.gif" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 mx-auto">
 <p> Fruit </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox.png" class="modal-img lazy_load img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox-1.gif" class="modal-img lazy_load img-responsive" alt="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/foambox-1.gif" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 mx-auto">
 <p> Foam Box </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart.png" class="modal-img lazy_load img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart-1.gif" class="modal-img lazy_load img-responsive" alt="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/resolutionchart-1.gif" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 mx-auto">
 <p> Resolution Chart </p>
 </div>
 </div>
 
 <div class="row">
-<div class="col-xs-6 col-md-4 col-md-offset-2">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvpr2017.png" class="modal-img lazy_load img-responsive" alt="">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvpr2017.png" class="img-fluid" alt="">
 </div>
 <div class="col-xs-6 col-md-4">
-<img src="" data-src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvprlogo.gif" class="modal-img lazy_load img-responsive" alt="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/02/cvprlogo.gif" class="img-fluid" alt="">
 </div>
 </div>
 <div class="row">
-<div class="col-xs-12 col-md-4 col-md-offset-4">
+<div class="col-xs-12 col-md-4 mx-auto">
 <p> Fiber: CVPR 2017 </p>
 </div>
 </div>

@@ -3,11 +3,11 @@ title: Non-line-of-sight imaging with partial occluders and surface normals
 subtitle: ACM Transactions on Graphics 2019 
 brief: A new approach to non-line-of-sight imaging that estimates partial occlusions in the hidden volume along with surface normals.
 authors: Felix Heide, Matthew O"Toole, Kai Zang, <strong>David B. Lindell</strong>, Steven Diamond, Gordon Wetzstein 
-layout: default
-modal-id: 2019-1
+layout: pub 
 date: 2019-07-14
 img: tog2019heide.png
 thumbnail: tog2019heide.png
+permalink: publications/occlusion-nlos
 alt: image-alt
 pdf-link: https://drive.google.com/file/d/1JpuUYYrNvTlYyunvsVrBJZRdDJ5SVEed/view 
 supp-link: https://drive.google.com/file/d/1Jq9-47B44eTJwLVwE0gweU1nw6lqB1kz/view
@@ -22,7 +22,7 @@ video-link: https://www.youtube.com/watch?v=nVoEZuFFMzA
 ### Video
 - - -
 <div class="embed-responsive embed-responsive-16by9">
-<iframe class="lazy_load embed-responsive-item" src="" data-src="https://www.youtube.com/embed/nVoEZuFFMzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nVoEZuFFMzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Abstract
@@ -35,7 +35,7 @@ We introduce a factored NLOS light transport representation that accounts for pa
 
 ### Slides
 - - -
-<iframe src="" data-src="//www.slideshare.net/slideshow/embed_code/key/t2MyzgkClBKJD8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" class="lazy_load" allowfullscreen> </iframe> 
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/t2MyzgkClBKJD8" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;"  allowfullscreen> </iframe> 
 
 ### Datasets
 - - -
