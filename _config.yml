@@ -146,7 +146,7 @@ enable_google_analytics:  true
 enable_mansory:           true
 enable_math:              true
 enable_tooltips:          false
-enable_darkmode:          true 
+enable_darkmode:          false 
 show_social_icons:        true 
 
 
