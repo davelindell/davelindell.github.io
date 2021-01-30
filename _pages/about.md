@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Ph.D. Candidate<br><a href="http://computationalimaging.org/">Computational Imaging Lab</a><br><a href="https://www.stanford.edu/">Stanford University</a> 
+description: Postdoctoral Scholar<br><a href="http://computationalimaging.org/">Computational Imaging Lab</a><br><a href="https://www.stanford.edu/">Stanford University</a> 
 
 profile:
   align: right 
