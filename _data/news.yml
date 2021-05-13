@@ -1,3 +1,7 @@
+- date: 2021-5-07
+  content: Our paper on scaling up implicit representations using <a href="/publications/acorn">adaptive coordinate networks</a> is accepted to SIGGRAPH 2021!
+- date: 2021-3-01 
+  content: <a href="/publications/autoint">AutoInt </a> accepted to CVPR 2021! Code is also available <a href="https://github.com/computational-imaging/automatic-integration"> here</a>.
 - date: 2021-1-07 
   content: Officially graduated! My dissertation is entitled <a href="https://stacks.stanford.edu/file/druid:xg952ns2082/thesis_final-augmented.pdf">Computational Imaging with Single-Photon Detectors</a>.
 - date: 2020-12-03 
