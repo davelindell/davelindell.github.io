@@ -17,5 +17,5 @@ I'm a postdoctoral scholar at Stanford University in the [Computational Imaging 
 
 **I'll be joining the CS department at the University of Toronto in July 2022!**
 
-Students interested in joining my group starting in Fall 2022 should apply to the [Department of Computer Science](https://web.cs.toronto.edu/graduate/prospective) and mention my name in their Statement of Purpose.
+Students interested in joining my group starting in Fall 2022 should apply to the [Department of Computer Science](https://web.cs.toronto.edu/graduate/prospective). More on [this page](/joining).
 {: style="background-color: #ffffcc; float: left;"}
