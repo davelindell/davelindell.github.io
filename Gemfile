@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-gem "github-pages", group: :jekyll_plugins
+#gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem 'jekyll', ">= 3.1.0"
+  gem 'jekyll', "~> 4.2.0"
     gem 'jekyll-email-protect'
     gem 'jekyll-github-metadata'
     gem 'jekyll-paginate-v2'
@@ -11,6 +11,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem "bibtex-ruby"
+    gem 'webrick'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
