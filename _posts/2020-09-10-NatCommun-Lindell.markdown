@@ -17,6 +17,12 @@ social:
     - title: Stanford News  
       url: https://news.stanford.edu/2020/09/09/seeing-objects-clouds-fog/ 
       img: stanford-news-service-logo.png  
+    - title: Gizmodo  
+      url: https://gizmodo.com/scientists-have-created-a-laser-scanner-that-can-see-th-1845275980 
+      img: gizmodo.png  
+    - title: AZO Optics  
+      url: https://www.azooptics.com/News.aspx?newsID=25263 
+      img: azooptics.png  
 
 ---
 
