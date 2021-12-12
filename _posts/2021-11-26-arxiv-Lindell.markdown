@@ -9,9 +9,8 @@ img: arxiv2021lindell.png
 thumbnail: arxiv2021lindell.png
 permalink: publications/bacon
 alt: image-alt
-pdf-link: https://arxiv.org/abs/0000.00000 
+pdf-link: https://arxiv.org/abs/2112.04645
 video-link: https://www.youtube.com/watch?v=zIH3KUCgJEA
-code-link: https://github.com/computational-imaging/bacon
 
 ---
 
