@@ -11,6 +11,7 @@ permalink: publications/bacon
 alt: image-alt
 pdf-link: https://arxiv.org/abs/2112.04645
 video-link: https://www.youtube.com/watch?v=zIH3KUCgJEA
+code-link: https://github.com/computational-imaging/bacon
 
 ---
 
