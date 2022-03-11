@@ -1,12 +1,12 @@
 ---
 title: "BACON: Band-limited coordinate networks for multiscale scene representation"
-subtitle: arXiv 
+subtitle: CVPR
 brief: A new network architecture with an analytical Fourier spectrum and band-limited outputs.
-authors: <strong>David B. Lindell*</strong>, Dave Van Veen, Jeong Joon Park, Gordon Wetzstein
+authors: <strong>David B. Lindell</strong>, Dave Van Veen, Jeong Joon Park, Gordon Wetzstein
 layout: pub 
-date: 2021-11-26
-img: arxiv2021lindell.png
-thumbnail: arxiv2021lindell.png
+date: 2022-03-08
+img: cvpr2022lindell.png
+thumbnail: cvpr2022lindell.png
 permalink: publications/bacon
 alt: image-alt
 pdf-link: https://arxiv.org/abs/2112.04645
@@ -34,7 +34,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 - - -
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/arxiv2021lindell/forward_pass.webm" type="video/webm" class="">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2022lindell/forward_pass.webm" type="video/webm" class="">
 </video>
 </div>
 </div>
@@ -45,7 +45,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/arxiv2021lindell/bandwidth.webm" type="video/webm" class="">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2022lindell/bandwidth.webm" type="video/webm" class="">
 </video>
 </div>
 </div>
@@ -56,7 +56,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/arxiv2021lindell/cat_training.webm" type="video/webm" class="">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2022lindell/cat_training.webm" type="video/webm" class="">
 </video>
 </div>
 </div>
@@ -67,7 +67,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-8 mx-auto">
-<img  src="/assets/img/publication/arxiv2021lindell/extrapolation.png" style="" class="img-fluid" alt="">
+<img  src="/assets/img/publication/cvpr2022lindell/extrapolation.png" style="" class="img-fluid" alt="">
 </div>
 </div>
 <br>
@@ -77,7 +77,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-8 mx-auto">
-<img  src="/assets/img/publication/arxiv2021lindell/initialization.png" style="" class="img-fluid" alt="">
+<img  src="/assets/img/publication/cvpr2022lindell/initialization.png" style="" class="img-fluid" alt="">
 </div>
 </div>
 <br>
@@ -91,7 +91,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-10 mx-auto">
-<img  src="/assets/img/publication/arxiv2021lindell/plots.png" style="" class="img-fluid" alt="">
+<img  src="/assets/img/publication/cvpr2022lindell/plots.png" style="" class="img-fluid" alt="">
 </div>
 </div>
 <br>
@@ -102,7 +102,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<img  src="/assets/img/publication/arxiv2021lindell/image.png" style="" class="img-fluid" alt="">
+<img  src="/assets/img/publication/cvpr2022lindell/image.png" style="" class="img-fluid" alt="">
 </div>
 </div>
 <br>
@@ -115,14 +115,14 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<img  src="/assets/img/publication/arxiv2021lindell/nerf.png" style="" class="img-fluid" alt="">
+<img  src="/assets/img/publication/cvpr2022lindell/nerf.png" style="" class="img-fluid" alt="">
 </div>
 </div>
 <br>
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/arxiv2021lindell/nerf_lego.webm" type="video/webm" class="">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2022lindell/nerf_lego.webm" type="video/webm" class="">
 </video>
 </div>
 </div>
@@ -135,14 +135,14 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<img  src="/assets/img/publication/arxiv2021lindell/shapes.png" style="" class="img-fluid" alt="">
+<img  src="/assets/img/publication/cvpr2022lindell/shapes.png" style="" class="img-fluid" alt="">
 </div>
 </div>
 <br>
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/arxiv2021lindell/shapes_thai.webm" type="video/webm" class="">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2022lindell/shapes_thai.webm" type="video/webm" class="">
 </video>
 </div>
 </div>
@@ -150,7 +150,7 @@ Coordinate-based networks have emerged as a powerful tool for 3D representation 
 
 <div class="row">
 <div class="col-sm-12 mx-auto">
-<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/arxiv2021lindell/shapes_lucy.webm" type="video/webm" class="">
+<video preload="auto" autoplay muted loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2022lindell/shapes_lucy.webm" type="video/webm" class="">
 </video>
 </div>
 </div>
