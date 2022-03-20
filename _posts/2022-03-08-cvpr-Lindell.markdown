@@ -1,7 +1,7 @@
 ---
 title: "BACON: Band-limited coordinate networks for multiscale scene representation"
 subtitle: CVPR
-brief: A new network architecture with an analytical Fourier spectrum and band-limited outputs.
+brief: A new network architecture with an analytical Fourier spectrum and band-limited outputs
 authors: <strong>David B. Lindell</strong>, Dave Van Veen, Jeong Joon Park, Gordon Wetzstein
 layout: pub 
 date: 2022-03-08
