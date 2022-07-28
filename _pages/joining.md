@@ -31,4 +31,4 @@ I am looking for highly motivated undergraduate students who are (1) interested 
 If you believe we are a good fit, reach out via email with your CV, top publications, and a 1-2 year research agenda.
 
 **For any questions that do not fall into the above category you can reach me at the below address. Please include "TCIG-Lindell" in the subject line.**<br>
-*Email: lindell at stanford dot edu*
+*Email: lindell at cs dot toronto dot edu*
