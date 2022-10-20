@@ -81,7 +81,8 @@ git checkout -b $DEPLOY_BRANCH
 bundle exec jekyll build
 
 # Delete and move files
-find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
+mv vendor /tmp/
+find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' ! -name '.bundle' -exec rm -rf {} \;
 mv _site/* .
 rm -R _site/
 
@@ -92,6 +93,7 @@ git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
 git checkout $SRC_BRANCH
+mv /tmp/vendor .
 
 echo "Deployed successfully!"
 
