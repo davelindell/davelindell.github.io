@@ -5,7 +5,7 @@ thumbnail: csc420-winter2223.png
 permalink: https://www.cs.toronto.edu/~lindell/teaching/420/
 alt: image-alt
 iscourse: true
-term: Winter 2022
+term: Winter 2023
 
 ---
 
