@@ -15,5 +15,5 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 
 I'm an Assistant Professor in the Department of Computer Science at the University of Toronto and founding member of the [Toronto Computational Imaging Group](https://compimaging.dgp.toronto.edu/). My work is at the intersection of machine learning, computational imaging, and computer vision. Along these lines I've worked on next-generation computational imaging systems for [imaging around corners](http://go.ted.com/davidlindell/){:target="_blank"} and through scattering media, and new machine learning algorithms for representing and processing signals. My work is relevant to a broad range of applications in computer graphics, vision, and remote sensing. 
 
-Students interested in joining my group starting in fall 2023 should apply to the [Department of Computer Science](https://web.cs.toronto.edu/graduate/prospective). More on [this page](/joining).
+Students interested in joining my group starting in fall 2024 should apply to the [Department of Computer Science](https://web.cs.toronto.edu/graduate/prospective). More on [this page](/joining).
 {: style="background-color: #ffffcc; float: left;"}
