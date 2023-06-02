@@ -122,7 +122,7 @@ scholar:
 
   last_name: Lindell 
 
-  style: apa
+  style: acm-siggraph
   locale: en
 
   source: /_bibliography/
