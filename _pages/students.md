@@ -17,7 +17,7 @@ nav: True
 ##### MScAC
 * [Kartik Kumar](https://www.linkedin.com/in/kartikaeya-kumar-2393b7258) (DNEG)
 * [Nick (Yihan) Ni](https://www.linkedin.com/in/yihanni/?originalSubdomain=ca) (DNEG)
-* [Kejia Yin](https://yinkejia.github.io/) (DNEG)
+* [Kejia Yin](https://yinkejia.github.io/) (Modiface)
 * [Vahid Zehtab](https://zehtab.me/) (Samsung)
 
 ##### Undergraduates
