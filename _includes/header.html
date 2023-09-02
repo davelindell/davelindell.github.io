@@ -1,7 +1,7 @@
 <header>
 
     <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %} z-depth-1">
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %} z-depth-1">
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.url }}/">
@@ -9,7 +9,12 @@
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
-        <div class="row ml-1 ml-sm-0">
+      <div class="row ml-0 ml-sm-0">
+          <a href="https://tcig.ca"><img class="rounded" src="/assets/img/tcig.png" style="padding-left: 5px; padding-right: 40px; max-height: 70px; width: auto; height: auto;"></a>
+      </div>
+
+
+        <div class="row ml-4 mr-4 ml-sm-4 mr-sm-4">
           {% include social.html %}
         </div>
       {% endif %}
@@ -20,6 +25,7 @@
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
+
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <!-- About -->

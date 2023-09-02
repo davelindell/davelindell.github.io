@@ -74,12 +74,26 @@ a, table.table a {
 
 // Navbar customization
 
+
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid $grey-color-light;
   opacity: 0.95;
   background-color: var(--global-bg-color);
+  // transition: top 0.3s ease;
+  transition: opacity 0.2s ease;
+
 }
+
+.navbar-hide {
+   pointer-events: none; 
+   opacity: 0;
+}
+
+// .navbar-hide {
+//    top: -90px;
+// }
+
 .navbar.navbar-light {
   // Remove link decoration
   a {
@@ -112,6 +126,7 @@ a, table.table a {
     }
   }
 }
+
 
 .navbar-toggler {
   .icon-bar {
