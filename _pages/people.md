@@ -1,11 +1,11 @@
 ---
 layout: default
-title: students
-permalink: /students/
+title: people
+permalink: /people/
 nav: True
 ---
 
-### current students
+### current group members
 - - -
 
 ##### PhD
@@ -38,7 +38,7 @@ nav: True
 * [Andrew Qiu](https://andrewqiu.me/)
 * [Jason Zhu](https://zhuyuezx.github.io/)
 
-### former students
+### former group members
 - - - 
 
 ##### MScAC
