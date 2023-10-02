@@ -69,11 +69,15 @@
       {% if entry.type == "article" %}
         <em>{{entry.journal}}</em>
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        <em>{{entry.booktitle}}</em>
       {% endif %}
       {% if entry.year %}
-        {{entry.year}}
+        <em>{{entry.year}}</em>
+      {% endif %} 
+      {% if entry.note %}
+      <strong style="color:red;">({{entry.note}})</strong>
       {% endif %}
+
       </div>
     {% endif %}
 
