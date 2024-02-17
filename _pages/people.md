@@ -19,16 +19,12 @@ nav: True
 * [Maxx Wu](https://ca.linkedin.com/in/maxx-wu-8b572a200)
 
 ##### MScAC
-* [Kartik Kumar](https://www.linkedin.com/in/kartikaeya-kumar-2393b7258) (DNEG)
-* [Nick (Yihan) Ni](https://www.linkedin.com/in/yihanni/?originalSubdomain=ca) (DNEG)
-* [Kejia Yin](https://yinkejia.github.io/) (Modiface)
-* [Vahid Zehtab](https://zehtab.me/) (Samsung)
+* [Umar Masud](https://umar07.github.io/) (Samsung)
+* [Steven Hyun](https://www.linkedin.com/in/steven-hyun-311a51164/) (Samsung)
 
 ##### Undergraduates
 * [Shahmeer Athar](https://ca.linkedin.com/in/shahmeerathar)
 * [Ariel Chen](https://www.linkedin.com/in/sirui-chen-6492a0232/)
-* [Rishit Dagli](https://www.rishit.tech/)
-* [Roland Gao](https://ca.linkedin.com/in/roland-gao)
 * [Noah Juravsky](https://ca.linkedin.com/in/noah-juravsky-494bb31b5)
 * [Weihan Luo](https://www.linkedin.com/in/wei-han-luo/)
 * [Dorsa Molaverdikhani](https://ca.linkedin.com/in/dorsa-molaverdikhani)
@@ -42,9 +38,16 @@ nav: True
 - - - 
 
 ##### MScAC
-* EJay Guo (2022), *next stop: DNEG*
+* EJay Guo (2022), DNEG
+* [Kartik Kumar](https://www.linkedin.com/in/kartikaeya-kumar-2393b7258) (2023), DNEG
+* [Nick (Yihan) Ni](https://www.linkedin.com/in/yihanni/?originalSubdomain=ca) (2023), DNEG
+* [Kejia Yin](https://yinkejia.github.io/) (2023) Modiface
+* [Vahid Zehtab](https://zehtab.me/) (2023), Samsung
+
 
 ##### Undergraduates
+* [Roland Gao](https://ca.linkedin.com/in/roland-gao) (2023), *next stop: Meta*
+* [Rishit Dagli](https://www.rishit.tech/) (2023)
 * [Skyler (Jiarui) Zhang](https://ca.linkedin.com/in/jiaruizhangskyler) (2023), *next stop: MEng UofT*
 * [Justin Tran](https://www.linkedin.com/in/justin-tran-816199165) (2023), *next stop: Amazon*
 <!--- * [Shahmeer Athar](https://ca.linkedin.com/in/shahmeerathar) (2023) -->
