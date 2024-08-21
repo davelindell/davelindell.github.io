@@ -17,7 +17,11 @@
 
 <div class="row">
   <div class="col-sm-4 center-block">
+    {% if entry.html %}
     <a href="{{ entry.html }}">
+    {% else %}
+    <a href="{{ entry.pdf }}">
+    {% endif %}
     <img src="/assets/img/publication/thumbnail/{{ entry.thumbnail }}" class="img-responsive publication-img" alt="">
     </a>
   </div>
@@ -26,10 +30,15 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      {% if entry.html contains '://' %}
-        <div class="title"><a href="{{entry.html}}">{{entry.title}}</a></div>
+
+      {% if entry.html %}
+          {% if entry.html contains '://' %}
+            <div class="title"><a href="{{entry.html}}">{{entry.title}}</a></div>
+          {% else %}
+            <div class="title"><a href="/publications/{{entry.html}}">{{entry.title}}</a></div>
+          {% endif %}
       {% else %}
-        <div class="title"><a href="/publications/{{entry.html}}">{{entry.title}}</a></div>
+            <div class="title"><a href="{{entry.pdf}}">{{entry.title}}</a></div>
       {% endif %}
       <div class="author">
         {% for author in entry.author_array %}

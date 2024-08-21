@@ -1,0 +1,13 @@
+---
+title: "CSC2529: Computational Imaging"
+date: 2024-08-01
+thumbnail: csc2529-fall2425.png
+permalink: https://www.cs.toronto.edu/~lindell/teaching/2529/
+alt: image-alt
+iscourse: true
+term: Fall 2024
+
+---
+
+An introductory graduate course in computational imaging with an emphasis on applied image processing and optimization.
+{: style="text-align: left;" }
