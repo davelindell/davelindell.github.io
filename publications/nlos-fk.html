@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>David B. Lindell | Wave-based non-line-of-sight imaging using fast f&#8211;k migration</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />  -->
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/publications/nlos-fk">
+
+<!-- Theming-->
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85065092-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-85065092-1');
+  </script>
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top z-depth-1">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">David B.  Lindell</span>
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/people/">
+                people
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/assets/pdf/cv.pdf">
+                CV
+                <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+            <h3>Wave-based non-line-of-sight imaging using fast f&#8211;k migration</h3>
+          <p class="name"> <strong>David B. Lindell</strong>, Matthew O'Toole, Gordon Wetzstein </p>
+          <ul class="list-inline">
+
+              
+              <li class="list-inline-item"> 
+                  <a class="btn" target="_blank" title="Download PDF" href="https://drive.google.com/a/stanford.edu/file/d/1IizX1BXRICwBEJdGNu_bFaZ6oq4E92hQ/view?usp=sharing"><i class="fa fa-lg fa-file-pdf"></i> PDF</a>
+              </li>
+              
+
+              
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Download Supplement" href="https://drive.google.com/a/stanford.edu/file/d/1d_aY09rBeZRpup9-XxPkILbND4QESO7l/view?usp=sharing"><i class="fa fa-lg fa-file"></i> Supplement</a>
+              </li>
+              
+
+              
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Code" href="https://github.com/computational-imaging/nlos-fk"><i class="fa fa-lg fa-code"></i> Code</a>
+              </li>
+              
+
+              
+
+
+              
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Video" href="https://www.youtube.com/watch?v=BVYfzLXUi48"><i class="fa fa-lg fa-video"></i> Video</a>
+              </li>
+              
+
+          </ul>
+
+          
+          <ul class="list-inline">
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://news.stanford.edu/2019/07/29/seeing-moving-objects-around-corners/" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/stanford-news-service-logo.png"/></a>
+              </li>
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://www.techbriefs.com/component/content/article/tb/stories/blog/34990" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/tb-logo.png"/></a>
+              </li>
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://hackaday.com/2019/08/22/looking-around-corners-with-f-k-migration/" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/hackaday-logo.png"/></a>
+              </li>
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://www.upi.com/Science_News/2019/07/30/New-camera-can-film-moving-object-from-around-a-corner/5161564503864/" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/upi-logo.png"/></a>
+              </li>
+              
+          </ul>
+          
+
+        </div>
+      </div>
+
+      <hr class="star-primary">
+      <div class="row">
+        <div class="center-block col-sm-8 mx-auto">
+          <img src="/assets/img/publication/siggraph2019lindell.png" class="img-fluid" alt="image-alt">
+        </div>
+      </div>
+      <hr class="star-primary">
+
+
+      <p style="text-align: left;"><strong>We introduce a wave-based image formation model for the problem of non-line-of-sight (NLOS) imaging. Inspired by inverse methods used in seismology, we adapt a frequency-domain method, f-k migration, for solving the inverse NLOS problem.</strong></p>
+
+<h3 id="video">Video</h3>
+<hr />
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-repsonsive-item" src="https://www.youtube.com/embed/BVYfzLXUi48" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p><br /></p>
+
+<h3 id="abstract">Abstract</h3>
+<hr />
+<p style="text-align: left;">Imaging objects outside a camera’s direct line of sight has important applications in robotic vision, remote sensing, and many other domains. Time-of-flight-based non-line-of-sight (NLOS) imaging systems have recently demonstrated impressive results, but several challenges remain. Image formation and inversion models have been slow or limited by the types of hidden surfaces that can be imaged. Moreover, non-planar sampling surfaces and non-confocal scanning methods have not been supported by efficient NLOS algorithms. With this work, we introduce a wave-based image formation model for the problem of NLOS imaging.</p>
+
+<p style="text-align: left;">Inspired by inverse methods used in seismology, we adapt a frequency-domain method, f−k migration, for solving the inverse NLOS problem. Unlike existing NLOS algorithms, f−k migration is both fast and memory efficient, it is robust to specular and other complex reflectance properties, and we show how it can be used with non-confocally scanned measurements as well as for non-planar sampling surfaces. f−k migration is more robust to measurement noise than alternative methods, generally produces better quality reconstructions, and is easy to implement. We experimentally validate our algorithms with a new NLOS imaging system that records room-sized scenes outdoors under indirect sunlight, and scans persons wearing retroreflective clothing at interactive rates.</p>
+
+<h3 id="slides">Slides</h3>
+<hr />
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/BZlW4Y804NNvbr" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe>
+
+<p><br /></p>
+<h3 id="reconstructing-hidden-objects">Reconstructing Hidden Objects</h3>
+<hr />
+<div class="row">
+<div class="mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/illustration.png" style="height: 300; padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+
+<p style="text-align: left;"><strong>Experimental Setup:</strong> The imaging system records the time it takes for laser light to scatter off the wall, reflect off the hidden bunny, and return to the wall. By acquiring these timing measurements for different laser positions on the wall, the 3D geometry of the hidden object can be reconstructed.</p>
+
+<h3 id="reconstructing-hidden-objects-1">Reconstructing Hidden Objects</h3>
+<hr />
+<div class="container">
+<div class="row">
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/siggraph2019lindell/teaser_1.png" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/siggraph2019lindell/meas_slice.gif" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/siggraph2019lindell/teaser_stolt.gif" class="img-fluid" alt="" />
+</div>
+</div>
+</div>
+<p style="text-align: left;"><br />
+<strong>Room-sized Reconstruction:</strong> We capture measurements of this hidden room-sized scene and accurately reconstruct the geometry</p>
+
+<h3 id="interactive-capture">Interactive Capture</h3>
+<hr />
+<div class="row">
+<div class="col-md-8 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/siggraph2019lindell/interactive.webm" type="video/webm">
+</video>
+</div>
+</div>
+<p style="text-align: left;"><br />
+<strong>Interactive Capture:</strong> By rapidly scanning the wall, we can capture the movement of a person in a retroreflective suit at interactive rates of 4 fps. The reconstruction clearly shows the pose of the actor, imaged from around the corner.</p>
+
+<h3 id="outdoor-results">Outdoor Results</h3>
+<hr />
+<div class="row">
+<div class="col-md-8 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/siggraph2019lindell/outdoor.webm" type="video/webm">
+</video>
+</div>
+</div>
+
+<p style="text-align: left;"><strong>Outdoor Result:</strong> We can reconstruct a hidden scene outdoors by scanning the side of a stone building. The stone patterning of the wall is visible in the indirect measurements, but the reconstruction still robustly recovers the geometry.</p>
+
+<h3 id="captured-results">Captured Results</h3>
+<hr />
+<div class="row">
+<div class="col-xs-6 col-md-4 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" class="img-fluid" src="/assets/img/publication/siggraph2019lindell/phasor_fields.webm" type="video/webm">
+</video>
+<p> Virtual Wave Optics Reconstruction </p>
+</div>
+<div class="col-xs-6 col-md-4 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" class="img-fluid" src="/assets/img/publication/siggraph2019lindell/teaser_stolt_colorized.webm" type="video/webm">
+</video>
+<p> f&#8211;k Migration Reconstruction </p>
+</div>
+</div>
+<p style="text-align: left;">Comparison to non-line-of-sight imaging using phasor-field virtual wave optics by <a href="https://www.nature.com/articles/s41586-019-1461-3">Liu et al. (2019)</a>. The code to run this comparison is available <a href="https://drive.google.com/a/stanford.edu/file/d/1sICEztc2yYt-LI9XSPBEhZDLnS1s7WVa/view?usp=sharing">here</a>.</p>
+
+<div class="row">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/bike_1.png" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/bike.gif" class="img-fluid" alt="" />
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/dragon_1.png" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/dragon.gif" class="img-fluid" alt="" />
+</div>
+</div>
+<div class="row">
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/statue_1.png" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-6 col-md-4 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/statue.gif" class="img-fluid" alt="" />
+</div>
+</div>
+<p><br /></p>
+
+<h3 id="hardware-prototype">Hardware Prototype</h3>
+<hr />
+<div class="row">
+<div class="col-md-8 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/hardware_all.png" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<div class="row">
+<div class="col-md-8 mx-auto">
+<img src="/assets/img/publication/siggraph2019lindell/hardware_closeup.png" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-8 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/siggraph2019lindell/scanning.webm" type="video/webm">
+</video>
+</div>
+</div>
+
+<p style="text-align: left;"><br />
+<strong>Hardware Prototype:</strong> Our hardware prototype captures confocal NLOS measurements with a laser that is 10,000 more powerful than previous systems. The sensor generates timestamps of arriving photons at picosecond time intervals, allowing us to precisely localize features of the hidden geometry.</p>
+
+<h3 id="code-and-datasets">Code and Datasets</h3>
+<p style="text-align: left;">It took a lot of effort to build and calibrate this hardware setup and to capture these data. Feel free to use the datasets in your own projects, but please acknowledge our work by citing the following papers:</p>
+
+<div class="row">
+<div class="col-md-3 mx-auto">
+<ul class="list-inline">
+<li><a href="https://github.com/computational-imaging/nlos-fk">Github Repository</a></li>
+<li><a href="https://drive.google.com/a/stanford.edu/file/d/1_av9TdJ-J22qAUNs1ueZ8ETuRRW2KHg_/view?usp=sharing">Full dataset</a></li>
+<li><a href="https://drive.google.com/open?id=1W7s6tRzEC42GvW4xS6BfP7_M8iQdYXTv">Bike</a></li>
+<li><a href="https://drive.google.com/open?id=1hbn33S5OhcTnVLel3e2pFR_--cOgdvNb">Discoball</a></li>
+<li><a href="https://drive.google.com/open?id=1k5z7z6vG5zMeE19WbrvS5WbhgRGmA8Xk">Dragon</a></li>
+<li><a href="https://drive.google.com/open?id=1cb5augzU2Gh3M0CpQp3AKlN-C-N0HFI-">Interactive</a></li>
+<li><a href="https://drive.google.com/open?id=1kbS5h6iNzCVxDxUPsg7CAEVAYKuwNJES">Non-planar</a></li>
+<li><a href="https://drive.google.com/open?id=1J3QB0IXici8JcboR4Haipscg7-vHRM20">Outdoor</a></li>
+<li><a href="https://drive.google.com/open?id=1UnZzQpMhYkGiMaQmvPaMvde07AuP-oP5">Phase retrieval</a></li>
+<li><a href="https://drive.google.com/open?id=1Aej3ujaNNAyAl2W0wjWJgxqOXiGQTr5W">Resolution chart</a></li>
+<li><a href="https://drive.google.com/open?id=1TU7JcRb8ag-dJAidJPCUUIW11xlYf_1c">Statue</a></li>
+<li><a href="https://drive.google.com/open?id=1-hhc7e7Lr6ZquVZpZVhqfFQR0d63MWGm">Teaser</a></li>
+</ul>
+</div>
+</div>
+
+<ul style="text-align: left;">
+<li> <p> Matthew O’Toole, Felix Heide, David B. Lindell, Kai Zang, Steven Diamond, and Gordon Wetzstein. 2017. Reconstructing transient images from single-photon sensors. In Proc. CVPR. </p> </li>
+<li> <p> Matthew O’Toole, David B. Lindell, and Gordon Wetzstein. 2018. Confocal non-line-of-sight imaging based on the light-cone transform. Nature 555, 7696, 338. </p></li>
+<li><p> Felix Heide, Matthew O’Toole, Kai Zang, David B. Lindell, Steven Diamond, and Gordon Wetzstein. 2018. Non-line-of-sight Imaging with partial occluders and surface normals. ACM Trans. Graph.  </p></li>
+<li><p> David B. Lindell, Gordon Wetzstein, and Matthew O’Toole. 2019. Wave-based non-line-of-sight Imaging using fast f−k migration. ACM Trans. Graph. (SIGGRAPH) 38, 4, 116.</p></li>
+</ul>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+<hr />
+<p style="text-align: left;">This project was supported by a Stanford Graduate Fellowship, an NSF CAREER Award (IIS 1553333), a Terman Faculty Fellowship, a Sloan Fellowship, by the KAUST Office of Sponsored Research through the Visual Computing Center CCF grant, the Center for Automotive Research at Stanford (CARS), the DARPA REVEAL program, and a PECASE from the ARO.</p>
+
+<h3 id="citation">Citation</h3>
+<hr />
+<div style="text-align: left;" class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+@article{Lindell:2019:Wave,
+author = {David B. Lindell and Gordon Wetzstein and Matthew O’Toole},
+title = {Wave-based non-line-of-sight imaging using fast f--k migration},
+journal = {ACM Trans. Graph. (SIGGRAPH)},
+volume = {38},
+number={4},
+pages={116},
+year = {2019},
+}
+
+</code></pre></div></div>
+
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom z-depth-1">
+  <div class="container mt-0">
+    &copy; Copyright 2025 David B. Lindell.
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<!-- <script src="/assets/js/dark_mode.js"></script>-->
+
+
+</html>
