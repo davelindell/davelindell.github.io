@@ -27,7 +27,7 @@ If you'd like more information about doing a PhD in Canada, here is a [nice arti
 **Undergraduate Students**<br>
 I am looking for highly motivated undergraduate students who are (1) interested in research, (2) currently enrolled at the University of Toronto, and (3) hoping to pursue graduate research after their undergraduate program. The best way to reach me is to fill out this [Google form](https://forms.gle/eEK5qqSKPDET5Hb76).
 
-**Postdoc Positions**<br>I am looking to hire a postdoc. It's helpful if you have a good track record of publishing in computational imaging, vision, or graphics. You should also be willing to apply for (or have obtained) a postdoc fellowship (I will also help you apply).
+**Postdoc Positions**<br> It's helpful if you have a good track record of publishing in computational imaging, vision, or graphics. You should also be willing to apply for (or have obtained) a postdoc fellowship (I will also help you apply).
 
 If you believe we are a good fit, reach out via email with your CV, top publications, and a 1-2 year research agenda.
 
