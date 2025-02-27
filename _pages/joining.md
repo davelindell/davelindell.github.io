@@ -20,7 +20,7 @@ Current research areas include the following:
 * **machine learning:** neural scene representations, generative modeling, editable and interpretable representations, neural rendering, applications to computational imaging and multiview reconstruction
 
 
-**Graduate Students**<br>If you would like to join the group as a Master's or PhD student, you can apply directly to the [CS department](https://web.cs.toronto.edu/graduate/prospective). The site will open for applications in early October 2022. You should list me by name in your application and explain how our research interests are aligned. Please also complete this [Google form](https://forms.gle/sPDkUJxawYv4mM2FA) to ensure I see your application.
+**Graduate Students**<br>If you would like to join the group as a Master's or PhD student, you can apply directly to the [CS department](https://web.cs.toronto.edu/graduate/prospective). The site will open for applications in early October. You should list me by name in your application and explain how our research interests are aligned. Please also complete this [Google form](https://forms.gle/sPDkUJxawYv4mM2FA) to ensure I see your application.
 
 If you'd like more information about doing a PhD in Canada, here is a [nice article](https://yongyuanxi.medium.com/myths-about-graduate-school-in-computer-science-in-canada-eca365370415) written by Towaki Takikawa, a current student in the department. 
 
