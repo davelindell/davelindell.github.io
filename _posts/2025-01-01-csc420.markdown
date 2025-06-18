@@ -1,11 +1,11 @@
 ---
 title: "CSC420: Introduction to Image Understanding"
-date: 2024-01-01
+date: 2025-01-01
 thumbnail: csc420-winter2324.png
-permalink: https://www.cs.toronto.edu/~lindell/teaching/420/2024
+permalink: https://www.cs.toronto.edu/~lindell/teaching/420/
 alt: image-alt
 iscourse: true
-term: Winter 2024
+term: Winter 2025
 
 ---
 
