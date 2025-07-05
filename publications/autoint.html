@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>David B. Lindell | AutoInt: Automatic integration for fast neural volume rendering</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />  -->
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/publications/autoint">
+
+<!-- Theming-->
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85065092-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-85065092-1');
+  </script>
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top z-depth-1">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">David B.  Lindell</span>
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/people/">
+                people
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/assets/pdf/cv.pdf">
+                CV
+                <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+            <h3>AutoInt: Automatic integration for fast neural volume rendering</h3>
+          <p class="name"> <strong>David B. Lindell*</strong>, Julien N. P. Martel*, Gordon Wetzstein </p>
+          <ul class="list-inline">
+
+              
+              <li class="list-inline-item"> 
+                  <a class="btn" target="_blank" title="Download PDF" href="https://arxiv.org/abs/2012.01714"><i class="fa fa-lg fa-file-pdf"></i> PDF</a>
+              </li>
+              
+
+              
+
+              
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Code" href="https://github.com/computational-imaging/automatic-integration"><i class="fa fa-lg fa-code"></i> Code</a>
+              </li>
+              
+
+              
+
+
+              
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Video" href="https://www.youtube.com/watch?v=GYxFYbih0PU"><i class="fa fa-lg fa-video"></i> Video</a>
+              </li>
+              
+
+          </ul>
+
+          
+
+        </div>
+      </div>
+
+      <hr class="star-primary">
+      <div class="row">
+        <div class="center-block col-sm-8 mx-auto">
+          <img src="/assets/img/publication/cvpr2021lindell.png" class="img-fluid" alt="image-alt">
+        </div>
+      </div>
+      <hr class="star-primary">
+
+
+      <p style="text-align: left;"><strong>A new framework to integrate signals using implicit neural representations.</strong></p>
+
+<h3 id="video">Video</h3>
+<hr />
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-repsonsive-item" src="https://www.youtube.com/embed/GYxFYbih0PU " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p><br /></p>
+
+<h3 id="abstract">Abstract</h3>
+<hr />
+<p style="text-align: left;">Numerical integration is a foundational technique in scientific computing and is at the core of many computer vision applications. Among these applications, implicit neural volume rendering has recently been proposed as a new paradigm for view synthesis, achieving photorealistic image quality. However, a fundamental obstacle to making these methods practical is the extreme computational and memory requirements caused by the required volume integrations along the rendered rays during training and inference. Millions of rays, each requiring hundreds of forward passes through a neural network are needed to approximate those integrations with Monte Carlo sampling. Here, we propose automatic integration, a new framework for learning efficient, closed-form solutions to integrals using implicit neural representation networks. For training, we instantiate the computational graph corresponding to the derivative of the implicit neural representation. The graph is fitted to the signal to integrate. After optimization, we reassemble the graph to obtain a network that represents the antiderivative. By the fundamental theorem of calculus, this enables the calculation of any definite integral in two evaluations of the network. Using this approach, we demonstrate a greater than 10× improvement in computation requirements, enabling fast neural volume rendering.</p>
+
+<h3 id="autoint-framework">AutoInt Framework</h3>
+<hr />
+<div class="row">
+<div class="col-sm-8 mx-auto">
+<img src="/assets/img/publication/cvpr2021lindell/autoint_framework.png" class="img-fluid" alt="" />
+</div>
+</div>
+<p><br /></p>
+
+<p style="text-align: left;"><strong>AutoInt framework.</strong> After (1) defining an integral network architecture, (2) AutoInt builds the corresponding grad network, which is (3) optimized to represent a function. (4) Definite in- tegrals can then be computed by evaluating the integral network, which shares parameters with its grad network.</p>
+
+<div class="row">
+<div class="col-sm-8 mx-auto">
+<img src="/assets/img/publication/cvpr2021lindell/autoint_rendering_v.png" style="" class="img-fluid" alt="" />
+</div>
+</div>
+<p><br /></p>
+
+<p style="text-align: left;"><strong>Volume rendering pipeline.</strong> During training, the grad networks representing volume density σ and color c are optimized for a given set of multi-view images (top left). For inference, the grad networks’ parameters are reassembled to form the integral networks, which represent antiderivatives that can be efficiently evaluated to calculate ray integrals through the volume (bottom left). A sampling network predicts the locations of piecewise sections used for evaluating the definite integrals (right).</p>
+
+<h3 id="results">Results</h3>
+<hr />
+
+<div class="row">
+<div class="col-sm-8 mx-auto">
+<img src="/assets/img/publication/cvpr2021lindell/autoint_tomo.png" style="" class="img-fluid" alt="" />
+</div>
+</div>
+<p><br /></p>
+
+<p style="text-align: left;"><strong>Example of AutoInt for compressive sensing computed tomography.</strong> Left: illustration of the parameterization. Center: sinograms computed with the integral networks using different nonlinear activation functions. The ground truth (GT) sinogram is subsampled in angle by 4× (top), 8× (middle), and 16× (bottom). The optimized networks are used to interpolate the missing measurements. Using the Swish activation performs best in these experiments. Right: 1D scanlines of the sinogram centers shows the interpolation behavior of each method for each subsampling level.</p>
+
+<hr />
+
+<div class="row">
+<div class="col-sm-8 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2021lindell/autoint_lego.webm" type="video/webm" class="">
+</video>
+</div>
+</div>
+<p><br /></p>
+
+<p style="text-align: left;"><strong>Results of volumetric rendering on the NerF synthetic dataset.</strong></p>
+
+<div class="row">
+<div class="col-sm-8 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2021lindell/autoint_hotdog.webm" type="video/webm" class="">
+</video>
+</div>
+</div>
+<p><br /></p>
+
+<p style="text-align: left;"><strong>Results of volumetric rendering on the NerF synthetic dataset.</strong></p>
+
+<div class="row">
+<div class="col-sm-8 mx-auto">
+<video preload="auto" autoplay="" muted="" loop="loop" style="display: block; width: 100%; height: auto;" src="/assets/img/publication/cvpr2021lindell/autoint_real.webm" type="video/webm" class="">
+</video>
+</div>
+</div>
+<p><br /></p>
+
+<p style="text-align: left;"><strong>Results of volumetric rendering on real captured data.</strong></p>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+<hr />
+<p style="text-align: left;">This project is supported by a Stanford Graduate Fellowship in Science and Engineering, a National Science Foundation CAREER award (IIS 1553333), a Sloan Fellowship, the DARPA REVEAL program, a PECASE form the ARO, and by the KAUST Office of Sponsored Research through the Visual Computing Center CCF grant.</p>
+
+<h3 id="citation">Citation</h3>
+<hr />
+<div style="text-align: left;" class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+@inproceedings{autoint,
+  title={AutoInt: Automatic Integration for Fast Neural Volume Rendering},
+  author={Lindell, D. B.* and Martel, J. N. P.* and Wetzstein, G.},
+  booktitle={Proc. CVPR},
+  year={2021},
+}
+
+</code></pre></div></div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom z-depth-1">
+  <div class="container mt-0">
+    &copy; Copyright 2025 David B. Lindell.
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<!-- <script src="/assets/js/dark_mode.js"></script>-->
+
+
+</html>
