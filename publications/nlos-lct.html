@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>David B. Lindell | Confocal non-line-of-sight imaging based on the light-cone transform</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />  -->
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/publications/nlos-lct">
+
+<!-- Theming-->
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85065092-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-85065092-1');
+  </script>
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-md fixed-top z-depth-1">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">David B.  Lindell</span>
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/people/">
+                people
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          <li class="nav-item">
+              <a class="nav-link" href="/assets/pdf/cv.pdf">
+                CV
+                <span class="sr-only">(current)</span>
+              </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 mx-auto">
+            <h3>Confocal non-line-of-sight imaging based on the light-cone transform</h3>
+          <p class="name"> Matthew O'Toole, <strong>David B. Lindell</strong>, Gordon Wetzstein </p>
+          <ul class="list-inline">
+
+              
+              <li class="list-inline-item"> 
+                  <a class="btn" target="_blank" title="Download PDF" href="http://rdcu.be/ImAZ"><i class="fa fa-lg fa-file-pdf"></i> PDF</a>
+              </li>
+              
+
+              
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Download Supplement" href="https://www.nature.com/articles/nature25489#supplementary-information"><i class="fa fa-lg fa-file"></i> Supplement</a>
+              </li>
+              
+
+              
+
+              
+
+
+              
+              <li class="list-inline-item">
+                  <a class="btn" target="_blank" title="Video" href="https://www.youtube.com/watch?v=lCJN_RwJPew"><i class="fa fa-lg fa-video"></i> Video</a>
+              </li>
+              
+
+          </ul>
+
+          
+          <ul class="list-inline">
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://news.stanford.edu/2019/07/29/seeing-moving-objects-around-corners/" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/stanford-news-service-logo.png"/></a>
+              </li>
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://www.wired.com/story/wanna-see-around-corners-better-get-yourself-a-laser/" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/wired.png"/></a>
+              </li>
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://www.theguardian.com/technology/2018/mar/05/self-driving-cars-may-soon-be-able-to-see-around-corners" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/guardian.png"/></a>
+              </li>
+              
+              <li class="list-inline-item" style="width: 12rem;">
+                  <a href="https://www.quantamagazine.org/the-new-science-of-seeing-around-corners-20180830/" target="_blank"><img class="img-fluid" src="/assets/img/publication/press/quanta.png"/></a>
+              </li>
+              
+          </ul>
+          
+
+        </div>
+      </div>
+
+      <hr class="star-primary">
+      <div class="row">
+        <div class="center-block col-sm-8 mx-auto">
+          <img src="/assets/img/publication/nature2018otoole.png" class="img-fluid" alt="image-alt">
+        </div>
+      </div>
+      <hr class="star-primary">
+
+
+      <p><strong>Experimental Setup:</strong> The imaging system records the time it takes for laser light to scatter off the wall, reflect off the hidden bunny, and return to the wall. By acquiring these timing measurements for different laser positions on the wall, the 3D geometry of the hidden object can be reconstructed.</p>
+<hr />
+
+<p style="text-align: left;"><strong>A confocal scanning technique solves the reconstruction problem of non-line-of-sight imaging to give fast and high-quality reconstructions of hidden objects.</strong></p>
+<hr />
+
+<h3 id="abstract">Abstract</h3>
+<hr />
+<p style="text-align: left;">Imaging objects hidden from a camera’s view is a problem of fundamental importance to many fields of research with applications in robotic vision, defense, remote sensing, medical imaging, and autonomous vehicles. Non-line-of-sight (NLOS) imaging at macroscopic scales has been demonstrated by scanning a visible surface with a pulsed laser and time-resolved detector. Whereas light detection and ranging (LIDAR) systems use such measurements to recover the shape of visible objects from direct reflections, NLOS imaging aims at reconstructing the shape and albedo of hidden objects from multiply scattered light. Despite recent advances, NLOS imaging has remained impractical due to the prohibitive memory and processing requirements of existing reconstruction algorithms, and the extremely weak signal of multiply scattered light.</p>
+
+<p style="text-align: left;">Here we show that confocalizing the scanning procedure provides a means to address these key challenges. Confocal scanning facilitates the derivation of a novel closed-form solution to the NLOS reconstruction problem, which requires computational and memory resources that are orders of magnitude fewer than previous reconstruction methods and recovers hidden objects at unprecedented image resolutions. Confocal scanning also uniquely benefits from a sizeable increase in signal and range when imaging retroreflective objects. We quantify the resolution bounds of NLOS imaging, demonstrate real-time tracking capabilities, and derive efficient algorithms that incorporate image priors and a physically-accurate noise model. Most notably, we demonstrate successful outdoor experiments for NLOS imaging under indirect sunlight.</p>
+
+<h3 id="stanford-news">Stanford News</h3>
+<hr />
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="lazy_load" src="https://www.youtube.com/embed/KnGQEzB9u_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p><br /></p>
+
+<h3 id="overview-video">Overview Video</h3>
+<hr />
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lCJN_RwJPew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+<p><br /></p>
+
+<h3 id="visualizations">Visualizations</h3>
+<hr />
+<div class="row">
+<div class="col-md-8 mx-auto" style="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/output.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+
+<p style="text-align: left;"><strong>Measurements and Reconstruction:</strong> The captured measurements can be played back as a video, showing light splashing across the wall as it scatters back from the hidden object. Using a mathematical transform and deconvolution algorithm, the hidden object is recorded from these echoes of light.</p>
+
+<div class="row">
+<div class="col-md-8 mx-auto" style="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/outdoor.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+
+<p style="text-align: left;"><strong>Outdoor Experiment:</strong> Non-line-of-sight imaging is demonstrated outdoors. The imaging system captures measurements in indirect sunlight and robustly reconstructs the hidden “S” shape.</p>
+
+<h3 id="scenes">Scenes</h3>
+<hr />
+<div class="row">
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/scene0.png" style="padding: 10px;" class="img-fluid" alt="" />
+<p> Bunny (simulated) </p>
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/scene5.png" style="padding: 10px;" class="img-fluid" alt="" />
+<p>Mannequin</p>
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/scene6.png" style="padding: 10px;" class="img-fluid" alt="" />
+<p>Exit Sign</p>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/scene7.png" style="padding: 10px;" class="img-fluid" alt="" />
+<p>Letters "SU"</p>
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/scene8.png" style="padding: 10px;" class="img-fluid" alt="" />
+<p>Outdoor Letter "S"</p>
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/scene9.png" style="padding: 10px;" class="img-fluid" alt="" />
+<p>Diffuse "S"</p>
+</div>
+</div>
+<h3 id="reconstructions">Reconstructions</h3>
+<hr />
+<div class="row">
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/spin_0.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/spin_5.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/spin_6.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<div class="row">
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/spin_7.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/spin_8.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+<div class="col-xs-4 col-md-4">
+<img src="/assets/img/publication/nature2018otoole/spin_9.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<p><br /></p>
+
+<h3 id="media">Media</h3>
+<hr />
+<div class="row">
+<div class="col-md-8 mx-auto" style="transform: translateX(30px);">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/laser.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<p style="text-align: left;">Matthew O’Toole operating the laser scanning system (credit: Kurt Hickman / Stanford News)</p>
+
+<div class="row">
+<div class="col-md-8 mx-auto" style="transform: translateX(30px);">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/scanning.gif" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<p style="text-align: left;">An overview of the hardware setup (credit: Kurt Hickman / Stanford News)</p>
+
+<div class="row">
+<div class="col-md-8 mx-auto" style="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8710.jpg" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<p style="text-align: left;">Graduate student David Lindell and postdoctoral researcher Matthew O’Toole work in the lab with assistant professor Gordon Wetzstein (credit: Linda A. Cicero / Stanford News).</p>
+
+<div class="row">
+<div class="col-md-8 mx-auto" style="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8642.jpg" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<p style="text-align: left;">Graduate student David Lindell works in the lab with assistant professor Gordon Wetzstein (credit: Linda A. Cicero / Stanford News).</p>
+
+<div class="row">
+<div class="col-md-8 mx-auto" style="">
+<img src="http://www.computationalimaging.org/wp-content/uploads/2018/03/corner_8655.jpg" style="padding: 10px;" class="img-fluid" alt="" />
+</div>
+</div>
+<p style="text-align: left;">Graduate student David Lindell and postdoctoral researcher Matthew O’Toole calibrating the system (credit: Linda A. Cicero / Stanford News).</p>
+
+<h3 id="code-and-datasets">Code and Datasets</h3>
+<ul class="" style="font-size: 22px; list-style: none; transform: translateX(-20px);">
+<li><a href="https://drive.google.com/a/stanford.edu/file/d/1OoZ4JfkXY0bIGlb4dT22YjhhwplZjQOc/view?usp=sharing">LCT MATLAB code and data</a></li>
+<li><a href="https://drive.google.com/a/stanford.edu/file/d/1XoYFqj5T23tFODBppzEOwXQjaUMQfmcH/view?usp=sharing">Iterative LCT MATLAB code and data</a></li>
+<li><a href="https://drive.google.com/a/stanford.edu/file/d/1sXxng7CBxe-Rp-3BfhOJvnDc5v8hE9gK/view?usp=sharing">High-resolution simulated bunny data</a></li>
+</ul>
+
+<h3 id="acknowledgments">Acknowledgments</h3>
+<hr />
+<p style="text-align: left;">We thank Kai Zang for his expertise and helpful advice related to the SPAD sensor. We also thank Brian A. Wandell, Julie Chang, Isaac Kauvar, and Nitish Padmanaban for reviewing the manuscript. M.O. is supported by the Government of Canada through the Banting Postdoctoral Fellowships program. D.B.L. is supported by a Stanford Graduate Fellowship in Science and Engineering. G.W. is supported by a National Science Foundation CAREER award (IIS 1553333), a Terman Faculty Fellowship, the Center for Automotive Research at Stanford (CARS), and by the KAUST Office of Sponsored Research through the Visual Computing Center CCF grant.</p>
+
+<h3 id="citation">Citation</h3>
+<hr />
+<div style="text-align: left;" class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+@article{OToole:2018:ConfocalNLOS,
+author = {Matthew O’Toole and David B. Lindell and Gordon Wetzstein},
+title = {{Confocal Non-Line-of-Sight Imaging Based on the Light-Cone Transform}},
+journal = {Nature},
+year = {2018},
+}
+
+</code></pre></div></div>
+
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom z-depth-1">
+  <div class="container mt-0">
+    &copy; Copyright 2025 David B. Lindell.
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<!-- <script src="/assets/js/dark_mode.js"></script>-->
+
+
+</html>
