@@ -2,7 +2,7 @@
 layout: default 
 title: joining 
 permalink: /joining
-description: Joining<br><a href="http://computationalimaging.org/">Computational Imaging Lab</a><br><a href="https://www.stanford.edu/">Stanford University</a> 
+description: Joining 
 nav: false
 
 ---
