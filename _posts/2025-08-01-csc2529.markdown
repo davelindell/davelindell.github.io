@@ -1,11 +1,11 @@
 ---
 title: "CSC2529: Computational Imaging"
-date: 2024-08-01
-thumbnail: csc2529-fall2425.png
-permalink: https://www.cs.toronto.edu/~lindell/teaching/2529/2024/
+date: 2025-08-01
+thumbnail: csc2529-fall2526.png
+permalink: https://www.cs.toronto.edu/~lindell/teaching/2529/
 alt: image-alt
 iscourse: true
-term: Fall 2024
+term: Fall 2025
 
 ---
 

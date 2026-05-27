@@ -20,6 +20,7 @@ $(document).ready(function() {
           }
         }
      } );
+    $('#news-table').css('visibility', 'visible');
 
     // scroll functions
     $(window).scroll(function(e) {
