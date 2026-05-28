@@ -18,8 +18,8 @@ last_updated: false # set to true if you want to display last updated in the foo
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
+navbar_fixed: false
+footer_fixed: false
 
 # -----------------------------------------------------------------------------
 # Open Graph
@@ -79,7 +79,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 8
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

@@ -1,40 +1,35 @@
 $(document).ready(function() {
+    // Abstract toggle
     $('a.abstract').click(function() {
         $(this).parent().parent().find(".abstract.hidden").toggleClass('open');
     });
+    // BibTeX toggle
     $('a.bibtex').click(function() {
         $(this).parent().parent().find(".bibtex.hidden").toggleClass('open');
     });
-    $('#news-table').DataTable( {
-        "paging":   true,
-        "ordering": false,
-        "info":     false,
-        "searching": false,
-        "bLengthChange": false,
-        "pageLength": 5,
-        "pagingType": "simple",
-        "language": {
-        "paginate": {
-            "next": '<div class="news-button btn btn-primary btn-sm"><i class="fa fa-caret-right fa-2x"></i></div>',
-            "previous": '<div class="news-button btn btn-primary btn-sm"><i class="fa fa-caret-left fa-2x"></i></div>'  
-          }
-        }
-     } );
-    $('#news-table').css('visibility', 'visible');
-
-    // scroll functions
-    $(window).scroll(function(e) {
-
-        // add/remove class to navbar when scrolling to hide/show
-        var scroll = $(window).scrollTop();
-        if (scroll >= 30) {
-            $('.navbar').addClass("navbar-hide");
+    // News show/hide toggle
+    $('#news-toggle').click(function(e) {
+        e.preventDefault();
+        $('.news-hidden').toggleClass('news-visible');
+        if ($('.news-hidden').first().hasClass('news-visible')) {
+            $(this).text('Show less');
+            $('.news-hidden.news-visible').css('display', 'flex');
         } else {
-            $('.navbar').removeClass("navbar-hide");
+            $(this).text('Show all news');
+            $('.news-hidden').css('display', 'none');
         }
-
     });
-
+    // GIF hover: show animated GIF on mouseover of the entire pub-entry row
+    $('.gif-hover').each(function() {
+        var $img = $(this);
+        var staticSrc = $img.attr('src');
+        var gifSrc = $img.data('gif');
+        var $row = $img.closest('.pub-entry');
+        $row.on('mouseenter', function() {
+            $img.attr('src', gifSrc);
+        });
+        $row.on('mouseleave', function() {
+            $img.attr('src', staticSrc);
+        });
+    });
 });
-
-

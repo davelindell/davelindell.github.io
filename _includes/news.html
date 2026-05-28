@@ -1,50 +1,18 @@
-<!--<div class="news">
+<div class="news-section">
   <h2>news</h2>
-  {% if site.data.news  %}
-  <div id="news_table" class="table">
-    {% assign news = site.data.news %}
-    {% for item in news limit: site.news_limit %}
-    <div class="row">
-      <div class="col-sm-2 abbr">
-        <abbr class="badge news-title">
-        {{ item.date | date: "%b %-d, %Y" }}
-        </abbr>
-      </div>
-
-      <div id="{{entry.key}}" class="col-sm-8">
-        {{ item.content | markdownify }}
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
-</div>
--->
-
-
-<div class="news">
-  <h2>news</h2>
-  {% if site.data.news  %}
-    <div class="table-responsive">
-      <table id="news-table" class="table table-sm table-borderless" style="visibility: hidden;">
-          <thead style="display: none;"><th></th><th></th></thead>
-      <tbody>
+  {% if site.data.news %}
+    <ul class="news-list">
       {% assign news = site.data.news %}
       {% for item in news %}
-        <tr>
-          <td scope="row">
-            <abbr class="badge news-title">
-            {{ item.date | date: "%b %-d, %Y" }}
-            </abbr>
-          </td>
-          <td>
-              {{ item.content | markdownify }}
-          </td>
-        </tr>
+        <li class="news-item{% if forloop.index > site.news_limit %} news-hidden{% endif %}">
+          <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
+          <span class="news-content">{{ item.content }}</span>
+        </li>
       {% endfor %}
-      </tbody>
-      </table>
-    </div>
+    </ul>
+    {% if site.data.news.size > site.news_limit %}
+      <a class="news-toggle" id="news-toggle" href="#">Show all news</a>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}

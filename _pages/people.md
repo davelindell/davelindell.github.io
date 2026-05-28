@@ -2,10 +2,11 @@
 layout: default
 title: people
 permalink: /people/
-nav: True
+nav: true
+nav_order: 3
 ---
 
-### current group members
+## current group members
 - - -
 
 ##### Postdoc
@@ -40,8 +41,10 @@ nav: True
 * [Ugo Cavalcanti](https://www.ugoleonecavalcanti.com/) (2026), *University of Bologna*
 * [Felix Lange]() (2026-2027), *Free University of Berlin*
 
-### former group members
-- - - 
+<br><br>
+
+## former group members
+- - -
 
 ##### PhD
 * [Sherwin Bahmani](https://sherwinbahmani.github.io/) (2023-2026), *next stop: Google Deepmind*

@@ -18,26 +18,22 @@ layout: default
 <div class="publications">
 
 {% for y in page.years %}
-  <div class="row">
-    <div class="col-sm-12">
-      <h2 class="year">{{y}}</h2>
-    </div>
-  </div>
+  <h2 class="year">{{y}}</h2>
 
   <ol class="bibliography">
   {% for entry in site.posts %}
     {% if entry.iscourse and entry.term contains y %}
       <li>
-      <div class="row">
-        <div class="col-sm-4 center-block">
+      <div class="pub-entry">
+        <div class="pub-thumbnail">
           <a href="{{ entry.permalink }}">
-          <img src="/assets/img/course/{{ entry.thumbnail }}" class="img-responsive publication-img" alt="">
+          <img src="/assets/img/course/{{ entry.thumbnail }}" class="publication-img" alt="{{ entry.title }}">
           </a>
         </div>
-        <div id="{{entry.key}}" class="col-sm-8">
-            <div class="title"><a href="{{entry.permalink}}">{{entry.title}}</a></div>
-            <div class="author"><p>{{ entry.content }}</p></div>
-            <div><p><em>{{ entry.term }}</em></p></div>
+        <div class="pub-details">
+            <div class="pub-title"><a href="{{entry.permalink}}">{{entry.title}}</a></div>
+            <div class="pub-authors">{{ entry.content }}</div>
+            <div class="pub-venue"><em>{{ entry.term }}</em></div>
         </div>
       </div>
       </li>
