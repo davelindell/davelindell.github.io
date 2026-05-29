@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>David B. Lindell</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:wght@400;600;700&display=swap">
+
+<!-- Code Syntax Highlighting -->
+<!-- <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />  -->
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/">
+
+<!-- Theming-->
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-85065092-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-85065092-1');
+  </script>
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<!-- <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+
+
+  </head>
+
+  <body class="sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header class="site-header">
+  <div class="container">
+    <nav class="site-nav">
+      <a class="site-title" href="/">
+        David B. Lindell
+      </a>
+      <span class="nav-links">
+        <a href="/" class="active">about</a>
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <a href="/publications/" >publications</a>
+          
+        
+          
+            <a href="/people/" >people</a>
+          
+        
+          
+            <a href="/talks/" >talks</a>
+          
+        
+          
+            <a href="/teaching/" >teaching</a>
+          
+        
+        <a href="/assets/pdf/cv.pdf">cv</a>
+      </span>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container">
+      <div class="about-page">
+  
+  <div class="profile-section">
+    
+      <img class="profile-img" src="/assets/img/prof_pic.jpg" alt="Profile photo">
+    
+    <div class="profile-info">
+      <h1 class="profile-name">David B. Lindell</h1>
+      <p class="profile-desc">Assistant Professor<br><a href="https://web.cs.toronto.edu/">Department of Computer Science</a><br><a href="https://www.utoronto.ca/">University of Toronto</a></p>
+      
+      <div class="profile-social"><span class="contact-icon text-center">
+  <a href="mailto:%6C%69%6E%64%65%6C%6C@%63%73.%74%6F%72%6F%6E%74%6F.%65%64%75"><i class="fas fa-envelope"></i></a>
+  
+  <a href="https://scholar.google.com/citations?user=_m-BTtAAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  
+  
+  
+  
+  <a href="https://twitter.com/davelindell" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+  
+  
+  
+  
+  
+</span>
+</div>
+      
+    </div>
+  </div>
+  
+
+  <div class="about-content">
+    <p>I’m an Assistant Professor in the Department of Computer Science at the University of Toronto, a faculty affiliate at the Vector Institute, a faculty fellow at <a href="https://axl.vc/">AXL</a>, and a founding member of the <a href="https://compimaging.dgp.toronto.edu/">Toronto Computational Imaging Group</a>.</p>
+
+<p>My research focuses on <em>physically based intelligent sensing:</em> a paradigm that combines physically based models, signal processing, and artificial intelligence to break the limits of current sensing systems and re-think how we reconstruct the world from captured visual information. 
+Recent work in my group spans methods that recover geometry and material properties from <a href="https://anaghmalik.com/InvProp/" target="_blank">ultrafast videos of light propagation</a>; large-scale generative models that tackle ill-posed problems in <a href="https://blur2vid.github.io/" target="_blank">video</a> and <a href="https://felixtaubner.github.io/cap4d/" target="_blank">4D</a> reconstruction; and emerging sensing systems that exploit <a href="https://www.dgp.toronto.edu/projects/ultra-wideband/" target="_blank">individual photon detections</a> and the <a href="https://www.dgp.toronto.edu/fullwavefieldlidar" target="_blank">coherent properties of light</a> to unlock new capabilities in imaging and 3D reconstruction.
+My work contributes broadly to applications across computational imaging, computer graphics, computer vision, and robotics.</p>
+
+<!-- Students interested in joining my group starting in fall 2026 should apply to the [Department of Computer Science](https://web.cs.toronto.edu/graduate/prospective). More on [this page](/joining).
+{: style="background-color: #ffffcc; float: left;"} -->
+
+  </div>
+
+  
+    <div class="news-section">
+  <h2>news</h2>
+  
+    <ul class="news-list">
+      
+      
+        <li class="news-item">
+          <span class="news-date">May 2026</span>
+          <span class="news-content">I'll be giving a talk at the <a href="https://alumni.media.mit.edu/~ayush/CCD/">Computational Cameras and Displays workshop</a> at CVPR 2026.</span>
+        </li>
+      
+        <li class="news-item">
+          <span class="news-date">May 2026</span>
+          <span class="news-content">Six papers accepted to CVPR, including three selected as highlights!</span>
+        </li>
+      
+        <li class="news-item">
+          <span class="news-date">Dec 2025</span>
+          <span class="news-content">Two papers accepted to SIGGRAPH Asia, one paper accepted to NeurIPS, and one paper accepted to 3DV!</span>
+        </li>
+      
+        <li class="news-item">
+          <span class="news-date">Nov 2025</span>
+          <span class="news-content">I'm giving a keynote at <a href="https://www.dgp.toronto.edu/graphquon/">GraphQUON 2025</a>.</span>
+        </li>
+      
+        <li class="news-item">
+          <span class="news-date">Oct 2025</span>
+          <span class="news-content">I'm speaking at the <a href="https://unilight-workshop.github.io/unilight2025/">UniLight Workshop</a>, the workshop on <a href="https://cvspc.cs.pdx.edu/">Computer Vision with Single-Photon Cameras</a>, and co-organizing a <a href="https://iccv.thecvf.com/virtual/2025/workshop/2774">workshop on world models</a> at ICCV 2025.</span>
+        </li>
+      
+        <li class="news-item">
+          <span class="news-date">Jun 2025</span>
+          <span class="news-content"><a href="https://anaghmalik.com/InvProp/">Neural Inverse Rendering from Propagating Light</a> received the <a href="https://cvpr.thecvf.com/Conferences/2025/News/Awards_Press">best student paper award at CVPR 2025</a>!</span>
+        </li>
+      
+        <li class="news-item">
+          <span class="news-date">Apr 2025</span>
+          <span class="news-content">I received the <a href="https://news.ontario.ca/en/backgrounder/1005844/ontario-driving-homegrown-innovation-through-the-ontario-research-fund-and-the-early-researcher-awards">Ontario Early Researcher Award</a>!</span>
+        </li>
+      
+        <li class="news-item">
+          <span class="news-date">Mar 2025</span>
+          <span class="news-content">Four papers accepted to CVPR (including three selected for oral presentation!)—<a href="https://www.dgp.toronto.edu/projects/opportunistic/">Opportunistic ToF</a>, <a href="https://anaghmalik.com/InvProp/">Neural Inverse Rendering with Propagating Light</a>, <a href="https://felixtaubner.github.io/cap4d/">CAP4D</a>, and <a href="https://snap-research.github.io/ac3d/">AC3D</a>.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Dec 2024</span>
+          <span class="news-content">I'm speaking about <a href="https://anaghmalik.com/FlyingWithPhotons/">neural rendering at the speed of light</a> at the <a href="https://aisummit2024.kr/">Korea AI Summit 2024</a>.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Sep 2024</span>
+          <span class="news-content">Two papers accepted to WACV, one paper accepted to NeurIPS, one paper accepted to SIGGRAPH Asia, and two papers accepted to ICLR.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Aug 2024</span>
+          <span class="news-content">I'll be speaking at the <a href="https://neural-fields-beyond-cams.github.io/">ECCV Workshop on Neural Fields Beyond Conventional Cameras</a> on Sep 30.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Aug 2024</span>
+          <span class="news-content">Two papers accepted to ECCV—check out <a href="https://anaghmalik.com/FlyingWithPhotons/">Flying with Photons</a> and <a href="https://sherwinbahmani.github.io/tc4d/">TC4D</a>.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">May 2024</span>
+          <span class="news-content">I received the Sony Faculty Innovation Award and the Sony Focused Research Award!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Mar 2024</span>
+          <span class="news-content">I received the Google Research Scholar Award—a big thank you to Google Research for their support!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Feb 2024</span>
+          <span class="news-content">Three papers accepted to CVPR—congrats to Kejia, Maxx, Parsa, and Sherwin who led these projects!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Oct 2023</span>
+          <span class="news-content"><a href="https://www.dgp.toronto.edu/projects/ultra-wideband/">Passive ultra-wideband single-photon imaging</a> wins the best paper award (Marr Prize) at ICCV 2023!!!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Oct 2023</span>
+          <span class="news-content">Papers accepted to <a href="https://www.dgp.toronto.edu/projects/ultra-wideband/">ICCV (oral)</a> and <a href="https://anaghmalik.com/TransientNeRF/">NeurIPS (spotlight)</a>!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Sep 2023</span>
+          <span class="news-content">Three new <a href="/people/">students</a> joining the group—welcome Victor, Sherwin, and Maxx!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Mar 2023</span>
+          <span class="news-content"><a href="https://sparsepose.github.io/">SparsePose</a> accepted to CVPR 2023!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Oct 2022</span>
+          <span class="news-content">Two papers accepted to NeurIPS 2022--Check out <a href="https://shekshaa.github.io/ResidualMFN/">Residual MFNs</a> and <a href="https://www.computationalimaging.org/publications/gnarf/">Neural Articulated Radiance Fields</a>!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Mar 2022</span>
+          <span class="news-content"><a href="/publications/bacon">BACON</a> accepted to CVPR 2022!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Dec 2021</span>
+          <span class="news-content">We describe a new type of interpretible neural network with an analytical Fourier spectrum in <a href="/publications/bacon">BACON&#58; Band-Limited Coordinate Networks</a>.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Aug 2021</span>
+          <span class="news-content">I'm honored to receive the 2021 SIGGRAPH Outstanding Doctoral Dissertation Honorable Mention Award!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">May 2021</span>
+          <span class="news-content">Our paper on scaling up implicit representations using <a href="/publications/acorn">adaptive coordinate networks</a> is accepted to SIGGRAPH 2021!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Mar 2021</span>
+          <span class="news-content"><a href="/publications/autoint">AutoInt </a> accepted to CVPR 2021! Code is also available <a href="https://github.com/computational-imaging/automatic-integration"> here</a>.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Jan 2021</span>
+          <span class="news-content">Officially graduated! My dissertation is entitled <a href="https://stacks.stanford.edu/file/druid:xg952ns2082/thesis_final-augmented.pdf">Computational Imaging with Single-Photon Detectors</a>.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Dec 2020</span>
+          <span class="news-content">Our method to solve integral equations with neural networks is out! <a href="/publications/autoint">AutoInt&#58; Automatic integration for fast neural volume rendering.</a></span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Sep 2020</span>
+          <span class="news-content">Our paper on [Sinusoidal Representation Networks (SIREN)](https://vsitzmann.github.io/siren/) was accepted as an oral to NeurIPS (1% acceptance rate).</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Sep 2020</span>
+          <span class="news-content">My paper on imaging through scattering media was published in [Nature Communications](https://www.nature.com/articles/s41467-020-18346-3) and featured in [Stanford News](https://news.stanford.edu/2020/09/09/seeing-objects-clouds-fog/).</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Aug 2020</span>
+          <span class="news-content">My thesis presentation "Computational Single-Photon Imaging" received the [honorable mention award at the SIGGRAPH Thesis Fast Forward](https://s2020.siggraph.org/conference/program-events/graduate-cohorts/thesis-fast-forward/)!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Aug 2020</span>
+          <span class="news-content">My course on [Computational time-resolved imaging, single-photon sensing, and non-line-of-sight imaging](https://dl.acm.org/doi/abs/10.1145/3388769.3407481) is live at SIGGRAPH! I'm joined by excellent instructors Matthew O'Toole, Ramesh Raskar, and Srinivas Narasimhan.</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Jul 2020</span>
+          <span class="news-content"><div> <p> Our paper on <a href="#publication-2020-4" data-toggle="modal">3D imaging with an RGB camera and a single SPAD transient was accepted to ECCV!</a> </p> </div></span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Jul 2020</span>
+          <span class="news-content">I was recognized as an [outstanding reviewer](http://cvpr2020.thecvf.com/reviewer-acknowledgements) for CVPR 2020! (136/3663 reviewers selected)</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Jun 2020</span>
+          <span class="news-content"><div> <p> Three papers accepted recently! <a href="#publication-2020-1" data-toggle="modal">Non-line-of-sight Surface Reconstruction Using the Directional Light-cone Transform</a> (Oral @ CVPR 2020), <a href="#publication-2020-2" data-toggle="modal">SPADnet&#58; deep RGB-SPAD sensor fusion assisted by monocular depth estimation</a> (Optics Express), and <a href="#publication-2020-3" data-toggle="modal">Deep Adaptive LiDAR&#58; End-to-end Optimization of Sampling and Depth Completion at Low Sampling Rates</a> (ICCP 2020). </p> </div></span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">May 2020</span>
+          <span class="news-content">I'm co-chairing the 9th annual [Computational Cameras and Displays workshop](http://ccd2020.cms.caltech.edu/) at CVPR 2020 with [Achuta Kadambi](https://visual.ee.ucla.edu/) and [Katie Bouman](http://users.cms.caltech.edu/~klbouman/).</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Mar 2020</span>
+          <span class="news-content">Update: My talk is featured on the [TED website](https://go.ted.com/davidlindell) with nearly a quarter million views!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Jan 2020</span>
+          <span class="news-content">My TedxBeaconStreet talk on "a camera to see around corners" is up on [YouTube](https://www.youtube.com/watch?v=ytxZc1WBtjI)!</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">May 2019</span>
+          <span class="news-content"><div> <p> Two papers accepted! <a href="#publication-2019-2" data-toggle="modal">Acoustic Non-Line-of-Sight Imaging</a> was accepted as an oral to CVPR, and <a href="#publication-2019-3" data-toggle="modal">Wave-Based Non-Line-of-Sight Imaging Using Fast f-k Migration</a> was accepted to SIGGRAPH. </p> </div></span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Jun 2018</span>
+          <span class="news-content">I'm interning at the Intelligent Systems Lab at Intel this summer with [Vladlen Koltun](http://vladlen.info).</span>
+        </li>
+      
+        <li class="news-item news-hidden">
+          <span class="news-date">Mar 2018</span>
+          <span class="news-content">Our paper on Seeing around corners was published in [Nature](http://rdcu.be/ImAZ)!</span>
+        </li>
+      
+    </ul>
+    
+      <a class="news-toggle" id="news-toggle" href="#">Show all news</a>
+    
+  
+</div>
+
+  
+
+  
+    <div class="publications">
+  <h2>selected publications</h2>
+  <ol class="bibliography"><li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://anaghmalik.com/InvProp/">
+    
+      
+        <img src="/assets/img/publication/thumbnail/cvpr2025malik.png" class="publication-img" alt="Neural Inverse Rendering from Propagating Light">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="malik2025neural">
+    
+      <div class="pub-title">
+        
+          <a href="https://anaghmalik.com/InvProp/">Neural Inverse Rendering from Propagating Light</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Anagh Malik,
+            
+          
+        
+          
+            
+              Benjamin Attal,
+            
+          
+        
+          
+            
+              Andrew Xie,
+            
+          
+        
+          
+            
+              Matthew O’Toole,
+            
+          
+        
+          
+            <strong>David B Lindell</strong>
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>CVPR</em>, 2025
+         <span class="pub-note">(Best Student Paper Award)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://anaghmalik.com/InvProp/" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://www.arxiv.org/abs/2506.05347" class="pub-link" target="_blank">pdf</a>
+      
+      
+      
+      <a href="https://github.com/benattal/neural-radiance-caching" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://www.dgp.toronto.edu/projects/opportunistic/">
+    
+      
+        <img src="/assets/img/publication/thumbnail/cvpr2025nousias.png" class="publication-img" alt="Opportunistic Single-Photon Time of Flight">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="nousias2025opportunistic">
+    
+      <div class="pub-title">
+        
+          <a href="https://www.dgp.toronto.edu/projects/opportunistic/">Opportunistic Single-Photon Time of Flight</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Sotiris Nousias,
+            
+          
+        
+          
+            
+              Mian Wei,
+            
+          
+        
+          
+            
+              Howard Xiao,
+            
+          
+        
+          
+            
+              Maxx Wu,
+            
+          
+        
+          
+            
+              Shahmeer Athar,
+            
+          
+        
+          
+            
+              Kevin J Wang,
+            
+          
+        
+          
+            
+              Anagh Malik,
+            
+          
+        
+          
+            
+              David A Barmherzig,
+            
+          
+        
+          
+            <strong>David B Lindell</strong>,
+          
+        
+          
+            
+              Kyros Kutulakos
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>CVPR</em>, 2025
+         <span class="pub-note">(Oral Presentation)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://www.dgp.toronto.edu/projects/opportunistic/" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://www.dgp.toronto.edu/projects/opportunistic/static/docs/paper.pdf" class="pub-link" target="_blank">pdf</a>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://felixtaubner.github.io/cap4d/">
+    
+      
+        <img src="/assets/img/publication/thumbnail/cvpr2025taubner.png" class="publication-img" alt="CAP4D: Creating Animatable 4D Portrait Avatars with Morphable Multi-View Diffusion Models">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="taubner2024cap4d">
+    
+      <div class="pub-title">
+        
+          <a href="https://felixtaubner.github.io/cap4d/">CAP4D: Creating Animatable 4D Portrait Avatars with Morphable Multi-View Diffusion Models</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Felix Taubner,
+            
+          
+        
+          
+            
+              Ruihang Zhang,
+            
+          
+        
+          
+            
+              Mathieu Tuli,
+            
+          
+        
+          
+            <strong>David B Lindell</strong>
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>CVPR</em>, 2025
+         <span class="pub-note">(Oral Presentation)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://felixtaubner.github.io/cap4d/" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://arxiv.org/abs/2412.12093" class="pub-link" target="_blank">pdf</a>
+      
+      
+      
+      <a href="https://github.com/felixtaubner/cap4d/" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://www.dgp.toronto.edu/fullwavefieldlidar">
+    
+      
+        <img src="/assets/img/publication/thumbnail/arxiv2024mirdehghan.png" class="publication-img" alt="Coherent Optical Modems for Full-Wavefield Lidar">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="mirdehghan2024coherent">
+    
+      <div class="pub-title">
+        
+          <a href="https://www.dgp.toronto.edu/fullwavefieldlidar">Coherent Optical Modems for Full-Wavefield Lidar</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Parsa Mirdehghan,
+            
+          
+        
+          
+            
+              Brandon Buscaino,
+            
+          
+        
+          
+            
+              Maxx Wu,
+            
+          
+        
+          
+            
+              Doug Charlton,
+            
+          
+        
+          
+            
+              Mohammad E Mousa-Pasandi,
+            
+          
+        
+          
+            
+              Kiriakos N Kutulakos,
+            
+          
+        
+          
+            <strong>David B Lindell</strong>
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>SIGGRAPH Asia</em>, 2024
+        
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://www.dgp.toronto.edu/fullwavefieldlidar" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://arxiv.org/abs/2406.08439" class="pub-link" target="_blank">pdf</a>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://anaghmalik.com/FlyingWithPhotons/">
+    
+      
+        
+        <img src="/assets/img/publication/thumbnail/arxiv2024malik.png" data-gif="/assets/img/publication/thumbnail/arxiv2024malik.gif" class="publication-img gif-hover" alt="Flying With Photons: Rendering Novel Views of Propagating Light">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="malik2024flying">
+    
+      <div class="pub-title">
+        
+          <a href="https://anaghmalik.com/FlyingWithPhotons/">Flying With Photons: Rendering Novel Views of Propagating Light</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Anagh Malik,
+            
+          
+        
+          
+            
+              Noah Juravsky,
+            
+          
+        
+          
+            
+              Ryan Po,
+            
+          
+        
+          
+            
+              Gordon Wetzstein,
+            
+          
+        
+          
+            
+              Kiriakos N Kutulakos,
+            
+          
+        
+          
+            <strong>David B Lindell</strong>
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>ECCV</em>, 2024
+         <span class="pub-note">(Oral Presentation)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://anaghmalik.com/FlyingWithPhotons/" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="http://arxiv.org/abs/2404.06493" class="pub-link" target="_blank">pdf</a>
+      
+      
+      
+      <a href="https://github.com/anaghmalik/FlyingWithPhotons" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://sherwinbahmani.github.io/4dfy/">
+    
+      
+        
+        <img src="/assets/img/publication/thumbnail/arxiv2023bahmani.png" data-gif="/assets/img/publication/thumbnail/arxiv2023bahmani.gif" class="publication-img gif-hover" alt="4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="bahmani20234d">
+    
+      <div class="pub-title">
+        
+          <a href="https://sherwinbahmani.github.io/4dfy/">4D-fy: Text-to-4D Generation Using Hybrid Score Distillation Sampling</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Sherwin Bahmani,
+            
+          
+        
+          
+            
+              Ivan Skorokhodov,
+            
+          
+        
+          
+            
+              Victor Rong,
+            
+          
+        
+          
+            
+              Gordon Wetzstein,
+            
+          
+        
+          
+            
+              Leonidas Guibas,
+            
+          
+        
+          
+            
+              Peter Wonka,
+            
+          
+        
+          
+            
+              Sergey Tulyakov,
+            
+          
+        
+          
+            
+              Jeong Joon Park,
+            
+          
+        
+          
+            
+              Andrea Tagliasacchi,
+            
+          
+        
+          
+            <strong>David B. Lindell</strong>
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>CVPR</em>, 2024
+        
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://sherwinbahmani.github.io/4dfy/" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://arxiv.org/abs/2311.17984" class="pub-link" target="_blank">pdf</a>
+      
+      
+      
+      <a href="https://github.com/sherwinbahmani/4dfy" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://www.dgp.toronto.edu/projects/ultra-wideband/">
+    
+      
+        <img src="/assets/img/publication/thumbnail/iccv2023wei.png" class="publication-img" alt="Passive Ultra-Wideband Single-Photon Imaging">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="wei2023passive">
+    
+      <div class="pub-title">
+        
+          <a href="https://www.dgp.toronto.edu/projects/ultra-wideband/">Passive Ultra-Wideband Single-Photon Imaging</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Mian Wei,
+            
+          
+        
+          
+            
+              Sotiris Nousias,
+            
+          
+        
+          
+            
+              Rahul Gulve,
+            
+          
+        
+          
+            <strong>David B. Lindell</strong>,
+          
+        
+          
+            
+              Kiriakos N. Kutulakos
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>ICCV</em>, 2023
+         <span class="pub-note">(Best Paper/Marr Prize)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://www.dgp.toronto.edu/projects/ultra-wideband/" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://www.dgp.toronto.edu/projects/ultra-wideband/static/docs/paper.pdf" class="pub-link" target="_blank">pdf</a>
+      
+      
+      <a href="https://www.dgp.toronto.edu/projects/ultra-wideband/static/docs/supp/iccv-final.mp4" class="pub-link" target="_blank">video</a>
+      <a href="https://github.com/t-cig/UWB1D" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="/publications/bacon">
+    
+      
+        <img src="/assets/img/publication/thumbnail/cvpr2022lindell.png" class="publication-img" alt="BACON: Band-limited coordinate networks for multiscale scene representation">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="lindell2022bacon">
+    
+      <div class="pub-title">
+        
+          <a href="/publications/bacon">BACON: Band-limited coordinate networks for multiscale scene representation</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            <strong>David B. Lindell</strong>,
+          
+        
+          
+            
+              Dave Van Veen,
+            
+          
+        
+          
+            
+              J. J. Park,
+            
+          
+        
+          
+            
+              Gordon Wetzstein
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>CVPR</em>, 2022
+         <span class="pub-note">(Oral Presentation)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="/publications/bacon" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="http://arxiv.org/abs/2112.04645" class="pub-link" target="_blank">pdf</a>
+      
+      
+      <a href="https://www.youtube.com/watch?v=zIH3KUCgJEA" class="pub-link" target="_blank">video</a>
+      <a href="https://github.com/computational-imaging/bacon" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="/publications/autoint">
+    
+      
+        <img src="/assets/img/publication/thumbnail/cvpr2021lindell.png" class="publication-img" alt="AutoInt: Automatic Integration for Fast Neural Volume Rendering">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="lindell2021autoint">
+    
+      <div class="pub-title">
+        
+          <a href="/publications/autoint">AutoInt: Automatic Integration for Fast Neural Volume Rendering</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              David B. Lindell*,
+            
+          
+        
+          
+            
+              Julien N. P. Martel*,
+            
+          
+        
+          
+            
+              Gordon Wetzstein
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>CVPR</em>, 2021
+        
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="/publications/autoint" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://arxiv.org/abs/2012.01714" class="pub-link" target="_blank">pdf</a>
+      
+      
+      <a href="https://www.youtube.com/watch?v=GYxFYbih0PU" class="pub-link" target="_blank">video</a>
+      <a href="https://github.com/computational-imaging/automatic-integration" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="/publications/cdt">
+    
+      
+        <img src="/assets/img/publication/thumbnail/natcommun2020lindell.png" class="publication-img" alt="Three-Dimensional Imaging Through Scattering Media based on Confocal Diffuse Tomography">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="lindell2020three">
+    
+      <div class="pub-title">
+        
+          <a href="/publications/cdt">Three-Dimensional Imaging Through Scattering Media based on Confocal Diffuse Tomography</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            <strong>David B. Lindell</strong>,
+          
+        
+          
+            
+              Gordon Wetzstein
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>Nature Communications</em>, 2020
+         <span class="pub-note">(2020 Top 50 Physics Articles)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="/publications/cdt" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://www.nature.com/articles/s41467-020-18346-3" class="pub-link" target="_blank">pdf</a>
+      
+      
+      <a href="https://www.youtube.com/watch?v=uyuCyzV0pdM" class="pub-link" target="_blank">video</a>
+      <a href="https://github.com/computational-imaging/confocal-diffuse-tomography" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="https://vsitzmann.github.io/siren/">
+    
+      
+        <img src="/assets/img/publication/thumbnail/neurips2020sitzmann.png" class="publication-img" alt="Implicit Neural Representations
+              with Periodic Activation Functions">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="sitzmann2020siren">
+    
+      <div class="pub-title">
+        
+          <a href="https://vsitzmann.github.io/siren/">Implicit Neural Representations
+              with Periodic Activation Functions</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Vincent Sitzmann,
+            
+          
+        
+          
+            
+              Julien N. P. Martel,
+            
+          
+        
+          
+            
+              Alexander W. Bergman,
+            
+          
+        
+          
+            <strong>David B. Lindell</strong>,
+          
+        
+          
+            
+              Gordon Wetzstein
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>NeurIPS</em>, 2020
+         <span class="pub-note">(Oral Presentation)</span>
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="https://vsitzmann.github.io/siren/" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://arxiv.org/abs/2006.09661" class="pub-link" target="_blank">pdf</a>
+      
+      
+      <a href="https://www.youtube.com/watch?v=Q2fLWGBeaiI" class="pub-link" target="_blank">video</a>
+      <a href="https://github.com/vsitzmann/siren" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="/publications/nlos-fk">
+    
+      
+        <img src="/assets/img/publication/thumbnail/siggraph2019lindell.png" class="publication-img" alt="Wave-Based Non-Line-of-Sight Imaging using Fast f–k Migration">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="lindell2019fk">
+    
+      <div class="pub-title">
+        
+          <a href="/publications/nlos-fk">Wave-Based Non-Line-of-Sight Imaging using Fast f–k Migration</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            <strong>David B. Lindell</strong>,
+          
+        
+          
+            
+              Gordon Wetzstein,
+            
+          
+        
+          
+            
+              Matthew O’Toole
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>ACM Trans. Graph. (SIGGRAPH)</em>, 2019
+        
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="/publications/nlos-fk" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="http://www.computationalimaging.org/wp-content/uploads/2019/05/nlos_fk.pdf" class="pub-link" target="_blank">pdf</a>
+      
+      
+      <a href="https://www.youtube.com/watch?v=BVYfzLXUi48" class="pub-link" target="_blank">video</a>
+      <a href="https://github.com/computational-imaging/nlos-fk" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li>
+<li><div class="pub-entry">
+  <div class="pub-thumbnail">
+    
+      <a href="/publications/nlos-lct">
+    
+      
+        <img src="/assets/img/publication/thumbnail/nature2018otoole.png" class="publication-img" alt="Confocal Non-Line-of-Sight Imaging Based on the Light Cone Transform">
+      
+    </a>
+  </div>
+
+  <div class="pub-details" id="otoole2018">
+    
+      <div class="pub-title">
+        
+          <a href="/publications/nlos-lct">Confocal Non-Line-of-Sight Imaging Based on the Light Cone Transform</a>
+        
+      </div>
+      <div class="pub-authors">
+        
+          
+            
+              Matthew O’Toole,
+            
+          
+        
+          
+            <strong>David B. Lindell</strong>,
+          
+        
+          
+            
+              Gordon Wetzstein
+            
+          
+        
+      </div>
+      <div class="pub-venue">
+        <em>Nature</em>, 2018
+        
+      </div>
+    
+
+    <div class="pub-links">
+      
+      
+      
+        <a href="/publications/nlos-lct" class="pub-link" target="_blank">project</a>
+      
+      
+        <a href="https://www.nature.com/articles/doi:10.1038/nature25489" class="pub-link" target="_blank">pdf</a>
+      
+      
+      <a href="https://www.youtube.com/watch?v=KnGQEzB9u_0" class="pub-link" target="_blank">video</a>
+      <a href="https://drive.google.com/a/stanford.edu/file/d/1OoZ4JfkXY0bIGlb4dT22YjhhwplZjQOc/view?usp=sharing" class="pub-link" target="_blank">code</a>
+      
+      
+      
+      
+    </div>
+
+    
+  </div>
+</div>
+</li></ol>
+</div>
+
+  
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="sticky-bottom mt-5">
+  <div class="container">
+    &copy; 2026 David B. Lindell &middot; <a href="https://tcig.ca">TCIG</a>
+  </div>
+</footer>
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+
+  <!-- Bootstrap scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<!-- <script src="/assets/js/dark_mode.js"></script>-->
+
+
+</html>
