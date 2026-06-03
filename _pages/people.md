@@ -52,7 +52,7 @@ nav_order: 3
 ##### MSc
 * [Maxx Wu](https://www.cs.toronto.edu/~wumaxx/) (2023-2025), *next stop: Tesla*
 * [Kelly Zhu](https://www.linkedin.com/in/kellyzhu-ca/) (2024-), *next stop: CMU PhD*
-* [Andrew Xie](https://www.linkedin.com/in/andrew-ej-xie/) (2024-), *next stop: Stanford PhD*
+* [Andrew Xie](https://www.linkedin.com/in/andrew-ej-xie/) (2024-), *next stop: Harvard PhD*
 
 ##### MScAC
 * [Noé Artru](https://www.linkedin.com/in/noe-artru/) (2025-2026), *next stop: École de Technologie Supérieure PhD*
