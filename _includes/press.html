@@ -1,0 +1,21 @@
+<div class="press-section">
+  <h2>recent press coverage</h2>
+  {% if site.data.press %}
+    <ul class="press-list">
+      {% for item in site.data.press %}
+        <li class="press-item">
+          <a class="press-thumb-link" href="{{ item.url }}" target="_blank" rel="noopener">
+            <img class="press-thumb" src="{{ item.image | prepend: '/assets/img/press/' | relative_url }}" alt="{{ item.title }}">
+            {% if item.video %}
+            <span class="press-play" aria-hidden="true">&#9654;</span>
+            {% endif %}
+          </a>
+          <div class="press-info">
+            <div class="press-source">{{ item.source }} &middot; {{ item.date | date: "%b %Y" }}</div>
+            <a class="press-title" href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
