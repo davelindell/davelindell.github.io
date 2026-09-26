@@ -27,7 +27,7 @@ nav_order: 3
 * [Victor Chu](https://bkv2chu.github.io/) (2025-)
 * [Haojun Qiu](https://www.linkedin.com/in/haojun-qiu-2630431a6/) (2026-)
 * [Ruihang Zhang](https://ruihangzhang97.github.io/) (2026-)
-* [Sophia Luo](https://sofialuo15.github.io/) (2026-)
+* [Sofia Luo](https://sofialuo15.github.io/) (2026-)
 * [Willy (Ding-Jiun) Huang](https://willydjhuang.github.io/) (2026-)
 
 ##### MScAC
