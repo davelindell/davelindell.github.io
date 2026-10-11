@@ -1,0 +1,249 @@
+/******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
+/******************************************************************************* Themes */
+:root { --global-bg-color: #ffffff; --global-text-color: #000000; --global-theme-color: #0076df; --global-hover-color: #00369f; --global-footer-bg-color: #ffffff; --global-footer-text-color: #828282; --global-footer-link-color: #ffffff; --global-icon-color: #424242; }
+
+:root .fa-sun { display: none; }
+
+:root .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
+
+html[data-theme='dark'] { --global-bg-color: #424242; --global-text-color: #e8e8e8; --global-theme-color: #2698BA; --global-hover-color: #7bcce4; --global-footer-bg-color: #e8e8e8; --global-footer-text-color: #424242; --global-footer-link-color: #000000; --global-icon-color: navajowhite; }
+
+html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display: block; }
+
+html[data-theme='dark'] .fa-moon { display: none; }
+
+/****************************************************************************** Content */
+body { padding-bottom: 0; color: var(--global-text-color); background-color: var(--global-bg-color); font-family: "Source Serif 4", Georgia, serif; font-size: 1rem; line-height: 1.65; }
+
+body.sticky-bottom-footer { padding-bottom: 0; }
+
+.container { max-width: 900px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Source Sans 3", "Helvetica Neue", sans-serif; }
+
+h1 { font-size: 1.75rem; font-weight: 700; margin-bottom: 0.5rem; }
+
+h2 { font-size: 1.35rem; font-weight: 600; margin-bottom: 0.5rem; }
+
+h3 { font-size: 1.15rem; font-weight: 600; }
+
+/******************************************************************************* Styles for the base elements of the theme. */
+a, table.table a { color: var(--global-theme-color); }
+
+a:hover, table.table a:hover { color: var(--global-theme-color); text-decoration: underline; }
+
+.equation { margin-bottom: 1rem; text-align: center; }
+
+.caption { font-size: 0.875rem; margin-top: 0.75rem; margin-bottom: 1.5rem; text-align: center; }
+
+.profile-section { display: flex; gap: 1.5rem; align-items: flex-start; margin-bottom: 1.5rem; }
+
+.profile-img { width: 200px; height: 200px; object-fit: cover; border-radius: 8px; flex-shrink: 0; }
+
+.profile-info { flex: 1; }
+
+.profile-name { font-size: 1.75rem; font-family: "Source Sans 3", "Helvetica Neue", sans-serif; font-weight: 700; margin-bottom: 0.25rem; }
+
+.profile-desc { font-size: 0.875rem; color: #555; margin-bottom: 0.5rem; }
+
+.profile-social .contact-icon { font-size: 1.5rem; }
+
+.profile-social .contact-icon a { color: var(--global-icon-color); margin-right: 0.5rem; }
+
+.profile-social .contact-icon a:hover { color: var(--global-theme-color); text-decoration: none; }
+
+@media (max-width: 576px) { .profile-section { flex-direction: column; align-items: center; text-align: center; } .profile-img { width: 160px; height: 160px; } }
+
+.post-description { margin-bottom: 1rem; font-size: 1rem; }
+
+.post-description a { color: inherit; }
+
+.post-description a:hover { color: var(--global-theme-color); text-decoration: none; }
+
+.about-content { margin-bottom: 1.5rem; font-size: 1rem; }
+
+.site-header { padding: 1.5rem 0 1rem; border-bottom: 1px solid #e8e8e8; margin-bottom: 2rem; }
+
+.site-nav { display: flex; align-items: baseline; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+
+.site-title { font-size: 1.25rem; font-weight: 700; font-family: "Source Sans 3", "Helvetica Neue", sans-serif; color: var(--global-text-color); margin-right: auto; }
+
+.site-title:hover { color: var(--global-text-color); text-decoration: none; }
+
+.nav-links { display: flex; flex-wrap: wrap; gap: 0.25rem 1.25rem; }
+
+.nav-links a { font-size: 0.95rem; font-family: "Source Sans 3", "Helvetica Neue", sans-serif; color: var(--global-text-color); text-decoration: none; }
+
+.nav-links a:hover { color: var(--global-theme-color); text-decoration: none; }
+
+.nav-links a.active { font-weight: 600; color: var(--global-theme-color); }
+
+.news-section { margin-top: 1.5rem; margin-bottom: 2rem; }
+
+.news-section h2 { font-family: "Source Sans 3", "Helvetica Neue", sans-serif; font-size: 1.35rem; margin-bottom: 0.75rem; }
+
+.news-list { list-style: none; padding: 0; margin: 0; }
+
+.news-item { display: flex; gap: 1rem; padding: 0.4rem 0; font-size: 0.875rem; line-height: 1.5; border-bottom: 1px solid #f0f0f0; }
+
+.news-item a { color: var(--global-theme-color); }
+
+.news-date { flex-shrink: 0; width: 5rem; color: var(--global-theme-color); font-weight: 600; font-size: 0.8rem; font-family: "Source Sans 3", "Helvetica Neue", sans-serif; }
+
+.news-content { flex: 1; }
+
+.news-content p { margin: 0; }
+
+.news-hidden { display: none; }
+
+.news-toggle { display: inline-block; margin-top: 0.5rem; font-size: 0.875rem; color: var(--global-theme-color); cursor: pointer; }
+
+.press-section { margin-top: 1.5rem; margin-bottom: 2rem; }
+
+.press-section h2 { font-family: "Source Sans 3", "Helvetica Neue", sans-serif; font-size: 1.35rem; margin-bottom: 0.75rem; }
+
+.press-list { list-style: none; padding: 0; margin: 0; }
+
+.press-item { display: flex; align-items: center; gap: 1rem; padding: 0.6rem 0; border-bottom: 1px solid #f0f0f0; }
+
+.press-thumb-link { position: relative; flex-shrink: 0; display: block; width: 9rem; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 4px; background: #f5f5f5; }
+
+.press-thumb-link:hover .press-thumb { transform: scale(1.04); }
+
+.press-thumb { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.25s ease; }
+
+.press-play { position: absolute; top: 50%; left: 50%; width: 2.25rem; height: 2.25rem; margin: -1.125rem 0 0 -1.125rem; background: rgba(0, 0, 0, 0.6); color: #fff; border-radius: 50%; font-size: 0.85rem; line-height: 2.25rem; text-align: center; padding-left: 0.15rem; pointer-events: none; }
+
+.press-info { flex: 1; min-width: 0; }
+
+.press-source { font-family: "Source Sans 3", "Helvetica Neue", sans-serif; font-size: 0.8rem; color: var(--global-theme-color); font-weight: 600; margin-bottom: 0.15rem; text-transform: uppercase; letter-spacing: 0.03em; }
+
+.press-title { font-size: 0.875rem; color: var(--global-text-color); line-height: 1.4; display: block; text-decoration: none; }
+
+.press-title:hover { color: var(--global-theme-color); text-decoration: none; }
+
+@media (max-width: 480px) { .press-thumb-link { width: 6.5rem; } }
+
+.social { text-align: center; }
+
+.social .contact-icon { font-size: 4rem; }
+
+.social .contact-icon a { color: var(--global-icon-color); }
+
+.social .contact-icon a:hover { color: var(--global-theme-color); }
+
+.social .contact-note { font-size: 0.8rem; }
+
+footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 2rem; padding-bottom: 2rem; font-size: 0.875rem; color: #828282; text-align: center; }
+
+footer.sticky-bottom a { color: #828282; }
+
+footer.sticky-bottom a:hover { color: var(--global-theme-color); text-decoration: none; }
+
+.header-bar { border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
+
+.header-bar h1 { color: var(--global-theme-color); font-size: 5rem; }
+
+.post-list { margin: 0; margin-bottom: 40px; padding: 0; }
+
+.post-list li { border-bottom: 1px solid #e8e8e8; list-style: none; padding-top: 2rem; padding-bottom: 2rem; }
+
+.post-list li .post-meta { color: #828282; font-size: 0.875rem; margin-bottom: 0; }
+
+.post-list li a { color: var(--global-text-color); text-decoration: none; }
+
+.post-list li a:hover { color: var(--global-theme-color); }
+
+.pagination .page-item.active .page-link { background-color: var(--global-theme-color); }
+
+.pagination .page-item.active .page-link:hover { background-color: var(--global-theme-color); }
+
+.projects .grid-item { width: 250px; margin-bottom: 10px; }
+
+.projects .grid-item a { color: black; text-decoration: none; }
+
+.projects .grid-item a:hover { color: var(--global-theme-color); }
+
+.projects .card img { width: 100%; }
+
+.publication-img { width: 160px; height: 110px; object-fit: cover; border-radius: 4px; display: block; }
+
+.publications { margin-top: 2rem; }
+
+.publications h1 { color: var(--global-theme-color); font-size: 1.75rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
+
+.publications h2.year { font-family: "Source Sans 3", "Helvetica Neue", sans-serif; font-size: 1.25rem; color: #828282; border-bottom: 1px solid #e8e8e8; padding-bottom: 0.25rem; margin-top: 2rem; margin-bottom: 1rem; }
+
+.publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
+
+.publications ol.bibliography li { margin-bottom: 0.75rem; padding-bottom: 0.75rem; border-bottom: 1px solid #f0f0f0; }
+
+.pub-entry { display: flex; gap: 1.25rem; align-items: center; min-height: 110px; }
+
+.pub-thumbnail { flex-shrink: 0; }
+
+.pub-details { flex: 1; min-width: 0; }
+
+.pub-title { font-weight: 600; font-size: 1rem; margin-bottom: 0.15rem; }
+
+.pub-title a { color: var(--global-theme-color); }
+
+.pub-title a:hover { text-decoration: underline; }
+
+.pub-authors { font-size: 0.875rem; color: #555; margin-bottom: 0.1rem; }
+
+.pub-authors strong { color: var(--global-text-color); }
+
+.pub-authors a { color: inherit; text-decoration: none; }
+
+.pub-authors a:hover { color: var(--global-theme-color); }
+
+.pub-venue { font-size: 0.875rem; color: #555; margin-bottom: 0.25rem; }
+
+.pub-note { color: #c00; font-weight: 600; }
+
+.pub-links { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+
+.pub-link { font-size: 0.8rem; font-family: "Source Sans 3", "Helvetica Neue", sans-serif; padding: 0.15rem 0.5rem; border: 1px solid #ccc; border-radius: 3px; color: var(--global-text-color); text-decoration: none; cursor: pointer; }
+
+.pub-link:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); text-decoration: none; }
+
+.pub-details .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; transition: all 0.15s ease; }
+
+.pub-details .hidden p { line-height: 1.4em; margin: 10px 0; }
+
+.pub-details .hidden pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
+
+.pub-details .hidden.open { max-height: 100em; transition: all 0.15s ease; }
+
+.pub-details div.abstract.hidden { border: dashed 1px transparent; }
+
+.pub-details div.abstract.hidden.open { border-color: #e8e8e8; }
+
+@media (max-width: 576px) { .pub-entry { flex-direction: column; } .publication-img { width: 140px; height: 96px; } }
+
+.talks-section h2.year { font-family: "Source Sans 3", "Helvetica Neue", sans-serif; font-size: 1.25rem; color: #828282; border-bottom: 1px solid #e8e8e8; padding-bottom: 0.25rem; margin-top: 2rem; margin-bottom: 1rem; }
+
+.talk-entry { display: flex; gap: 1.25rem; align-items: flex-start; margin-bottom: 1.25rem; }
+
+.talk-thumbnail { flex-shrink: 0; position: relative; width: 200px; }
+
+.talk-thumbnail img.talk-img { width: 200px; height: 112px; object-fit: cover; border-radius: 4px; display: block; }
+
+.talk-thumbnail .play-overlay { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: rgba(255, 255, 255, 0.85); font-size: 2rem; pointer-events: none; text-shadow: 0 0 8px rgba(0, 0, 0, 0.5); }
+
+.talk-title { font-weight: 600; margin-bottom: 0.15rem; }
+
+.talk-title a { color: var(--global-theme-color); }
+
+.talk-title a:hover { text-decoration: underline; }
+
+.talk-venue { font-size: 0.875rem; color: #555; }
+
+@media (max-width: 576px) { .talk-entry { flex-direction: column; } .talk-thumbnail { width: 100%; } .talk-thumbnail img.talk-img { width: 100%; height: auto; } }
+
+code { color: var(--global-theme-color); }
+
+html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
+
+/*# sourceMappingURL=main.css.map */
