@@ -29,6 +29,8 @@ nav_order: 3
 * [Ruihang Zhang](https://ruihangzhang97.github.io/) (2026-)
 * [Sofia Luo](https://sofialuo15.github.io/) (2026-)
 * [Willy (Ding-Jiun) Huang](https://willydjhuang.github.io/) (2026-)
+* [Yiqian Qin](https://yiqianqin.me) (2026-)
+* [Javad Rajabi](https://www.cs.toronto.edu/~rajabi/) (2026-)
 
 ##### MScAC
 * [Abhinav Shankar H](https://www.linkedin.com/in/habhinav/) (2026-)
